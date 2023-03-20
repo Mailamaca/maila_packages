@@ -1,0 +1,27 @@
+name: build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1 * * *'
+
+jobs:
+  build_job:
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        ros_distro: [humble]
+    name: build_${{ matrix.ros_distro }}
+    runs-on: ubuntu-22.04
+    env:
+      repos_branch: 'main'
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          DEB_DISTRO: jammy
+          ROS_DISTRO: ${{ matrix.ros_distro }}
+          REPOS_FILE: https://raw.githubusercontent.com/Mailamaca/maila_packages/main/sources.repos
+          ROSDEP_SOURCE: "yaml https://raw.githubusercontent.com/Mailamaca/maila_packages/main/maila-rosdep.yaml"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: false
