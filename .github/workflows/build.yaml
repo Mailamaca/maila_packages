@@ -24,4 +24,4 @@ jobs:
           REPOS_FILE: https://raw.githubusercontent.com/Mailamaca/maila_packages/main/sources.repos
           ROSDEP_SOURCE: "yaml https://raw.githubusercontent.com/Mailamaca/maila_packages/main/maila-rosdep.yaml"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SQUASH_HISTORY: false
+          SQUASH_HISTORY: true
