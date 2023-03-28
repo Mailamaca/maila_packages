@@ -1,4 +1,5 @@
 name: build
+# Template taken from: https://github.com/moveit/moveit2_packages/blob/main/.github/workflows/build.yaml
 
 on:
   workflow_dispatch:
@@ -11,17 +12,17 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        ros_distro: [humble]
+        ros_distro: [humble, rolling]
     name: build_${{ matrix.ros_distro }}
     runs-on: ubuntu-22.04
     env:
-      repos_branch: 'main'
+      branch: ${{ github.ref_name }}
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: ${{ matrix.ros_distro }}
-          REPOS_FILE: https://raw.githubusercontent.com/Mailamaca/maila_packages/main/sources.repos
-          ROSDEP_SOURCE: "yaml https://raw.githubusercontent.com/Mailamaca/maila_packages/main/maila-rosdep.yaml"
+          REPOS_FILE: https://raw.githubusercontent.com/Mailamaca/maila_packages/${{ env.branch }}/sources.repos
+          ROSDEP_SOURCE: "yaml https://raw.githubusercontent.com/Mailamaca/maila_packages/${{ env.branch }}/maila-rosdep.yaml"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
