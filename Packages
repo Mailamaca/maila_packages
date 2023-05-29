@@ -1,0 +1,89 @@
+Package: ros-rolling-maila-2d-sim
+Architecture: amd64
+Version: 0-2023.05.29.02.22
+Priority: optional
+Section: misc
+Maintainer: Valerio Magnago <valerio.magnago@hotmail.it>
+Installed-Size: 368
+Filename: ./ros-rolling-maila-2d-sim_0-2023.05.29.02.22_amd64.deb
+Size: 45470
+MD5sum: cf424dee7173379b2b0bc4defa8ea95a
+SHA1: d372365c0e42d312e67112dc021291fe935c51ab
+SHA256: ed66017695decdfeb762e527f41499444cd9b26c97d0d9e6a9dc462bc66ccf32
+SHA512: f4daf5f1d2c92ac4caa338bc9c3a2c8a559fdf88d21919df20ac23f0901c55c3251fed166ec011ee550fdc0d04b1cbffd2c692a3d64e2330b6742a9421dde18c
+Description: Package containing the configuration of the 2D simulation of the Maila project.
+
+Package: ros-rolling-stage-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.05.29.02.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-stage
+Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
+Installed-Size: 2930
+Depends: ros-rolling-stage (= 0-2023.05.29.02.23)
+Filename: ./ros-rolling-stage-dbgsym_0-2023.05.29.02.23_amd64.ddeb
+Size: 2834002
+MD5sum: 27a52aa4c620a685bab6475fc5064c16
+SHA1: 59cc1413276a6d390e24d52b7444e84d7b262b75
+SHA256: 0d109271555cb1634cf6ad87a4cf586ede550e25148dd29008ba5244c0c17eb4
+SHA512: ff441b5fcfe83e3812207758baddf0b2cf052b666c03381ed7bb4323825e0cda0ef04737becb8939ec3d418c214ca4a74982b1b47ef5cb244c8b977d090050f7
+Description: debug symbols for ros-rolling-stage
+Build-Ids: cc50253f3cac3ce98206e84e50c9c9d97fbdb26c fa3f31f0bc78e3c053520e201724ea7ac3e4c87a
+
+Package: ros-rolling-stage-ros2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2023.05.29.02.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-stage-ros2
+Maintainer: ymd-stella <world.applepie@gmail.com>
+Installed-Size: 3293
+Depends: ros-rolling-stage-ros2 (= 0-2023.05.29.02.24)
+Filename: ./ros-rolling-stage-ros2-dbgsym_0-2023.05.29.02.24_amd64.ddeb
+Size: 2920088
+MD5sum: eb4c8efa523d103e013f0a903af1249f
+SHA1: 185290dca2e3525b7ac56e15de179017a8fd29b5
+SHA256: fe8b8a6f889dcc10af8bea272a54d2820761ebaa2d004f87d91359dd679c4951
+SHA512: 1af999b92ede785afa5cfdf09bb06b2066e3e1277f54445aa1de7ecf52d30ea2705e0c36f9edcc0f825748b2bc66e651cd12df815a3e6851214b4ea10642010f
+Description: debug symbols for ros-rolling-stage-ros2
+Build-Ids: 4c1da6119797b3cecf7566ab9e20ec9d40d4b0d9
+
+Package: ros-rolling-stage-ros2
+Architecture: amd64
+Version: 0-2023.05.29.02.24
+Priority: optional
+Section: misc
+Maintainer: ymd-stella <world.applepie@gmail.com>
+Installed-Size: 989
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-stage, ros-rolling-cv-bridge, ros-rolling-geometry-msgs, ros-rolling-image-transport, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rcutils, ros-rolling-ros2launch, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-tf2, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
+Filename: ./ros-rolling-stage-ros2_0-2023.05.29.02.24_amd64.deb
+Size: 205102
+MD5sum: 6370dbc69cd9dc6ac5569c65d1af0857
+SHA1: d0ca18fe3c92791bf42f6efeee9d5a8a7e917f68
+SHA256: fa54c0bf47179298909c3ec396c10323ad63fc9761b01e5eb5e1739a707a0676
+SHA512: 6a7d9d5c6be30bd596ac9de122d304a000857a7aed7ad702abeb93b8c4de56b7ae5bc3f1690f057d4d2ed4ceb7fddb20a052428e5b2d88ce6a2894c31e9db841
+Description: The ROS2 package for Stage
+
+Package: ros-rolling-stage
+Architecture: amd64
+Version: 0-2023.05.29.02.23
+Priority: optional
+Section: misc
+Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
+Installed-Size: 977
+Depends: libc6 (>= 2.35), libfltk-gl1.3 (>= 1.3.0), libfltk-images1.3, libfltk1.3 (>= 1.3.1), libgcc-s1 (>= 3.3.1), libglu1-mesa | libglu1, libglx0, libltdl7 (>= 2.4.6), libopengl0, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libfltk1.3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgtk2.0-dev, libjpeg-dev
+Filename: ./ros-rolling-stage_0-2023.05.29.02.23_amd64.deb
+Size: 511038
+MD5sum: 0ac57f6f334eeee688925ec265f7d3a5
+SHA1: 7524266efe3425643797943467c44771640c88ef
+SHA256: 5512443a3ca0456d9640287e6bd014b003723951bfeb2499a8730da6e6a000cb
+SHA512: 6905440e5521bc146ff2baaa1cc7b4244320e3e2336e916e3bfc9efdae1efdd98d902b1e5a9641d40041dead7392f75ea65c8b840e6a764eb8df1e4cc4d96f1d
+Homepage: http://rtv.github.com/Stage
+Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
+ Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
+
