@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-rolling-stage-ros2
 Binary: ros-rolling-stage-ros2 ros-rolling-stage-ros2-dbgsym
 Architecture: amd64
-Version: 0-2023.06.05.02.41
+Version: 0-2023.06.06.02.44
 Checksums-Md5:
- f1d3bb15997af88a7fe7eacb3190679a 2919918 ros-rolling-stage-ros2-dbgsym_0-2023.06.05.02.41_amd64.ddeb
- c31dd0b60308ccd6766d606fce557d34 205114 ros-rolling-stage-ros2_0-2023.06.05.02.41_amd64.deb
+ 6aa157f2b72a4bfbb69e4550a5e4ff46 2919912 ros-rolling-stage-ros2-dbgsym_0-2023.06.06.02.44_amd64.ddeb
+ e977d04c2e24e60963cfbf54d951f9db 205078 ros-rolling-stage-ros2_0-2023.06.06.02.44_amd64.deb
 Checksums-Sha1:
- 3e7aaa435382e00c276ce123fff759dae8bde477 2919918 ros-rolling-stage-ros2-dbgsym_0-2023.06.05.02.41_amd64.ddeb
- 0f8094cc99a37783e660476df0ef5f7b90972b71 205114 ros-rolling-stage-ros2_0-2023.06.05.02.41_amd64.deb
+ f08f5c6d4d3f458a331f847a1d714a16d105cd86 2919912 ros-rolling-stage-ros2-dbgsym_0-2023.06.06.02.44_amd64.ddeb
+ 67c0ba14e56a94ea36c95ce340e31656af0c1709 205078 ros-rolling-stage-ros2_0-2023.06.06.02.44_amd64.deb
 Checksums-Sha256:
- 61d88f9d22ab281f5afd3a3ab0029d34f199a6c3d0dd4388af20f4eb4404c1ef 2919918 ros-rolling-stage-ros2-dbgsym_0-2023.06.05.02.41_amd64.ddeb
- 10d066e3c7abc3593872e2226ad4f7f8f75f7287b80640646d3f124e0c06d964 205114 ros-rolling-stage-ros2_0-2023.06.05.02.41_amd64.deb
+ 72ffa9a5f205c68d670e86b267664b865dae01bd2d9b8dee541563966b54f468 2919912 ros-rolling-stage-ros2-dbgsym_0-2023.06.06.02.44_amd64.ddeb
+ 808f17f1d71041125a56f2337cd30ae27aa701509ef484472982d73f80688c14 205078 ros-rolling-stage-ros2_0-2023.06.06.02.44_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 05 Jun 2023 02:43:46 +0000
+Build-Date: Tue, 06 Jun 2023 02:47:36 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -447,7 +447,7 @@ Installed-Build-Depends:
  libpcre3-dev (= 2:8.39-13ubuntu0.22.04.1),
  libpcre32-3 (= 2:8.39-13ubuntu0.22.04.1),
  libpcrecpp0v5 (= 2:8.39-13ubuntu0.22.04.1),
- libperl5.34 (= 5.34.0-3ubuntu1.1),
+ libperl5.34 (= 5.34.0-3ubuntu1.2),
  libpgm-5.3-0 (= 5.3.128~dfsg-2),
  libpipeline1 (= 1.5.5-1),
  libpixman-1-0 (= 0.40.0-1ubuntu0.22.04.1),
@@ -467,10 +467,10 @@ Installed-Build-Depends:
  libpthread-stubs0-dev (= 0.4-1build2),
  libpython3-dev (= 3.10.6-1~22.04),
  libpython3-stdlib (= 3.10.6-1~22.04),
- libpython3.10 (= 3.10.6-1~22.04.2ubuntu1),
- libpython3.10-dev (= 3.10.6-1~22.04.2ubuntu1),
- libpython3.10-minimal (= 3.10.6-1~22.04.2ubuntu1),
- libpython3.10-stdlib (= 3.10.6-1~22.04.2ubuntu1),
+ libpython3.10 (= 3.10.6-1~22.04.2ubuntu1.1),
+ libpython3.10-dev (= 3.10.6-1~22.04.2ubuntu1.1),
+ libpython3.10-minimal (= 3.10.6-1~22.04.2ubuntu1.1),
+ libpython3.10-stdlib (= 3.10.6-1~22.04.2ubuntu1.1),
  libqhull-r8.0 (= 2020.2-4),
  libquadmath0 (= 12.1.0-2ubuntu1~22.04),
  librabbitmq4 (= 0.10.0-1ubuntu2),
@@ -508,8 +508,8 @@ Installed-Build-Depends:
  libspeex1 (= 1.2~rc1.2-1.1ubuntu3),
  libsqlite3-0 (= 3.37.2-2ubuntu0.1),
  libsrt1.4-gnutls (= 1.4.4-4),
- libssh-4 (= 0.9.6-2build1),
- libssh-gcrypt-4 (= 0.9.6-2build1),
+ libssh-4 (= 0.9.6-2ubuntu0.22.04.1),
+ libssh-gcrypt-4 (= 0.9.6-2ubuntu0.22.04.1),
  libssl-dev (= 3.0.2-0ubuntu1.10),
  libssl3 (= 3.0.2-0ubuntu1.10),
  libstdc++-11-dev (= 11.3.0-1ubuntu1~22.04.1),
@@ -651,9 +651,9 @@ Installed-Build-Depends:
  pango1.0-tools (= 1.50.6+ds-2ubuntu1),
  passwd (= 1:4.8.1-2ubuntu2.1),
  patch (= 2.7.6-7build2),
- perl (= 5.34.0-3ubuntu1.1),
- perl-base (= 5.34.0-3ubuntu1.1),
- perl-modules-5.34 (= 5.34.0-3ubuntu1.1),
+ perl (= 5.34.0-3ubuntu1.2),
+ perl-base (= 5.34.0-3ubuntu1.2),
+ perl-modules-5.34 (= 5.34.0-3ubuntu1.2),
  pkg-config (= 0.29.2-1ubuntu3),
  po-debconf (= 1.0.21+nmu1),
  procps (= 2:3.3.17-6ubuntu2),
@@ -692,9 +692,9 @@ Installed-Build-Depends:
  python3-toml (= 0.10.2-1),
  python3-yaml (= 5.4.1-1ubuntu1),
  python3-zipp (= 1.0.0-3),
- python3.10 (= 3.10.6-1~22.04.2ubuntu1),
- python3.10-dev (= 3.10.6-1~22.04.2ubuntu1),
- python3.10-minimal (= 3.10.6-1~22.04.2ubuntu1),
+ python3.10 (= 3.10.6-1~22.04.2ubuntu1.1),
+ python3.10-dev (= 3.10.6-1~22.04.2ubuntu1.1),
+ python3.10-minimal (= 3.10.6-1~22.04.2ubuntu1.1),
  readline-common (= 8.1.2-1),
  ros-rolling-action-msgs (= 1.7.0-1jammy.20230512.164813),
  ros-rolling-ament-clang-format (= 0.15.0-1jammy.20230512.151833),
@@ -801,7 +801,7 @@ Installed-Build-Depends:
  ros-rolling-sensor-msgs (= 5.1.0-1jammy.20230512.171707),
  ros-rolling-service-msgs (= 1.7.0-1jammy.20230512.163911),
  ros-rolling-spdlog-vendor (= 1.5.0-1jammy.20230512.152919),
- ros-rolling-stage (= 0-2023.06.05.02.39),
+ ros-rolling-stage (= 0-2023.06.06.02.43),
  ros-rolling-statistics-msgs (= 1.7.0-1jammy.20230512.165510),
  ros-rolling-std-msgs (= 5.1.0-1jammy.20230512.165632),
  ros-rolling-std-srvs (= 5.1.0-1jammy.20230512.165658),
@@ -845,4 +845,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1685932870"
+ SOURCE_DATE_EPOCH="1686019496"
