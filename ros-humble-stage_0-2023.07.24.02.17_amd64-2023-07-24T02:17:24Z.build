@@ -1,45 +1,45 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az592-428.hfr0y2hpm4xe1o1mk5vg4mfmbb.cx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az203-919.ruvxqjmswdaexpdv5kjf3tcyhb.jx.internal.cloudapp.net
 
 +==============================================================================+
-| ros-humble-stage 0-2023.07.19.03.30 (amd64)  Wed, 19 Jul 2023 03:30:16 +0000 |
+| ros-humble-stage 0-2023.07.24.02.17 (amd64)  Mon, 24 Jul 2023 02:17:24 +0000 |
 +==============================================================================+
 
 Package: ros-humble-stage
-Version: 0-2023.07.19.03.30
-Source Version: 0-2023.07.19.03.30
+Version: 0-2023.07.24.02.17
+Source Version: 0-2023.07.24.02.17
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.B1jx2S3HH7...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.MRLHD8jA57...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-GNRBQz' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-TLJJoZ' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-kpLZ0Q/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-kpLZ0Q/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-kpLZ0Q/apt_archive ./ Release [574 B]
-Get:2 file:/build/package//resolver-kpLZ0Q/apt_archive ./ Release [574 B]
-Get:3 file:/build/package//resolver-kpLZ0Q/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-kpLZ0Q/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-kpLZ0Q/apt_archive ./ Packages [523 B]
+Get:1 file:/build/package//resolver-ZaK7dL/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-ZaK7dL/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-ZaK7dL/apt_archive ./ Release [574 B]
+Get:2 file:/build/package//resolver-ZaK7dL/apt_archive ./ Release [574 B]
+Get:3 file:/build/package//resolver-ZaK7dL/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-ZaK7dL/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-ZaK7dL/apt_archive ./ Packages [523 B]
 Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
-Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:7 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [749 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [574 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [579 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [751 kB]
 Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [792 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [944 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [799 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [946 kB]
 Get:14 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
-Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1284 kB]
-Fetched 20.3 MB in 2s (8289 kB/s)
+Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1279 kB]
+Fetched 20.3 MB in 3s (7863 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -55,7 +55,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.07.19.03.30.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
+/home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.07.24.02.17.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -77,12 +77,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [764 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [796 B]
 Fetched 2140 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ Release [574 B]
-Get:2 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ Release [574 B]
-Get:3 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-kpLZ0Q/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ Release [574 B]
+Get:2 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ Release [574 B]
+Get:3 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-ZaK7dL/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -253,9 +253,9 @@ The following NEW packages will be installed:
 0 upgraded, 302 newly installed, 0 to remove and 0 not upgraded.
 Need to get 113 MB of archives.
 After this operation, 476 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [742 B]
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04.2ubuntu1.1 [810 kB]
-Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.6-1~22.04.2ubuntu1.1 [810 kB]
+Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
+Get:3 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [740 B]
 Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-package amd64 0.14.0-4jammy.20220421.093117 [23.6 kB]
 Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-core amd64 1.3.5-1jammy.20230622.235746 [28.6 kB]
 Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ros-workspace amd64 1.0.2-2jammy.20230623.002807 [16.7 kB]
@@ -275,13 +275,13 @@ Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cma
 Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-version amd64 1.3.5-1jammy.20230623.015145 [7256 B]
 Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
 Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.6-1~22.04.2ubuntu1.1 [2262 kB]
-Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
-Get:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
-Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
-Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
-Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
-Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
-Get:29 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.5-1jammy.20230623.021436 [7588 B]
+Get:23 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.5-1jammy.20230623.021436 [7588 B]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
 Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.6-1~22.04.2ubuntu1.1 [1832 kB]
 Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.6-1~22.04.2ubuntu1.1 [497 kB]
 Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
@@ -350,7 +350,7 @@ Get:94 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-2 amd6
 Get:95 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.14+dfsg-0ubuntu0.22.04.2 [183 kB]
 Get:96 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
 Get:97 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssh-4 amd64 0.9.6-2ubuntu0.22.04.1 [185 kB]
-Get:98 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.10 [290 kB]
+Get:98 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.13 [290 kB]
 Get:99 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjsoncpp25 amd64 1.9.5-3 [80.0 kB]
 Get:100 http://archive.ubuntu.com/ubuntu jammy/main amd64 librhash0 amd64 1.4.2-1ubuntu1 [125 kB]
 Get:101 http://archive.ubuntu.com/ubuntu jammy/main amd64 dh-elpa-helper all 2.0.9ubuntu1 [7610 B]
@@ -556,7 +556,7 @@ Get:300 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-core-dev amd6
 Get:301 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-dev amd64 1.4.0-1 [3162 B]
 Get:302 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgl1-mesa-dev amd64 22.2.5-0ubuntu0.1~22.04.3 [6756 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 113 MB in 15s (7338 kB/s)
+Fetched 113 MB in 46s (2450 kB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10541 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.6-1~22.04.2ubuntu1.1_amd64.deb ...
@@ -797,8 +797,8 @@ Selecting previously unselected package libssh-4:amd64.
 Preparing to unpack .../064-libssh-4_0.9.6-2ubuntu0.22.04.1_amd64.deb ...
 Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.1) ...
 Selecting previously unselected package libcurl4:amd64.
-Preparing to unpack .../065-libcurl4_7.81.0-1ubuntu1.10_amd64.deb ...
-Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.10) ...
+Preparing to unpack .../065-libcurl4_7.81.0-1ubuntu1.13_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.13) ...
 Selecting previously unselected package libjsoncpp25:amd64.
 Preparing to unpack .../066-libjsoncpp25_1.9.5-3_amd64.deb ...
 Unpacking libjsoncpp25:amd64 (1.9.5-3) ...
@@ -1516,8 +1516,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2023c-0ubuntu0.22.04.2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Wed Jul 19 03:30:58 UTC 2023.
-Universal Time is now:  Wed Jul 19 03:30:58 UTC 2023.
+Local time is now:      Mon Jul 24 02:18:35 UTC 2023.
+Universal Time is now:  Mon Jul 24 02:18:35 UTC 2023.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -1629,7 +1629,7 @@ Setting up dwz (0.14-1build2) ...
 Setting up groff-base (1.22.4-8build1) ...
 Setting up xml-core (0.18+nmu1) ...
 Setting up debugedit (1:5.0-4build1) ...
-Setting up libcurl4:amd64 (7.81.0-1ubuntu1.10) ...
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.13) ...
 Setting up libx11-6:amd64 (2:1.7.5-1ubuntu0.2) ...
 Setting up libharfbuzz0b:amd64 (2.7.4-1ubuntu3.1) ...
 Setting up libtiff5:amd64 (4.3.0-6ubuntu0.4) ...
@@ -1800,7 +1800,7 @@ Arch check ok (amd64 included in any)
 
 Kernel: Linux 5.15.0-1041-azure #48-Ubuntu SMP Tue Jun 20 20:34:08 UTC 2023 amd64 (x86_64)
 Toolchain package versions: binutils_2.38-4ubuntu2.2 dpkg-dev_1.21.1ubuntu2.2 g++-11_11.3.0-1ubuntu1~22.04.1 gcc-11_11.3.0-1ubuntu1~22.04.1 libc6-dev_2.35-0ubuntu3.1 libstdc++-11-dev_11.3.0-1ubuntu1~22.04.1 libstdc++6_12.1.0-2ubuntu1~22.04 linux-libc-dev_5.15.0-76.83
-Package versions: adduser_3.118ubuntu5 adwaita-icon-theme_41.0-1ubuntu1 apt_2.4.9 auto-apt-proxy_14 autoconf_2.71-2 automake_1:1.16.5-1.3 autopoint_0.21-4ubuntu4 autotools-dev_20220109.1 base-files_12ubuntu4.3 base-passwd_3.5.52build1 bash_5.1-6ubuntu1 binutils_2.38-4ubuntu2.2 binutils-common_2.38-4ubuntu2.2 binutils-x86-64-linux-gnu_2.38-4ubuntu2.2 bsdextrautils_2.37.2-4ubuntu3 bsdutils_1:2.37.2-4ubuntu3 build-essential_12.9ubuntu3 bzip2_1.0.8-5build1 ca-certificates_20230311ubuntu0.22.04.1 ccache_4.5.1-1 cmake_3.22.1-1ubuntu1.22.04.1 cmake-data_3.22.1-1ubuntu1.22.04.1 coreutils_8.32-4.1ubuntu1 cpp_4:11.2.0-1ubuntu1 cpp-11_11.3.0-1ubuntu1~22.04.1 dash_0.5.11+git20210903+057cd650a4ed-3build1 debconf_1.5.79ubuntu1 debhelper_13.6ubuntu1 debianutils_5.5-1ubuntu2 debugedit_1:5.0-4build1 dh-autoreconf_20 dh-elpa-helper_2.0.9ubuntu1 dh-strip-nondeterminism_1.13.0-1 diffutils_1:3.8-0ubuntu2 docutils-common_0.17.1+dfsg-2 dpkg_1.21.1ubuntu2.2 dpkg-dev_1.21.1ubuntu2.2 dwz_0.14-1build2 e2fsprogs_1.46.5-2ubuntu1.1 emacsen-common_3.0.4 fakeroot_1.28-1ubuntu1 file_1:5.41-3 findutils_4.8.0-1ubuntu3 fontconfig_2.13.1-4.2ubuntu5 fontconfig-config_2.13.1-4.2ubuntu5 fonts-dejavu-core_2.37-2build1 g++_4:11.2.0-1ubuntu1 g++-11_11.3.0-1ubuntu1~22.04.1 gcc_4:11.2.0-1ubuntu1 gcc-11_11.3.0-1ubuntu1~22.04.1 gcc-11-base_11.3.0-1ubuntu1~22.04.1 gcc-12-base_12.1.0-2ubuntu1~22.04 gettext_0.21-4ubuntu4 gettext-base_0.21-4ubuntu4 gir1.2-atk-1.0_2.36.0-3build1 gir1.2-freedesktop_1.72.0-1 gir1.2-gdkpixbuf-2.0_2.42.8+dfsg-1ubuntu0.2 gir1.2-glib-2.0_1.72.0-1 gir1.2-gtk-2.0_2.24.33-2ubuntu2 gir1.2-harfbuzz-0.0_2.7.4-1ubuntu3.1 gir1.2-pango-1.0_1.50.6+ds-2ubuntu1 gpgv_2.2.27-3ubuntu2.1 grep_3.7-1build1 groff-base_1.22.4-8build1 gtk-update-icon-cache_3.24.33-1ubuntu2 gzip_1.10-4ubuntu4.1 hicolor-icon-theme_0.17-2 hostname_3.23ubuntu2 humanity-icon-theme_0.6.16 icu-devtools_70.1-2 init-system-helpers_1.62 intltool-debian_0.35.0+20060710.5 libacl1_2.3.1-1 libapt-pkg6.0_2.4.9 libarchive-zip-perl_1.68-1 libarchive13_3.6.0-1ubuntu1 libasan6_11.3.0-1ubuntu1~22.04.1 libatk1.0-0_2.36.0-3build1 libatk1.0-data_2.36.0-3build1 libatk1.0-dev_2.36.0-3build1 libatomic1_12.1.0-2ubuntu1~22.04 libattr1_1:2.5.1-1build1 libaudit-common_1:3.0.7-1build1 libaudit1_1:3.0.7-1build1 libavahi-client3_0.8-5ubuntu5.1 libavahi-common-data_0.8-5ubuntu5.1 libavahi-common3_0.8-5ubuntu5.1 libbinutils_2.38-4ubuntu2.2 libblkid-dev_2.37.2-4ubuntu3 libblkid1_2.37.2-4ubuntu3 libbrotli-dev_1.0.9-2build6 libbrotli1_1.0.9-2build6 libbsd0_0.11.5-1 libbz2-1.0_1.0.8-5build1 libc-bin_2.35-0ubuntu3.1 libc-dev-bin_2.35-0ubuntu3.1 libc6_2.35-0ubuntu3.1 libc6-dev_2.35-0ubuntu3.1 libcairo-gobject2_1.16.0-5ubuntu2 libcairo-script-interpreter2_1.16.0-5ubuntu2 libcairo2_1.16.0-5ubuntu2 libcairo2-dev_1.16.0-5ubuntu2 libcap-ng0_0.7.9-2.2build3 libcap2_1:2.44-1ubuntu0.22.04.1 libcc1-0_12.1.0-2ubuntu1~22.04 libcom-err2_1.46.5-2ubuntu1.1 libcrypt-dev_1:4.4.27-1 libcrypt1_1:4.4.27-1 libctf-nobfd0_2.38-4ubuntu2.2 libctf0_2.38-4ubuntu2.2 libcups2_2.4.1op1-1ubuntu4.4 libcurl4_7.81.0-1ubuntu1.10 libdatrie-dev_0.2.13-2 libdatrie1_0.2.13-2 libdb5.3_5.3.28+dfsg1-0.8ubuntu3 libdbus-1-3_1.12.20-2ubuntu4.1 libdebconfclient0_0.261ubuntu1 libdebhelper-perl_13.6ubuntu1 libdeflate-dev_1.10-2 libdeflate0_1.10-2 libdpkg-perl_1.21.1ubuntu2.2 libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1 libdrm-common_2.4.113-2~ubuntu0.22.04.1 libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1 libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1 libdrm2_2.4.113-2~ubuntu0.22.04.1 libdw1_0.186-1build1 libedit2_3.1-20210910-1build1 libegl-dev_1.4.0-1 libegl-mesa0_22.2.5-0ubuntu0.1~22.04.3 libegl1_1.4.0-1 libelf1_0.186-1build1 libexpat1_2.4.7-1ubuntu0.2 libexpat1-dev_2.4.7-1ubuntu0.2 libext2fs2_1.46.5-2ubuntu1.1 libfakeroot_1.28-1ubuntu1 libffi-dev_3.4.2-4 libffi8_3.4.2-4 libfile-stripnondeterminism-perl_1.13.0-1 libfltk-cairo1.3_1.3.8-4 libfltk-forms1.3_1.3.8-4 libfltk-gl1.3_1.3.8-4 libfltk-images1.3_1.3.8-4 libfltk1.3_1.3.8-4 libfltk1.3-dev_1.3.8-4 libfontconfig-dev_2.13.1-4.2ubuntu5 libfontconfig1_2.13.1-4.2ubuntu5 libfontconfig1-dev_2.13.1-4.2ubuntu5 libfreetype-dev_2.11.1+dfsg-1ubuntu0.2 libfreetype6_2.11.1+dfsg-1ubuntu0.2 libfreetype6-dev_2.11.1+dfsg-1ubuntu0.2 libfribidi-dev_1.0.8-2ubuntu3.1 libfribidi0_1.0.8-2ubuntu3.1 libgbm1_22.2.5-0ubuntu0.1~22.04.3 libgcc-11-dev_11.3.0-1ubuntu1~22.04.1 libgcc-s1_12.1.0-2ubuntu1~22.04 libgcrypt20_1.9.4-3ubuntu3 libgdbm-compat4_1.23-1 libgdbm6_1.23-1 libgdk-pixbuf-2.0-0_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf-2.0-dev_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf2.0-bin_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.2 libgirepository-1.0-1_1.72.0-1 libgl-dev_1.4.0-1 libgl1_1.4.0-1 libgl1-mesa-dev_22.2.5-0ubuntu0.1~22.04.3 libgl1-mesa-dri_22.2.5-0ubuntu0.1~22.04.3 libglapi-mesa_22.2.5-0ubuntu0.1~22.04.3 libgles-dev_1.4.0-1 libgles1_1.4.0-1 libgles2_1.4.0-1 libglib2.0-0_2.72.4-0ubuntu2.2 libglib2.0-bin_2.72.4-0ubuntu2.2 libglib2.0-data_2.72.4-0ubuntu2.2 libglib2.0-dev_2.72.4-0ubuntu2.2 libglib2.0-dev-bin_2.72.4-0ubuntu2.2 libglu1-mesa_9.0.2-1 libglu1-mesa-dev_9.0.2-1 libglvnd-core-dev_1.4.0-1 libglvnd-dev_1.4.0-1 libglvnd0_1.4.0-1 libglx-dev_1.4.0-1 libglx-mesa0_22.2.5-0ubuntu0.1~22.04.3 libglx0_1.4.0-1 libgmp10_2:6.2.1+dfsg-3ubuntu1 libgnutls30_3.7.3-4ubuntu1.2 libgomp1_12.1.0-2ubuntu1~22.04 libgpg-error0_1.43-3 libgraphite2-3_1.3.14-1build2 libgraphite2-dev_1.3.14-1build2 libgssapi-krb5-2_1.19.2-2ubuntu0.2 libgtk2.0-0_2.24.33-2ubuntu2 libgtk2.0-common_2.24.33-2ubuntu2 libgtk2.0-dev_2.24.33-2ubuntu2 libharfbuzz-dev_2.7.4-1ubuntu3.1 libharfbuzz-gobject0_2.7.4-1ubuntu3.1 libharfbuzz-icu0_2.7.4-1ubuntu3.1 libharfbuzz0b_2.7.4-1ubuntu3.1 libhiredis0.14_0.14.1-2 libhogweed6_3.7.3-1build2 libice-dev_2:1.0.10-1build2 libice6_2:1.0.10-1build2 libicu-dev_70.1-2 libicu70_70.1-2 libidn2-0_2.3.2-2build1 libisl23_0.24-2build1 libitm1_12.1.0-2ubuntu1~22.04 libjbig-dev_2.1-3.1ubuntu0.22.04.1 libjbig0_2.1-3.1ubuntu0.22.04.1 libjpeg-dev_8c-2ubuntu10 libjpeg-turbo8_2.1.2-0ubuntu1 libjpeg-turbo8-dev_2.1.2-0ubuntu1 libjpeg8_8c-2ubuntu10 libjpeg8-dev_8c-2ubuntu10 libjsoncpp25_1.9.5-3 libk5crypto3_1.19.2-2ubuntu0.2 libkeyutils1_1.6.1-2ubuntu3 libkrb5-3_1.19.2-2ubuntu0.2 libkrb5support0_1.19.2-2ubuntu0.2 libldap-2.5-0_2.5.14+dfsg-0ubuntu0.22.04.2 libllvm15_1:15.0.7-0ubuntu0.22.04.2 liblsan0_12.1.0-2ubuntu1~22.04 libltdl-dev_2.4.6-15build2 libltdl7_2.4.6-15build2 liblz4-1_1.9.3-2build2 liblzma-dev_5.2.5-2ubuntu1 liblzma5_5.2.5-2ubuntu1 liblzo2-2_2.10-2build3 libmagic-mgc_1:5.41-3 libmagic1_1:5.41-3 libmd0_1.0.4-1build1 libmount-dev_2.37.2-4ubuntu3 libmount1_2.37.2-4ubuntu3 libmpc3_1.2.1-2build1 libmpdec3_2.5.1-2build2 libmpfr6_4.1.0-3build3 libncurses6_6.3-2ubuntu0.1 libncursesw6_6.3-2ubuntu0.1 libnettle8_3.7.3-1build2 libnghttp2-14_1.43.0-1build3 libnsl-dev_1.3.0-2build2 libnsl2_1.3.0-2build2 libopengl-dev_1.4.0-1 libopengl0_1.4.0-1 libp11-kit0_0.24.0-6build1 libpam-modules_1.4.0-11ubuntu2.3 libpam-modules-bin_1.4.0-11ubuntu2.3 libpam-runtime_1.4.0-11ubuntu2.3 libpam0g_1.4.0-11ubuntu2.3 libpango-1.0-0_1.50.6+ds-2ubuntu1 libpango1.0-dev_1.50.6+ds-2ubuntu1 libpangocairo-1.0-0_1.50.6+ds-2ubuntu1 libpangoft2-1.0-0_1.50.6+ds-2ubuntu1 libpangoxft-1.0-0_1.50.6+ds-2ubuntu1 libpcre16-3_2:8.39-13ubuntu0.22.04.1 libpcre2-16-0_10.39-3ubuntu0.1 libpcre2-32-0_10.39-3ubuntu0.1 libpcre2-8-0_10.39-3ubuntu0.1 libpcre2-dev_10.39-3ubuntu0.1 libpcre2-posix3_10.39-3ubuntu0.1 libpcre3_2:8.39-13ubuntu0.22.04.1 libpcre3-dev_2:8.39-13ubuntu0.22.04.1 libpcre32-3_2:8.39-13ubuntu0.22.04.1 libpcrecpp0v5_2:8.39-13ubuntu0.22.04.1 libperl5.34_5.34.0-3ubuntu1.2 libpipeline1_1.5.5-1 libpixman-1-0_0.40.0-1ubuntu0.22.04.1 libpixman-1-dev_0.40.0-1ubuntu0.22.04.1 libpng-dev_1.6.37-3build5 libpng16-16_1.6.37-3build5 libprocps8_2:3.3.17-6ubuntu2 libpsl5_0.21.0-1.2build2 libpthread-stubs0-dev_0.4-1build2 libpython3-stdlib_3.10.6-1~22.04 libpython3.10-minimal_3.10.6-1~22.04.2ubuntu1.1 libpython3.10-stdlib_3.10.6-1~22.04.2ubuntu1.1 libquadmath0_12.1.0-2ubuntu1~22.04 libreadline8_8.1.2-1 librhash0_1.4.2-1ubuntu1 librtmp1_2.4+20151223.gitfa8646d.1-2build4 libsasl2-2_2.1.27+dfsg2-3ubuntu1.2 libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2 libseccomp2_2.5.3-2ubuntu2 libselinux1_3.3-1build2 libselinux1-dev_3.3-1build2 libsemanage-common_3.3-1build2 libsemanage2_3.3-1build2 libsensors-config_1:3.6.0-7ubuntu1 libsensors5_1:3.6.0-7ubuntu1 libsepol-dev_3.3-1build1 libsepol2_3.3-1build1 libsigsegv2_2.13-1ubuntu3 libsm-dev_2:1.2.3-1build2 libsm6_2:1.2.3-1build2 libsmartcols1_2.37.2-4ubuntu3 libsqlite3-0_3.37.2-2ubuntu0.1 libss2_1.46.5-2ubuntu1.1 libssh-4_0.9.6-2ubuntu0.22.04.1 libssl3_3.0.2-0ubuntu1.10 libstdc++-11-dev_11.3.0-1ubuntu1~22.04.1 libstdc++6_12.1.0-2ubuntu1~22.04 libsub-override-perl_0.09-2 libsystemd0_249.11-0ubuntu3.9 libtasn1-6_4.18.0-4build1 libthai-data_0.1.29-1build1 libthai-dev_0.1.29-1build1 libthai0_0.1.29-1build1 libtiff-dev_4.3.0-6ubuntu0.4 libtiff5_4.3.0-6ubuntu0.4 libtiffxx5_4.3.0-6ubuntu0.4 libtinfo6_6.3-2ubuntu0.1 libtirpc-common_1.3.2-2ubuntu0.1 libtirpc-dev_1.3.2-2ubuntu0.1 libtirpc3_1.3.2-2ubuntu0.1 libtool_2.4.6-15build2 libtool-bin_2.4.6-15build2 libtsan0_11.3.0-1ubuntu1~22.04.1 libubsan1_12.1.0-2ubuntu1~22.04 libuchardet0_0.0.7-1build2 libudev1_249.11-0ubuntu3.9 libunistring2_1.0-1 libuuid1_2.37.2-4ubuntu3 libuv1_1.43.0-1 libwayland-client0_1.20.0-1ubuntu0.1 libwayland-server0_1.20.0-1ubuntu0.1 libwebp7_1.2.2-2ubuntu0.22.04.1 libx11-6_2:1.7.5-1ubuntu0.2 libx11-data_2:1.7.5-1ubuntu0.2 libx11-dev_2:1.7.5-1ubuntu0.2 libx11-xcb1_2:1.7.5-1ubuntu0.2 libxau-dev_1:1.0.9-1build5 libxau6_1:1.0.9-1build5 libxcb-dri2-0_1.14-3ubuntu3 libxcb-dri3-0_1.14-3ubuntu3 libxcb-glx0_1.14-3ubuntu3 libxcb-present0_1.14-3ubuntu3 libxcb-render0_1.14-3ubuntu3 libxcb-render0-dev_1.14-3ubuntu3 libxcb-shm0_1.14-3ubuntu3 libxcb-shm0-dev_1.14-3ubuntu3 libxcb-sync1_1.14-3ubuntu3 libxcb-xfixes0_1.14-3ubuntu3 libxcb1_1.14-3ubuntu3 libxcb1-dev_1.14-3ubuntu3 libxcomposite-dev_1:0.4.5-1build2 libxcomposite1_1:0.4.5-1build2 libxcursor-dev_1:1.2.0-2build4 libxcursor1_1:1.2.0-2build4 libxdamage-dev_1:1.1.5-2build2 libxdamage1_1:1.1.5-2build2 libxdmcp-dev_1:1.1.3-0ubuntu5 libxdmcp6_1:1.1.3-0ubuntu5 libxext-dev_2:1.3.4-1build1 libxext6_2:1.3.4-1build1 libxfixes-dev_1:6.0.0-1 libxfixes3_1:6.0.0-1 libxft-dev_2.3.4-1 libxft2_2.3.4-1 libxi-dev_2:1.8-1build1 libxi6_2:1.8-1build1 libxinerama-dev_2:1.1.4-3 libxinerama1_2:1.1.4-3 libxml2_2.9.13+dfsg-1ubuntu0.3 libxml2-utils_2.9.13+dfsg-1ubuntu0.3 libxrandr-dev_2:1.5.2-1build1 libxrandr2_2:1.5.2-1build1 libxrender-dev_1:0.9.10-1build4 libxrender1_1:0.9.10-1build4 libxshmfence1_1.3-1build4 libxxf86vm1_1:1.1.4-1build3 libxxhash0_0.8.1-1 libzstd1_1.4.8+dfsg-3build1 linux-libc-dev_5.15.0-76.83 login_1:4.8.1-2ubuntu2.1 logsave_1.46.5-2ubuntu1.1 lsb-base_11.1.0ubuntu4 lto-disabled-list_24 m4_1.4.18-5ubuntu2 make_4.3-4.1build1 man-db_2.10.2-1 mawk_1.3.4.20200120-3 media-types_7.0.0 mount_2.37.2-4ubuntu3 ncurses-base_6.3-2ubuntu0.1 ncurses-bin_6.3-2ubuntu0.1 openssl_3.0.2-0ubuntu1.10 pango1.0-tools_1.50.6+ds-2ubuntu1 passwd_1:4.8.1-2ubuntu2.1 patch_2.7.6-7build2 perl_5.34.0-3ubuntu1.2 perl-base_5.34.0-3ubuntu1.2 perl-modules-5.34_5.34.0-3ubuntu1.2 pkg-config_0.29.2-1ubuntu3 po-debconf_1.0.21+nmu1 procps_2:3.3.17-6ubuntu2 python3_3.10.6-1~22.04 python3-catkin-pkg-modules_0.5.2-1 python3-dateutil_2.8.1-6 python3-distutils_3.10.6-1~22.04 python3-docutils_0.17.1+dfsg-2 python3-importlib-metadata_4.6.4-1 python3-lib2to3_3.10.6-1~22.04 python3-minimal_3.10.6-1~22.04 python3-more-itertools_8.10.0-2 python3-pkg-resources_59.6.0-1.2ubuntu0.22.04.1 python3-pyparsing_2.4.7-1 python3-roman_3.3-1 python3-setuptools_59.6.0-1.2ubuntu0.22.04.1 python3-six_1.16.0-3ubuntu1 python3-zipp_1.0.0-3 python3.10_3.10.6-1~22.04.2ubuntu1.1 python3.10-minimal_3.10.6-1~22.04.2ubuntu1.1 readline-common_8.1.2-1 ros-humble-ament-cmake_1.3.5-1jammy.20230623.021436 ros-humble-ament-cmake-core_1.3.5-1jammy.20230622.235746 ros-humble-ament-cmake-export-definitions_1.3.5-1jammy.20230623.015340 ros-humble-ament-cmake-export-dependencies_1.3.5-1jammy.20230623.015545 ros-humble-ament-cmake-export-include-directories_1.3.5-1jammy.20230623.015332 ros-humble-ament-cmake-export-interfaces_1.3.5-1jammy.20230623.015708 ros-humble-ament-cmake-export-libraries_1.3.5-1jammy.20230623.015637 ros-humble-ament-cmake-export-link-flags_1.3.5-1jammy.20230623.015648 ros-humble-ament-cmake-export-targets_1.3.5-1jammy.20230623.015711 ros-humble-ament-cmake-gen-version-h_1.3.5-1jammy.20230623.020719 ros-humble-ament-cmake-include-directories_1.3.5-1jammy.20230623.014202 ros-humble-ament-cmake-libraries_1.3.5-1jammy.20230623.014206 ros-humble-ament-cmake-python_1.3.5-1jammy.20230623.014224 ros-humble-ament-cmake-target-dependencies_1.3.5-1jammy.20230623.015600 ros-humble-ament-cmake-test_1.3.5-1jammy.20230623.015636 ros-humble-ament-cmake-version_1.3.5-1jammy.20230623.015145 ros-humble-ament-package_0.14.0-4jammy.20220421.093117 ros-humble-ros-workspace_1.0.2-2jammy.20230623.002807 rpcsvc-proto_1.4.2-0ubuntu6 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.8-1ubuntu2 sensible-utils_0.0.17 sgml-base_1.30 shared-mime-info_2.1-2 sysvinit-utils_3.01-1ubuntu1 tar_1.34+dfsg-1ubuntu0.1.22.04.1 tzdata_2023c-0ubuntu0.22.04.2 ubuntu-keyring_2021.03.26 ubuntu-mono_20.10-0ubuntu2 ucf_3.0043 usrmerge_25ubuntu2 util-linux_2.37.2-4ubuntu3 uuid-dev_2.37.2-4ubuntu3 x11-common_1:7.7+23ubuntu2 x11proto-dev_2021.5-1 xml-core_0.18+nmu1 xorg-sgml-doctools_1:1.11-1.1 xtrans-dev_1.4.0-1 xz-utils_5.2.5-2ubuntu1 zlib1g_1:1.2.11.dfsg-2ubuntu9.2 zlib1g-dev_1:1.2.11.dfsg-2ubuntu9.2
+Package versions: adduser_3.118ubuntu5 adwaita-icon-theme_41.0-1ubuntu1 apt_2.4.9 auto-apt-proxy_14 autoconf_2.71-2 automake_1:1.16.5-1.3 autopoint_0.21-4ubuntu4 autotools-dev_20220109.1 base-files_12ubuntu4.3 base-passwd_3.5.52build1 bash_5.1-6ubuntu1 binutils_2.38-4ubuntu2.2 binutils-common_2.38-4ubuntu2.2 binutils-x86-64-linux-gnu_2.38-4ubuntu2.2 bsdextrautils_2.37.2-4ubuntu3 bsdutils_1:2.37.2-4ubuntu3 build-essential_12.9ubuntu3 bzip2_1.0.8-5build1 ca-certificates_20230311ubuntu0.22.04.1 ccache_4.5.1-1 cmake_3.22.1-1ubuntu1.22.04.1 cmake-data_3.22.1-1ubuntu1.22.04.1 coreutils_8.32-4.1ubuntu1 cpp_4:11.2.0-1ubuntu1 cpp-11_11.3.0-1ubuntu1~22.04.1 dash_0.5.11+git20210903+057cd650a4ed-3build1 debconf_1.5.79ubuntu1 debhelper_13.6ubuntu1 debianutils_5.5-1ubuntu2 debugedit_1:5.0-4build1 dh-autoreconf_20 dh-elpa-helper_2.0.9ubuntu1 dh-strip-nondeterminism_1.13.0-1 diffutils_1:3.8-0ubuntu2 docutils-common_0.17.1+dfsg-2 dpkg_1.21.1ubuntu2.2 dpkg-dev_1.21.1ubuntu2.2 dwz_0.14-1build2 e2fsprogs_1.46.5-2ubuntu1.1 emacsen-common_3.0.4 fakeroot_1.28-1ubuntu1 file_1:5.41-3 findutils_4.8.0-1ubuntu3 fontconfig_2.13.1-4.2ubuntu5 fontconfig-config_2.13.1-4.2ubuntu5 fonts-dejavu-core_2.37-2build1 g++_4:11.2.0-1ubuntu1 g++-11_11.3.0-1ubuntu1~22.04.1 gcc_4:11.2.0-1ubuntu1 gcc-11_11.3.0-1ubuntu1~22.04.1 gcc-11-base_11.3.0-1ubuntu1~22.04.1 gcc-12-base_12.1.0-2ubuntu1~22.04 gettext_0.21-4ubuntu4 gettext-base_0.21-4ubuntu4 gir1.2-atk-1.0_2.36.0-3build1 gir1.2-freedesktop_1.72.0-1 gir1.2-gdkpixbuf-2.0_2.42.8+dfsg-1ubuntu0.2 gir1.2-glib-2.0_1.72.0-1 gir1.2-gtk-2.0_2.24.33-2ubuntu2 gir1.2-harfbuzz-0.0_2.7.4-1ubuntu3.1 gir1.2-pango-1.0_1.50.6+ds-2ubuntu1 gpgv_2.2.27-3ubuntu2.1 grep_3.7-1build1 groff-base_1.22.4-8build1 gtk-update-icon-cache_3.24.33-1ubuntu2 gzip_1.10-4ubuntu4.1 hicolor-icon-theme_0.17-2 hostname_3.23ubuntu2 humanity-icon-theme_0.6.16 icu-devtools_70.1-2 init-system-helpers_1.62 intltool-debian_0.35.0+20060710.5 libacl1_2.3.1-1 libapt-pkg6.0_2.4.9 libarchive-zip-perl_1.68-1 libarchive13_3.6.0-1ubuntu1 libasan6_11.3.0-1ubuntu1~22.04.1 libatk1.0-0_2.36.0-3build1 libatk1.0-data_2.36.0-3build1 libatk1.0-dev_2.36.0-3build1 libatomic1_12.1.0-2ubuntu1~22.04 libattr1_1:2.5.1-1build1 libaudit-common_1:3.0.7-1build1 libaudit1_1:3.0.7-1build1 libavahi-client3_0.8-5ubuntu5.1 libavahi-common-data_0.8-5ubuntu5.1 libavahi-common3_0.8-5ubuntu5.1 libbinutils_2.38-4ubuntu2.2 libblkid-dev_2.37.2-4ubuntu3 libblkid1_2.37.2-4ubuntu3 libbrotli-dev_1.0.9-2build6 libbrotli1_1.0.9-2build6 libbsd0_0.11.5-1 libbz2-1.0_1.0.8-5build1 libc-bin_2.35-0ubuntu3.1 libc-dev-bin_2.35-0ubuntu3.1 libc6_2.35-0ubuntu3.1 libc6-dev_2.35-0ubuntu3.1 libcairo-gobject2_1.16.0-5ubuntu2 libcairo-script-interpreter2_1.16.0-5ubuntu2 libcairo2_1.16.0-5ubuntu2 libcairo2-dev_1.16.0-5ubuntu2 libcap-ng0_0.7.9-2.2build3 libcap2_1:2.44-1ubuntu0.22.04.1 libcc1-0_12.1.0-2ubuntu1~22.04 libcom-err2_1.46.5-2ubuntu1.1 libcrypt-dev_1:4.4.27-1 libcrypt1_1:4.4.27-1 libctf-nobfd0_2.38-4ubuntu2.2 libctf0_2.38-4ubuntu2.2 libcups2_2.4.1op1-1ubuntu4.4 libcurl4_7.81.0-1ubuntu1.13 libdatrie-dev_0.2.13-2 libdatrie1_0.2.13-2 libdb5.3_5.3.28+dfsg1-0.8ubuntu3 libdbus-1-3_1.12.20-2ubuntu4.1 libdebconfclient0_0.261ubuntu1 libdebhelper-perl_13.6ubuntu1 libdeflate-dev_1.10-2 libdeflate0_1.10-2 libdpkg-perl_1.21.1ubuntu2.2 libdrm-amdgpu1_2.4.113-2~ubuntu0.22.04.1 libdrm-common_2.4.113-2~ubuntu0.22.04.1 libdrm-nouveau2_2.4.113-2~ubuntu0.22.04.1 libdrm-radeon1_2.4.113-2~ubuntu0.22.04.1 libdrm2_2.4.113-2~ubuntu0.22.04.1 libdw1_0.186-1build1 libedit2_3.1-20210910-1build1 libegl-dev_1.4.0-1 libegl-mesa0_22.2.5-0ubuntu0.1~22.04.3 libegl1_1.4.0-1 libelf1_0.186-1build1 libexpat1_2.4.7-1ubuntu0.2 libexpat1-dev_2.4.7-1ubuntu0.2 libext2fs2_1.46.5-2ubuntu1.1 libfakeroot_1.28-1ubuntu1 libffi-dev_3.4.2-4 libffi8_3.4.2-4 libfile-stripnondeterminism-perl_1.13.0-1 libfltk-cairo1.3_1.3.8-4 libfltk-forms1.3_1.3.8-4 libfltk-gl1.3_1.3.8-4 libfltk-images1.3_1.3.8-4 libfltk1.3_1.3.8-4 libfltk1.3-dev_1.3.8-4 libfontconfig-dev_2.13.1-4.2ubuntu5 libfontconfig1_2.13.1-4.2ubuntu5 libfontconfig1-dev_2.13.1-4.2ubuntu5 libfreetype-dev_2.11.1+dfsg-1ubuntu0.2 libfreetype6_2.11.1+dfsg-1ubuntu0.2 libfreetype6-dev_2.11.1+dfsg-1ubuntu0.2 libfribidi-dev_1.0.8-2ubuntu3.1 libfribidi0_1.0.8-2ubuntu3.1 libgbm1_22.2.5-0ubuntu0.1~22.04.3 libgcc-11-dev_11.3.0-1ubuntu1~22.04.1 libgcc-s1_12.1.0-2ubuntu1~22.04 libgcrypt20_1.9.4-3ubuntu3 libgdbm-compat4_1.23-1 libgdbm6_1.23-1 libgdk-pixbuf-2.0-0_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf-2.0-dev_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf2.0-bin_2.42.8+dfsg-1ubuntu0.2 libgdk-pixbuf2.0-common_2.42.8+dfsg-1ubuntu0.2 libgirepository-1.0-1_1.72.0-1 libgl-dev_1.4.0-1 libgl1_1.4.0-1 libgl1-mesa-dev_22.2.5-0ubuntu0.1~22.04.3 libgl1-mesa-dri_22.2.5-0ubuntu0.1~22.04.3 libglapi-mesa_22.2.5-0ubuntu0.1~22.04.3 libgles-dev_1.4.0-1 libgles1_1.4.0-1 libgles2_1.4.0-1 libglib2.0-0_2.72.4-0ubuntu2.2 libglib2.0-bin_2.72.4-0ubuntu2.2 libglib2.0-data_2.72.4-0ubuntu2.2 libglib2.0-dev_2.72.4-0ubuntu2.2 libglib2.0-dev-bin_2.72.4-0ubuntu2.2 libglu1-mesa_9.0.2-1 libglu1-mesa-dev_9.0.2-1 libglvnd-core-dev_1.4.0-1 libglvnd-dev_1.4.0-1 libglvnd0_1.4.0-1 libglx-dev_1.4.0-1 libglx-mesa0_22.2.5-0ubuntu0.1~22.04.3 libglx0_1.4.0-1 libgmp10_2:6.2.1+dfsg-3ubuntu1 libgnutls30_3.7.3-4ubuntu1.2 libgomp1_12.1.0-2ubuntu1~22.04 libgpg-error0_1.43-3 libgraphite2-3_1.3.14-1build2 libgraphite2-dev_1.3.14-1build2 libgssapi-krb5-2_1.19.2-2ubuntu0.2 libgtk2.0-0_2.24.33-2ubuntu2 libgtk2.0-common_2.24.33-2ubuntu2 libgtk2.0-dev_2.24.33-2ubuntu2 libharfbuzz-dev_2.7.4-1ubuntu3.1 libharfbuzz-gobject0_2.7.4-1ubuntu3.1 libharfbuzz-icu0_2.7.4-1ubuntu3.1 libharfbuzz0b_2.7.4-1ubuntu3.1 libhiredis0.14_0.14.1-2 libhogweed6_3.7.3-1build2 libice-dev_2:1.0.10-1build2 libice6_2:1.0.10-1build2 libicu-dev_70.1-2 libicu70_70.1-2 libidn2-0_2.3.2-2build1 libisl23_0.24-2build1 libitm1_12.1.0-2ubuntu1~22.04 libjbig-dev_2.1-3.1ubuntu0.22.04.1 libjbig0_2.1-3.1ubuntu0.22.04.1 libjpeg-dev_8c-2ubuntu10 libjpeg-turbo8_2.1.2-0ubuntu1 libjpeg-turbo8-dev_2.1.2-0ubuntu1 libjpeg8_8c-2ubuntu10 libjpeg8-dev_8c-2ubuntu10 libjsoncpp25_1.9.5-3 libk5crypto3_1.19.2-2ubuntu0.2 libkeyutils1_1.6.1-2ubuntu3 libkrb5-3_1.19.2-2ubuntu0.2 libkrb5support0_1.19.2-2ubuntu0.2 libldap-2.5-0_2.5.14+dfsg-0ubuntu0.22.04.2 libllvm15_1:15.0.7-0ubuntu0.22.04.2 liblsan0_12.1.0-2ubuntu1~22.04 libltdl-dev_2.4.6-15build2 libltdl7_2.4.6-15build2 liblz4-1_1.9.3-2build2 liblzma-dev_5.2.5-2ubuntu1 liblzma5_5.2.5-2ubuntu1 liblzo2-2_2.10-2build3 libmagic-mgc_1:5.41-3 libmagic1_1:5.41-3 libmd0_1.0.4-1build1 libmount-dev_2.37.2-4ubuntu3 libmount1_2.37.2-4ubuntu3 libmpc3_1.2.1-2build1 libmpdec3_2.5.1-2build2 libmpfr6_4.1.0-3build3 libncurses6_6.3-2ubuntu0.1 libncursesw6_6.3-2ubuntu0.1 libnettle8_3.7.3-1build2 libnghttp2-14_1.43.0-1build3 libnsl-dev_1.3.0-2build2 libnsl2_1.3.0-2build2 libopengl-dev_1.4.0-1 libopengl0_1.4.0-1 libp11-kit0_0.24.0-6build1 libpam-modules_1.4.0-11ubuntu2.3 libpam-modules-bin_1.4.0-11ubuntu2.3 libpam-runtime_1.4.0-11ubuntu2.3 libpam0g_1.4.0-11ubuntu2.3 libpango-1.0-0_1.50.6+ds-2ubuntu1 libpango1.0-dev_1.50.6+ds-2ubuntu1 libpangocairo-1.0-0_1.50.6+ds-2ubuntu1 libpangoft2-1.0-0_1.50.6+ds-2ubuntu1 libpangoxft-1.0-0_1.50.6+ds-2ubuntu1 libpcre16-3_2:8.39-13ubuntu0.22.04.1 libpcre2-16-0_10.39-3ubuntu0.1 libpcre2-32-0_10.39-3ubuntu0.1 libpcre2-8-0_10.39-3ubuntu0.1 libpcre2-dev_10.39-3ubuntu0.1 libpcre2-posix3_10.39-3ubuntu0.1 libpcre3_2:8.39-13ubuntu0.22.04.1 libpcre3-dev_2:8.39-13ubuntu0.22.04.1 libpcre32-3_2:8.39-13ubuntu0.22.04.1 libpcrecpp0v5_2:8.39-13ubuntu0.22.04.1 libperl5.34_5.34.0-3ubuntu1.2 libpipeline1_1.5.5-1 libpixman-1-0_0.40.0-1ubuntu0.22.04.1 libpixman-1-dev_0.40.0-1ubuntu0.22.04.1 libpng-dev_1.6.37-3build5 libpng16-16_1.6.37-3build5 libprocps8_2:3.3.17-6ubuntu2 libpsl5_0.21.0-1.2build2 libpthread-stubs0-dev_0.4-1build2 libpython3-stdlib_3.10.6-1~22.04 libpython3.10-minimal_3.10.6-1~22.04.2ubuntu1.1 libpython3.10-stdlib_3.10.6-1~22.04.2ubuntu1.1 libquadmath0_12.1.0-2ubuntu1~22.04 libreadline8_8.1.2-1 librhash0_1.4.2-1ubuntu1 librtmp1_2.4+20151223.gitfa8646d.1-2build4 libsasl2-2_2.1.27+dfsg2-3ubuntu1.2 libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2 libseccomp2_2.5.3-2ubuntu2 libselinux1_3.3-1build2 libselinux1-dev_3.3-1build2 libsemanage-common_3.3-1build2 libsemanage2_3.3-1build2 libsensors-config_1:3.6.0-7ubuntu1 libsensors5_1:3.6.0-7ubuntu1 libsepol-dev_3.3-1build1 libsepol2_3.3-1build1 libsigsegv2_2.13-1ubuntu3 libsm-dev_2:1.2.3-1build2 libsm6_2:1.2.3-1build2 libsmartcols1_2.37.2-4ubuntu3 libsqlite3-0_3.37.2-2ubuntu0.1 libss2_1.46.5-2ubuntu1.1 libssh-4_0.9.6-2ubuntu0.22.04.1 libssl3_3.0.2-0ubuntu1.10 libstdc++-11-dev_11.3.0-1ubuntu1~22.04.1 libstdc++6_12.1.0-2ubuntu1~22.04 libsub-override-perl_0.09-2 libsystemd0_249.11-0ubuntu3.9 libtasn1-6_4.18.0-4build1 libthai-data_0.1.29-1build1 libthai-dev_0.1.29-1build1 libthai0_0.1.29-1build1 libtiff-dev_4.3.0-6ubuntu0.4 libtiff5_4.3.0-6ubuntu0.4 libtiffxx5_4.3.0-6ubuntu0.4 libtinfo6_6.3-2ubuntu0.1 libtirpc-common_1.3.2-2ubuntu0.1 libtirpc-dev_1.3.2-2ubuntu0.1 libtirpc3_1.3.2-2ubuntu0.1 libtool_2.4.6-15build2 libtool-bin_2.4.6-15build2 libtsan0_11.3.0-1ubuntu1~22.04.1 libubsan1_12.1.0-2ubuntu1~22.04 libuchardet0_0.0.7-1build2 libudev1_249.11-0ubuntu3.9 libunistring2_1.0-1 libuuid1_2.37.2-4ubuntu3 libuv1_1.43.0-1 libwayland-client0_1.20.0-1ubuntu0.1 libwayland-server0_1.20.0-1ubuntu0.1 libwebp7_1.2.2-2ubuntu0.22.04.1 libx11-6_2:1.7.5-1ubuntu0.2 libx11-data_2:1.7.5-1ubuntu0.2 libx11-dev_2:1.7.5-1ubuntu0.2 libx11-xcb1_2:1.7.5-1ubuntu0.2 libxau-dev_1:1.0.9-1build5 libxau6_1:1.0.9-1build5 libxcb-dri2-0_1.14-3ubuntu3 libxcb-dri3-0_1.14-3ubuntu3 libxcb-glx0_1.14-3ubuntu3 libxcb-present0_1.14-3ubuntu3 libxcb-render0_1.14-3ubuntu3 libxcb-render0-dev_1.14-3ubuntu3 libxcb-shm0_1.14-3ubuntu3 libxcb-shm0-dev_1.14-3ubuntu3 libxcb-sync1_1.14-3ubuntu3 libxcb-xfixes0_1.14-3ubuntu3 libxcb1_1.14-3ubuntu3 libxcb1-dev_1.14-3ubuntu3 libxcomposite-dev_1:0.4.5-1build2 libxcomposite1_1:0.4.5-1build2 libxcursor-dev_1:1.2.0-2build4 libxcursor1_1:1.2.0-2build4 libxdamage-dev_1:1.1.5-2build2 libxdamage1_1:1.1.5-2build2 libxdmcp-dev_1:1.1.3-0ubuntu5 libxdmcp6_1:1.1.3-0ubuntu5 libxext-dev_2:1.3.4-1build1 libxext6_2:1.3.4-1build1 libxfixes-dev_1:6.0.0-1 libxfixes3_1:6.0.0-1 libxft-dev_2.3.4-1 libxft2_2.3.4-1 libxi-dev_2:1.8-1build1 libxi6_2:1.8-1build1 libxinerama-dev_2:1.1.4-3 libxinerama1_2:1.1.4-3 libxml2_2.9.13+dfsg-1ubuntu0.3 libxml2-utils_2.9.13+dfsg-1ubuntu0.3 libxrandr-dev_2:1.5.2-1build1 libxrandr2_2:1.5.2-1build1 libxrender-dev_1:0.9.10-1build4 libxrender1_1:0.9.10-1build4 libxshmfence1_1.3-1build4 libxxf86vm1_1:1.1.4-1build3 libxxhash0_0.8.1-1 libzstd1_1.4.8+dfsg-3build1 linux-libc-dev_5.15.0-76.83 login_1:4.8.1-2ubuntu2.1 logsave_1.46.5-2ubuntu1.1 lsb-base_11.1.0ubuntu4 lto-disabled-list_24 m4_1.4.18-5ubuntu2 make_4.3-4.1build1 man-db_2.10.2-1 mawk_1.3.4.20200120-3 media-types_7.0.0 mount_2.37.2-4ubuntu3 ncurses-base_6.3-2ubuntu0.1 ncurses-bin_6.3-2ubuntu0.1 openssl_3.0.2-0ubuntu1.10 pango1.0-tools_1.50.6+ds-2ubuntu1 passwd_1:4.8.1-2ubuntu2.1 patch_2.7.6-7build2 perl_5.34.0-3ubuntu1.2 perl-base_5.34.0-3ubuntu1.2 perl-modules-5.34_5.34.0-3ubuntu1.2 pkg-config_0.29.2-1ubuntu3 po-debconf_1.0.21+nmu1 procps_2:3.3.17-6ubuntu2 python3_3.10.6-1~22.04 python3-catkin-pkg-modules_0.5.2-1 python3-dateutil_2.8.1-6 python3-distutils_3.10.6-1~22.04 python3-docutils_0.17.1+dfsg-2 python3-importlib-metadata_4.6.4-1 python3-lib2to3_3.10.6-1~22.04 python3-minimal_3.10.6-1~22.04 python3-more-itertools_8.10.0-2 python3-pkg-resources_59.6.0-1.2ubuntu0.22.04.1 python3-pyparsing_2.4.7-1 python3-roman_3.3-1 python3-setuptools_59.6.0-1.2ubuntu0.22.04.1 python3-six_1.16.0-3ubuntu1 python3-zipp_1.0.0-3 python3.10_3.10.6-1~22.04.2ubuntu1.1 python3.10-minimal_3.10.6-1~22.04.2ubuntu1.1 readline-common_8.1.2-1 ros-humble-ament-cmake_1.3.5-1jammy.20230623.021436 ros-humble-ament-cmake-core_1.3.5-1jammy.20230622.235746 ros-humble-ament-cmake-export-definitions_1.3.5-1jammy.20230623.015340 ros-humble-ament-cmake-export-dependencies_1.3.5-1jammy.20230623.015545 ros-humble-ament-cmake-export-include-directories_1.3.5-1jammy.20230623.015332 ros-humble-ament-cmake-export-interfaces_1.3.5-1jammy.20230623.015708 ros-humble-ament-cmake-export-libraries_1.3.5-1jammy.20230623.015637 ros-humble-ament-cmake-export-link-flags_1.3.5-1jammy.20230623.015648 ros-humble-ament-cmake-export-targets_1.3.5-1jammy.20230623.015711 ros-humble-ament-cmake-gen-version-h_1.3.5-1jammy.20230623.020719 ros-humble-ament-cmake-include-directories_1.3.5-1jammy.20230623.014202 ros-humble-ament-cmake-libraries_1.3.5-1jammy.20230623.014206 ros-humble-ament-cmake-python_1.3.5-1jammy.20230623.014224 ros-humble-ament-cmake-target-dependencies_1.3.5-1jammy.20230623.015600 ros-humble-ament-cmake-test_1.3.5-1jammy.20230623.015636 ros-humble-ament-cmake-version_1.3.5-1jammy.20230623.015145 ros-humble-ament-package_0.14.0-4jammy.20220421.093117 ros-humble-ros-workspace_1.0.2-2jammy.20230623.002807 rpcsvc-proto_1.4.2-0ubuntu6 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.8-1ubuntu2 sensible-utils_0.0.17 sgml-base_1.30 shared-mime-info_2.1-2 sysvinit-utils_3.01-1ubuntu1 tar_1.34+dfsg-1ubuntu0.1.22.04.1 tzdata_2023c-0ubuntu0.22.04.2 ubuntu-keyring_2021.03.26 ubuntu-mono_20.10-0ubuntu2 ucf_3.0043 usrmerge_25ubuntu2 util-linux_2.37.2-4ubuntu3 uuid-dev_2.37.2-4ubuntu3 x11-common_1:7.7+23ubuntu2 x11proto-dev_2021.5-1 xml-core_0.18+nmu1 xorg-sgml-doctools_1:1.11-1.1 xtrans-dev_1.4.0-1 xz-utils_5.2.5-2ubuntu1 zlib1g_1:1.2.11.dfsg-2ubuntu9.2 zlib1g-dev_1:1.2.11.dfsg-2ubuntu9.2
 
 +------------------------------------------------------------------------------+
 | Build                                                                        |
@@ -1814,7 +1814,7 @@ Format: 1.0
 Source: ros-humble-stage
 Binary: ros-humble-stage
 Architecture: any
-Version: 0-2023.07.19.03.30
+Version: 0-2023.07.24.02.17
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Homepage: http://rtv.github.com/Stage
 Standards-Version: 3.9.2
@@ -1822,15 +1822,15 @@ Build-Depends: debhelper (>= 9.0.0), libfltk1.3-dev, libgl1-mesa-dev, libglu1-me
 Package-List:
  ros-humble-stage deb misc optional arch=any
 Checksums-Sha1:
- 8bd83b2d68e8e0eaece7ebf2a2d9d64818c2911b 8965498 ros-humble-stage_0-2023.07.19.03.30.tar.gz
+ bb07c70041573992a8302cc1d5c65fbb2dabb33d 8965075 ros-humble-stage_0-2023.07.24.02.17.tar.gz
 Checksums-Sha256:
- ee0f97c4881dc7efa827dcc2810d3585ddf0bf3d41fc6785ea3a635b7a2c5d8d 8965498 ros-humble-stage_0-2023.07.19.03.30.tar.gz
+ cc8a72e5d0c05389c6ac6cd5eada72394aa4222a732bc584c985fa4ee646dcd0 8965075 ros-humble-stage_0-2023.07.24.02.17.tar.gz
 Files:
- cf37c606674181823616a8eaa24f8835 8965498 ros-humble-stage_0-2023.07.19.03.30.tar.gz
+ 902659699b7c880288bd69ec7efc9304 8965075 ros-humble-stage_0-2023.07.24.02.17.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-humble-stage_0-2023.07.19.03.30.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-humble-stage_0-2023.07.24.02.17.dsc)
 dpkg-source: info: extracting ros-humble-stage in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-humble-stage_0-2023.07.19.03.30.tar.gz
+dpkg-source: info: unpacking ros-humble-stage_0-2023.07.24.02.17.tar.gz
 
 Check disk space
 ----------------
@@ -1858,7 +1858,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-humble-stage
-dpkg-buildpackage: info: source version 0-2023.07.19.03.30
+dpkg-buildpackage: info: source version 0-2023.07.24.02.17
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Valerio Magnago <valerio.magnago@gmail.com>
  dpkg-source --before-build .
@@ -2180,18 +2180,18 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	rm -f debian/ros-humble-stage/opt/ros/humble/lib/libstage.so
 	ln -s libstage.so.4.3.0 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so
    dh_strip_nondeterminism -O-v -O--buildsystem=cmake
-	Using 1689737415 as canonical time
-	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/mains.png using File::StripNondeterminism::handlers::png
-	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/stall-old.png using File::StripNondeterminism::handlers::png
-	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/blue.png using File::StripNondeterminism::handlers::png
-	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/question_mark.png using File::StripNondeterminism::handlers::png
-	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/death.png using File::StripNondeterminism::handlers::png
+	Using 1690165043 as canonical time
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/logo.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/mainspower.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/stagelogo.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/stall.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/green.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/red.png using File::StripNondeterminism::handlers::png
+	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/mains.png using File::StripNondeterminism::handlers::png
+	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/stall-old.png using File::StripNondeterminism::handlers::png
+	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/blue.png using File::StripNondeterminism::handlers::png
+	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/question_mark.png using File::StripNondeterminism::handlers::png
+	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/death.png using File::StripNondeterminism::handlers::png
    dh_compress -O-v -O--buildsystem=cmake
 	cd debian/ros-humble-stage
 	chmod a-x usr/share/doc/ros-humble-stage/changelog.Debian
@@ -2205,34 +2205,34 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-humble-stage -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.07.19.03.30 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-c19cb553e1e9fc3dd1f476ec66109af03bfa410b
-	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/c1
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/c1/9cb553e1e9fc3dd1f476ec66109af03bfa410b.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/c1/9cb553e1e9fc3dd1f476ec66109af03bfa410b.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/c1/9cb553e1e9fc3dd1f476ec66109af03bfa410b.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/9S1tzZpHl2/stripoFeXIe debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/9S1tzZpHl2/stripoFeXIe
-	cat '/tmp/9S1tzZpHl2/stripoFeXIe' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/9S1tzZpHl2/stripoFeXIe debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/c1/9cb553e1e9fc3dd1f476ec66109af03bfa410b.debug debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/9S1tzZpHl2/objcopyn9Ue5W
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/9S1tzZpHl2/objcopyn9Ue5W
-	cat '/tmp/9S1tzZpHl2/objcopyn9Ue5W' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/9S1tzZpHl2/objcopyn9Ue5W debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.07.19.03.30 debian/ros-humble-stage/opt/ros/humble/bin/stage
-186a61e1f76ff62d7c9942093f12eb61b13ca080
-	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/18
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/bin/stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/18/6a61e1f76ff62d7c9942093f12eb61b13ca080.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/18/6a61e1f76ff62d7c9942093f12eb61b13ca080.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/18/6a61e1f76ff62d7c9942093f12eb61b13ca080.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/9S1tzZpHl2/stripuS9vQd debian/ros-humble-stage/opt/ros/humble/bin/stage
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/9S1tzZpHl2/stripuS9vQd
-	cat '/tmp/9S1tzZpHl2/stripuS9vQd' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
-	chmod --reference /tmp/9S1tzZpHl2/stripuS9vQd debian/ros-humble-stage/opt/ros/humble/bin/stage
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/18/6a61e1f76ff62d7c9942093f12eb61b13ca080.debug debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/9S1tzZpHl2/objcopyqE3dRm
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/9S1tzZpHl2/objcopyqE3dRm
-	cat '/tmp/9S1tzZpHl2/objcopyqE3dRm' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
-	chmod --reference /tmp/9S1tzZpHl2/objcopyqE3dRm debian/ros-humble-stage/opt/ros/humble/bin/stage
+	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.07.24.02.17 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+f6e460f152de7dba7830f41a864cf17c6403a4db
+	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/f6
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/f6/e460f152de7dba7830f41a864cf17c6403a4db.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/f6/e460f152de7dba7830f41a864cf17c6403a4db.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/f6/e460f152de7dba7830f41a864cf17c6403a4db.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/Wgkw6oemNM/stripomphhK debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/Wgkw6oemNM/stripomphhK
+	cat '/tmp/Wgkw6oemNM/stripomphhK' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/Wgkw6oemNM/stripomphhK debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/f6/e460f152de7dba7830f41a864cf17c6403a4db.debug debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/Wgkw6oemNM/objcopy6SJk1F
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/Wgkw6oemNM/objcopy6SJk1F
+	cat '/tmp/Wgkw6oemNM/objcopy6SJk1F' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/Wgkw6oemNM/objcopy6SJk1F debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.07.24.02.17 debian/ros-humble-stage/opt/ros/humble/bin/stage
+5dbc3c0dcec267510c1c8826a1e5d2d24beb928c
+	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/5d
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/bin/stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/5d/bc3c0dcec267510c1c8826a1e5d2d24beb928c.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/5d/bc3c0dcec267510c1c8826a1e5d2d24beb928c.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/5d/bc3c0dcec267510c1c8826a1e5d2d24beb928c.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/Wgkw6oemNM/stripBGkuVk debian/ros-humble-stage/opt/ros/humble/bin/stage
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/Wgkw6oemNM/stripBGkuVk
+	cat '/tmp/Wgkw6oemNM/stripBGkuVk' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
+	chmod --reference /tmp/Wgkw6oemNM/stripBGkuVk debian/ros-humble-stage/opt/ros/humble/bin/stage
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/5d/bc3c0dcec267510c1c8826a1e5d2d24beb928c.debug debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/Wgkw6oemNM/objcopyOHYU3R
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/Wgkw6oemNM/objcopyOHYU3R
+	cat '/tmp/Wgkw6oemNM/objcopyOHYU3R' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
+	chmod --reference /tmp/Wgkw6oemNM/objcopyOHYU3R debian/ros-humble-stage/opt/ros/humble/bin/stage
 	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/share/doc
 	ln -s ros-humble-stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/share/doc/ros-humble-stage-dbgsym
    dh_makeshlibs -O-v -O--buildsystem=cmake
@@ -2259,7 +2259,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-humble-stage.substvars
 	echo misc:Pre-Depends= >> debian/ros-humble-stage.substvars
 	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/.debhelper/ros-humble-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-stage-dbgsym "-DDepends=ros-humble-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-stage" "-DBuild-Ids=186a61e1f76ff62d7c9942093f12eb61b13ca080 c19cb553e1e9fc3dd1f476ec66109af03bfa410b" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/.debhelper/ros-humble-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-stage-dbgsym "-DDepends=ros-humble-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-stage" "-DBuild-Ids=5dbc3c0dcec267510c1c8826a1e5d2d24beb928c f6e460f152de7dba7830f41a864cf17c6403a4db" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/ros-humble-stage
@@ -2274,20 +2274,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-humble-stage ..
-dpkg-deb: building package 'ros-humble-stage' in '../ros-humble-stage_0-2023.07.19.03.30_amd64.deb'.
+dpkg-deb: building package 'ros-humble-stage' in '../ros-humble-stage_0-2023.07.24.02.17_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-humble-stage
 	dpkg-deb --build debian/.debhelper/ros-humble-stage/dbgsym-root debian/.debhelper/scratch-space/build-ros-humble-stage
-dpkg-deb: building package 'ros-humble-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.deb'.
-	Renaming ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.deb to ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.deb ../ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-humble-stage_0-2023.07.19.03.30_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-humble-stage_0-2023.07.19.03.30_amd64.changes
+dpkg-deb: building package 'ros-humble-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.deb'.
+	Renaming ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.deb to ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.deb ../ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-humble-stage_0-2023.07.24.02.17_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-humble-stage_0-2023.07.24.02.17_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2023-07-19T03:31:52Z
+Build finished at 2023-07-24T02:19:29Z
 
 Finished
 --------
@@ -2299,16 +2299,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-humble-stage_0-2023.07.19.03.30_amd64.changes:
+ros-humble-stage_0-2023.07.24.02.17_amd64.changes:
 --------------------------------------------------
 
 Format: 1.8
-Date: Wed, 19 Jul 2023 03:30:15 -0000
+Date: Mon, 24 Jul 2023 02:17:23 -0000
 Source: ros-humble-stage
 Binary: ros-humble-stage
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2023.07.19.03.30
+Version: 0-2023.07.24.02.17
 Distribution: jammy
 Urgency: high
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
@@ -2316,21 +2316,21 @@ Changed-By: Valerio Magnago <valerio.magnago@gmail.com>
 Description:
  ros-humble-stage - Stage simulates a population of mobile robots, sensors and object
 Changes:
- ros-humble-stage (0-2023.07.19.03.30) jammy; urgency=high
+ ros-humble-stage (0-2023.07.24.02.17) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- ed1dea77801c81355a8c1b94156f8889b86a8dea 2833616 ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- 7f0ccfbf042821ae4f9ef42aaf5982b8d185e751 16671 ros-humble-stage_0-2023.07.19.03.30_amd64.buildinfo
- 3343988c800fd70072d28cb4c9b120dae4b77857 511088 ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ e78f184256f21a622b0be4834bb023d578e747b2 2833614 ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ d9e94ad7b24342ac2f82769cf2cfe3bbcb75e6b4 16671 ros-humble-stage_0-2023.07.24.02.17_amd64.buildinfo
+ d5f53d9d956a33f4495f6bd9606e4f9bc5243fc6 511118 ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 Checksums-Sha256:
- a1378135a739a05a6a4f19cf2f3a1cd787f63b32051151bf7a201d7f5fb9ef18 2833616 ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- 66014ca4d635cf1a68e95a6ab2266120b6711ea9b301589f0c4538ea869ecc13 16671 ros-humble-stage_0-2023.07.19.03.30_amd64.buildinfo
- e4204a4044d16696109ce3c5bf7b8149db0809d581ae6b618340dbc467f320da 511088 ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ 3f750b267a0d1fa2d80e2a0bd36621a5bf64d88c9be64d8b21a277c869c3b079 2833614 ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ 29ddab3f283d28f15316e78b1cd1fe48b7a9171b8e28d13732c47126d052fae9 16671 ros-humble-stage_0-2023.07.24.02.17_amd64.buildinfo
+ ba989f369ec555ea8e073f92df187109ab6fe69b33b44898bdfab7606a077edb 511118 ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 Files:
- f358ccdbb0ce618c8526325803bd94a2 2833616 debug optional ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- 22ca04bb2691ef95d4e9b9e1150ea242 16671 misc optional ros-humble-stage_0-2023.07.19.03.30_amd64.buildinfo
- ad29c57d6e9b0bffc600423fb4586908 511088 misc optional ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ fa2033a47c7fb90079f7be52329eedcb 2833614 debug optional ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ 8a1ea1cdff2ce87e364b21d499d79487 16671 misc optional ros-humble-stage_0-2023.07.24.02.17_amd64.buildinfo
+ c9fb9d44da597de452d4e07568ffbaea 511118 misc optional ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -2340,19 +2340,19 @@ Format: 1.0
 Source: ros-humble-stage
 Binary: ros-humble-stage ros-humble-stage-dbgsym
 Architecture: amd64
-Version: 0-2023.07.19.03.30
+Version: 0-2023.07.24.02.17
 Checksums-Md5:
- f358ccdbb0ce618c8526325803bd94a2 2833616 ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- ad29c57d6e9b0bffc600423fb4586908 511088 ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ fa2033a47c7fb90079f7be52329eedcb 2833614 ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ c9fb9d44da597de452d4e07568ffbaea 511118 ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 Checksums-Sha1:
- ed1dea77801c81355a8c1b94156f8889b86a8dea 2833616 ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- 3343988c800fd70072d28cb4c9b120dae4b77857 511088 ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ e78f184256f21a622b0be4834bb023d578e747b2 2833614 ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ d5f53d9d956a33f4495f6bd9606e4f9bc5243fc6 511118 ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 Checksums-Sha256:
- a1378135a739a05a6a4f19cf2f3a1cd787f63b32051151bf7a201d7f5fb9ef18 2833616 ros-humble-stage-dbgsym_0-2023.07.19.03.30_amd64.ddeb
- e4204a4044d16696109ce3c5bf7b8149db0809d581ae6b618340dbc467f320da 511088 ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ 3f750b267a0d1fa2d80e2a0bd36621a5bf64d88c9be64d8b21a277c869c3b079 2833614 ros-humble-stage-dbgsym_0-2023.07.24.02.17_amd64.ddeb
+ ba989f369ec555ea8e073f92df187109ab6fe69b33b44898bdfab7606a077edb 511118 ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 19 Jul 2023 03:31:52 +0000
+Build-Date: Mon, 24 Jul 2023 02:19:28 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2459,7 +2459,7 @@ Installed-Build-Depends:
  libctf-nobfd0 (= 2.38-4ubuntu2.2),
  libctf0 (= 2.38-4ubuntu2.2),
  libcups2 (= 2.4.1op1-1ubuntu4.4),
- libcurl4 (= 7.81.0-1ubuntu1.10),
+ libcurl4 (= 7.81.0-1ubuntu1.13),
  libdatrie-dev (= 0.2.13-2),
  libdatrie1 (= 0.2.13-2),
  libdb5.3 (= 5.3.28+dfsg1-0.8ubuntu3),
@@ -2795,7 +2795,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1689737415"
+ SOURCE_DATE_EPOCH="1690165043"
 
 
 +------------------------------------------------------------------------------+
@@ -2803,17 +2803,17 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-humble-stage_0-2023.07.19.03.30_amd64.deb
+ros-humble-stage_0-2023.07.24.02.17_amd64.deb
 ---------------------------------------------
 
  new Debian package, version 2.0.
- size 511088 bytes: control archive=1819 bytes.
+ size 511118 bytes: control archive=1819 bytes.
      870 bytes,    11 lines      control              
     3015 bytes,    36 lines      md5sums              
       32 bytes,     1 lines      shlibs               
       72 bytes,     2 lines      triggers             
  Package: ros-humble-stage
- Version: 0-2023.07.19.03.30
+ Version: 0-2023.07.24.02.17
  Architecture: amd64
  Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
  Installed-Size: 977
@@ -2824,65 +2824,65 @@ ros-humble-stage_0-2023.07.19.03.30_amd64.deb
  Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
   Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
 
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/bin/
--rwxr-xr-x root/root     14752 2023-07-19 03:30 ./opt/ros/humble/bin/stage
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/include/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/include/stage/
--rw-r--r-- root/root     92907 2023-07-19 03:29 ./opt/ros/humble/include/stage/stage.hh
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/lib/
-lrwxrwxrwx root/root         0 2023-07-19 03:30 ./opt/ros/humble/lib/libstage.so -> libstage.so.4.3.0
--rw-r--r-- root/root    474536 2023-07-19 03:30 ./opt/ros/humble/lib/libstage.so.4.3.0
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root        31 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/stage
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/packages/stage
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2023-07-19 03:30 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/stage
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/stage/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/stage/assets/
--rw-r--r-- root/root     13691 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/blue.png
--rw-r--r-- root/root     52466 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/death.png
--rw-r--r-- root/root     10885 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/green.png
--rw-r--r-- root/root      6559 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/logo.png
--rw-r--r-- root/root     87815 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/mains.png
--rw-r--r-- root/root     56004 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/mainspower.png
--rw-r--r-- root/root     19157 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/question_mark.png
--rw-r--r-- root/root     13180 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/red.png
--rw-r--r-- root/root     17371 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/rgb.txt
--rw-r--r-- root/root      6559 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/stagelogo.png
--rw-r--r-- root/root     21449 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/stall-old.png
--rw-r--r-- root/root     31043 2023-07-19 03:29 ./opt/ros/humble/share/stage/assets/stall.png
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/stage/cmake/
--rw-r--r-- root/root       749 2023-07-19 03:30 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
--rw-r--r-- root/root      4915 2023-07-19 03:30 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
--rw-r--r-- root/root       432 2023-07-19 03:30 ./opt/ros/humble/share/stage/cmake/stageConfig-version.cmake
--rw-r--r-- root/root      1283 2023-07-19 03:30 ./opt/ros/humble/share/stage/cmake/stageConfig.cmake
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./opt/ros/humble/share/stage/environment/
--rw-r--r-- root/root        41 2023-07-19 03:30 ./opt/ros/humble/share/stage/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/bin/
+-rwxr-xr-x root/root     14752 2023-07-24 02:17 ./opt/ros/humble/bin/stage
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/include/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/include/stage/
+-rw-r--r-- root/root     92907 2023-07-24 02:16 ./opt/ros/humble/include/stage/stage.hh
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/lib/
+lrwxrwxrwx root/root         0 2023-07-24 02:17 ./opt/ros/humble/lib/libstage.so -> libstage.so.4.3.0
+-rw-r--r-- root/root    474536 2023-07-24 02:17 ./opt/ros/humble/lib/libstage.so.4.3.0
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root        31 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/stage
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/packages/stage
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2023-07-24 02:17 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/stage
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/stage/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/stage/assets/
+-rw-r--r-- root/root     13691 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/blue.png
+-rw-r--r-- root/root     52466 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/death.png
+-rw-r--r-- root/root     10885 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/green.png
+-rw-r--r-- root/root      6559 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/logo.png
+-rw-r--r-- root/root     87815 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/mains.png
+-rw-r--r-- root/root     56004 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/mainspower.png
+-rw-r--r-- root/root     19157 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/question_mark.png
+-rw-r--r-- root/root     13180 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/red.png
+-rw-r--r-- root/root     17371 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/rgb.txt
+-rw-r--r-- root/root      6559 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/stagelogo.png
+-rw-r--r-- root/root     21449 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/stall-old.png
+-rw-r--r-- root/root     31043 2023-07-24 02:16 ./opt/ros/humble/share/stage/assets/stall.png
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/stage/cmake/
+-rw-r--r-- root/root       749 2023-07-24 02:17 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
+-rw-r--r-- root/root      4915 2023-07-24 02:17 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
+-rw-r--r-- root/root       432 2023-07-24 02:17 ./opt/ros/humble/share/stage/cmake/stageConfig-version.cmake
+-rw-r--r-- root/root      1283 2023-07-24 02:17 ./opt/ros/humble/share/stage/cmake/stageConfig.cmake
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./opt/ros/humble/share/stage/environment/
+-rw-r--r-- root/root        41 2023-07-24 02:17 ./opt/ros/humble/share/stage/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2023-06-22 18:45 ./opt/ros/humble/share/stage/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2023-07-19 03:30 ./opt/ros/humble/share/stage/environment/library_path.dsv
+-rw-r--r-- root/root        42 2023-07-24 02:17 ./opt/ros/humble/share/stage/environment/library_path.dsv
 -rw-r--r-- root/root       411 2022-04-19 23:53 ./opt/ros/humble/share/stage/environment/library_path.sh
--rw-r--r-- root/root        41 2023-07-19 03:30 ./opt/ros/humble/share/stage/environment/path.dsv
+-rw-r--r-- root/root        41 2023-07-24 02:17 ./opt/ros/humble/share/stage/environment/path.dsv
 -rw-r--r-- root/root       185 2023-06-22 18:45 ./opt/ros/humble/share/stage/environment/path.sh
--rw-r--r-- root/root      1594 2023-07-19 03:30 ./opt/ros/humble/share/stage/local_setup.bash
--rw-r--r-- root/root       138 2023-07-19 03:30 ./opt/ros/humble/share/stage/local_setup.dsv
--rw-r--r-- root/root      5082 2023-07-19 03:30 ./opt/ros/humble/share/stage/local_setup.sh
--rw-r--r-- root/root      1957 2023-07-19 03:30 ./opt/ros/humble/share/stage/local_setup.zsh
--rw-r--r-- root/root       140 2023-07-19 03:30 ./opt/ros/humble/share/stage/package.dsv
--rw-r--r-- root/root      1937 2023-07-19 03:29 ./opt/ros/humble/share/stage/package.xml
--rw-r--r-- root/root     17371 2023-07-19 03:29 ./opt/ros/humble/share/stage/rgb.txt
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./usr/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./usr/share/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./usr/share/doc/
-drwxr-xr-x root/root         0 2023-07-19 03:30 ./usr/share/doc/ros-humble-stage/
--rw-r--r-- root/root       195 2023-07-19 03:30 ./usr/share/doc/ros-humble-stage/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2023-07-24 02:17 ./opt/ros/humble/share/stage/local_setup.bash
+-rw-r--r-- root/root       138 2023-07-24 02:17 ./opt/ros/humble/share/stage/local_setup.dsv
+-rw-r--r-- root/root      5082 2023-07-24 02:17 ./opt/ros/humble/share/stage/local_setup.sh
+-rw-r--r-- root/root      1957 2023-07-24 02:17 ./opt/ros/humble/share/stage/local_setup.zsh
+-rw-r--r-- root/root       140 2023-07-24 02:17 ./opt/ros/humble/share/stage/package.dsv
+-rw-r--r-- root/root      1937 2023-07-24 02:16 ./opt/ros/humble/share/stage/package.xml
+-rw-r--r-- root/root     17371 2023-07-24 02:16 ./opt/ros/humble/share/stage/rgb.txt
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./usr/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./usr/share/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-07-24 02:17 ./usr/share/doc/ros-humble-stage/
+-rw-r--r-- root/root       195 2023-07-24 02:17 ./usr/share/doc/ros-humble-stage/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -2903,19 +2903,19 @@ Not cleaning session: cloned chroot in use
 
 Build Architecture: amd64
 Build Type: binary
-Build-Space: 71452
+Build-Space: 71400
 Build-Time: 45
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 40
-Job: /home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.07.19.03.30.dsc
+Install-Time: 69
+Job: /home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.07.24.02.17.dsc
 Machine Architecture: amd64
 Package: ros-humble-stage
-Package-Time: 96
-Source-Version: 0-2023.07.19.03.30
-Space: 71452
+Package-Time: 125
+Source-Version: 0-2023.07.24.02.17
+Space: 71400
 Status: successful
-Version: 0-2023.07.19.03.30
+Version: 0-2023.07.24.02.17
 --------------------------------------------------------------------------------
-Finished at 2023-07-19T03:31:52Z
-Build needed 00:01:36, 71452k disk space
+Finished at 2023-07-24T02:19:29Z
+Build needed 00:02:05, 71400k disk space
