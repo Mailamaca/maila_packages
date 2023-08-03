@@ -1,45 +1,45 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az803-705.ic04zlzjvaperlxkzqqhhsq4bb.dx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1025-150.u4c4nzxa0llelhrnhprvwb0fvg.cx.internal.cloudapp.net
 
 +==============================================================================+
-| ros-humble-stage 0-2023.08.02.02.07 (amd64)  Wed, 02 Aug 2023 02:07:56 +0000 |
+| ros-humble-stage 0-2023.08.03.02.09 (amd64)  Thu, 03 Aug 2023 02:09:59 +0000 |
 +==============================================================================+
 
 Package: ros-humble-stage
-Version: 0-2023.08.02.02.07
-Source Version: 0-2023.08.02.02.07
+Version: 0-2023.08.03.02.09
+Source Version: 0-2023.08.03.02.09
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.LWiXf500c2...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.aM2e9O9cAv...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-wKfT7S' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-W3gLro' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-HgKyaZ/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-HgKyaZ/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-HgKyaZ/apt_archive ./ Release [574 B]
-Get:2 file:/build/package//resolver-HgKyaZ/apt_archive ./ Release [574 B]
-Get:3 file:/build/package//resolver-HgKyaZ/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-HgKyaZ/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-HgKyaZ/apt_archive ./ Packages [523 B]
-Get:5 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
-Get:6 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:8 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1297 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [768 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [650 kB]
-Get:11 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [859 kB]
-Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [961 kB]
-Fetched 20.5 MB in 3s (6151 kB/s)
+Get:1 file:/build/package//resolver-rE4HLg/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-rE4HLg/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-rE4HLg/apt_archive ./ Release [574 B]
+Get:2 file:/build/package//resolver-rE4HLg/apt_archive ./ Release [574 B]
+Get:3 file:/build/package//resolver-rE4HLg/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-rE4HLg/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-rE4HLg/apt_archive ./ Packages [523 B]
+Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:9 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [658 kB]
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [768 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [863 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [961 kB]
+Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1297 kB]
+Fetched 20.5 MB in 3s (7510 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -55,7 +55,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.08.02.02.07.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
+/home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.08.03.02.09.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -77,12 +77,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [764 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [796 B]
 Fetched 2140 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ Release [574 B]
-Get:2 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ Release [574 B]
-Get:3 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-HgKyaZ/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ Release [574 B]
+Get:2 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ Release [574 B]
+Get:3 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-rE4HLg/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -253,7 +253,7 @@ The following NEW packages will be installed:
 0 upgraded, 302 newly installed, 0 to remove and 0 not upgraded.
 Need to get 113 MB of archives.
 After this operation, 476 MB of additional disk space will be used.
-Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [740 B]
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [738 B]
 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.2 [811 kB]
 Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
 Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-package amd64 0.14.0-4jammy.20220421.093117 [23.6 kB]
@@ -275,13 +275,13 @@ Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cma
 Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-version amd64 1.3.5-1jammy.20230623.015145 [7256 B]
 Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
 Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.2 [2258 kB]
-Get:23 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.5-1jammy.20230623.021436 [7588 B]
-Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
-Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
-Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
-Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
-Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
-Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
+Get:29 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake amd64 1.3.5-1jammy.20230623.021436 [7588 B]
 Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.12-1~22.04.2 [1849 kB]
 Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.12-1~22.04.2 [509 kB]
 Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
@@ -556,7 +556,7 @@ Get:300 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-core-dev amd6
 Get:301 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-dev amd64 1.4.0-1 [3162 B]
 Get:302 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgl1-mesa-dev amd64 22.2.5-0ubuntu0.1~22.04.3 [6756 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 113 MB in 21s (5436 kB/s)
+Fetched 113 MB in 38s (2944 kB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10541 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.2_amd64.deb ...
@@ -1516,8 +1516,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2023c-0ubuntu0.22.04.2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Wed Aug  2 02:08:55 UTC 2023.
-Universal Time is now:  Wed Aug  2 02:08:55 UTC 2023.
+Local time is now:      Thu Aug  3 02:11:09 UTC 2023.
+Universal Time is now:  Thu Aug  3 02:11:09 UTC 2023.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -1814,7 +1814,7 @@ Format: 1.0
 Source: ros-humble-stage
 Binary: ros-humble-stage
 Architecture: any
-Version: 0-2023.08.02.02.07
+Version: 0-2023.08.03.02.09
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Homepage: http://rtv.github.com/Stage
 Standards-Version: 3.9.2
@@ -1822,15 +1822,15 @@ Build-Depends: debhelper (>= 9.0.0), libfltk1.3-dev, libgl1-mesa-dev, libglu1-me
 Package-List:
  ros-humble-stage deb misc optional arch=any
 Checksums-Sha1:
- 23e111ec0e46319d3acfc2bd488e92ea4ab6d1a1 8948436 ros-humble-stage_0-2023.08.02.02.07.tar.gz
+ f69603264620a9616d5d519b00b5135a878ae8a0 8964794 ros-humble-stage_0-2023.08.03.02.09.tar.gz
 Checksums-Sha256:
- e0aee4a3966e1dab90f4c31b2b2f2726eee41846b80dbf4b6738d055e22f4a37 8948436 ros-humble-stage_0-2023.08.02.02.07.tar.gz
+ 9a6fec3f51ad27540a452fa3406b3bd26c969a6e01f4e91129bc103075546f4b 8964794 ros-humble-stage_0-2023.08.03.02.09.tar.gz
 Files:
- f9bfe86c72848457e5db51230bb27213 8948436 ros-humble-stage_0-2023.08.02.02.07.tar.gz
+ c9cbb5587021761a28545ba66e38a0f3 8964794 ros-humble-stage_0-2023.08.03.02.09.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-humble-stage_0-2023.08.02.02.07.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-humble-stage_0-2023.08.03.02.09.dsc)
 dpkg-source: info: extracting ros-humble-stage in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-humble-stage_0-2023.08.02.02.07.tar.gz
+dpkg-source: info: unpacking ros-humble-stage_0-2023.08.03.02.09.tar.gz
 
 Check disk space
 ----------------
@@ -1858,7 +1858,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-humble-stage
-dpkg-buildpackage: info: source version 0-2023.08.02.02.07
+dpkg-buildpackage: info: source version 0-2023.08.03.02.09
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Valerio Magnago <valerio.magnago@gmail.com>
  dpkg-source --before-build .
@@ -2180,7 +2180,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	rm -f debian/ros-humble-stage/opt/ros/humble/lib/libstage.so
 	ln -s libstage.so.4.3.0 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so
    dh_strip_nondeterminism -O-v -O--buildsystem=cmake
-	Using 1690942075 as canonical time
+	Using 1691028597 as canonical time
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/mains.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/stall-old.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-humble-stage/opt/ros/humble/share/stage/assets/blue.png using File::StripNondeterminism::handlers::png
@@ -2205,34 +2205,34 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-humble-stage -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.08.02.02.07 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-2c6b7da54259d4259d2355bcf95f9afbebe558b4
-	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/2c
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/2c/6b7da54259d4259d2355bcf95f9afbebe558b4.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/2c/6b7da54259d4259d2355bcf95f9afbebe558b4.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/2c/6b7da54259d4259d2355bcf95f9afbebe558b4.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/TE6EoaR7ab/stripA5yATG debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/TE6EoaR7ab/stripA5yATG
-	cat '/tmp/TE6EoaR7ab/stripA5yATG' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/TE6EoaR7ab/stripA5yATG debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/2c/6b7da54259d4259d2355bcf95f9afbebe558b4.debug debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/TE6EoaR7ab/objcopyWtTKEj
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/TE6EoaR7ab/objcopyWtTKEj
-	cat '/tmp/TE6EoaR7ab/objcopyWtTKEj' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/TE6EoaR7ab/objcopyWtTKEj debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
-	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.08.02.02.07 debian/ros-humble-stage/opt/ros/humble/bin/stage
-af621663a801bc60aaf4e95040c1b00925928230
-	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/af
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/bin/stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/af/621663a801bc60aaf4e95040c1b00925928230.debug
-	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/af/621663a801bc60aaf4e95040c1b00925928230.debug
-	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/af/621663a801bc60aaf4e95040c1b00925928230.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/TE6EoaR7ab/strip5CI6Av debian/ros-humble-stage/opt/ros/humble/bin/stage
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/TE6EoaR7ab/strip5CI6Av
-	cat '/tmp/TE6EoaR7ab/strip5CI6Av' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
-	chmod --reference /tmp/TE6EoaR7ab/strip5CI6Av debian/ros-humble-stage/opt/ros/humble/bin/stage
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/af/621663a801bc60aaf4e95040c1b00925928230.debug debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/TE6EoaR7ab/objcopyXcx8Zt
-	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/TE6EoaR7ab/objcopyXcx8Zt
-	cat '/tmp/TE6EoaR7ab/objcopyXcx8Zt' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
-	chmod --reference /tmp/TE6EoaR7ab/objcopyXcx8Zt debian/ros-humble-stage/opt/ros/humble/bin/stage
+	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.08.03.02.09 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+08b3a2722a925d62917e242a833a73640109ce56
+	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/08
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/08/b3a2722a925d62917e242a833a73640109ce56.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/08/b3a2722a925d62917e242a833a73640109ce56.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/08/b3a2722a925d62917e242a833a73640109ce56.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/HNQwbhirMT/stripH09NQI debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/HNQwbhirMT/stripH09NQI
+	cat '/tmp/HNQwbhirMT/stripH09NQI' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/HNQwbhirMT/stripH09NQI debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/08/b3a2722a925d62917e242a833a73640109ce56.debug debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/HNQwbhirMT/objcopyGIR2R9
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0 /tmp/HNQwbhirMT/objcopyGIR2R9
+	cat '/tmp/HNQwbhirMT/objcopyGIR2R9' > 'debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/HNQwbhirMT/objcopyGIR2R9 debian/ros-humble-stage/opt/ros/humble/lib/libstage.so.4.3.0
+	debugedit --build-id --build-id-seed=ros-humble-stage/0-2023.08.03.02.09 debian/ros-humble-stage/opt/ros/humble/bin/stage
+9933186fe1180e0b7c887f276c974b17a41d4cb9
+	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/99
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-humble-stage/opt/ros/humble/bin/stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/99/33186fe1180e0b7c887f276c974b17a41d4cb9.debug
+	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/99/33186fe1180e0b7c887f276c974b17a41d4cb9.debug
+	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/99/33186fe1180e0b7c887f276c974b17a41d4cb9.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/HNQwbhirMT/stripKrim4L debian/ros-humble-stage/opt/ros/humble/bin/stage
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/HNQwbhirMT/stripKrim4L
+	cat '/tmp/HNQwbhirMT/stripKrim4L' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
+	chmod --reference /tmp/HNQwbhirMT/stripKrim4L debian/ros-humble-stage/opt/ros/humble/bin/stage
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-humble-stage/dbgsym-root/usr/lib/debug/.build-id/99/33186fe1180e0b7c887f276c974b17a41d4cb9.debug debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/HNQwbhirMT/objcopyzlcDOQ
+	chmod --reference debian/ros-humble-stage/opt/ros/humble/bin/stage /tmp/HNQwbhirMT/objcopyzlcDOQ
+	cat '/tmp/HNQwbhirMT/objcopyzlcDOQ' > 'debian/ros-humble-stage/opt/ros/humble/bin/stage'
+	chmod --reference /tmp/HNQwbhirMT/objcopyzlcDOQ debian/ros-humble-stage/opt/ros/humble/bin/stage
 	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/usr/share/doc
 	ln -s ros-humble-stage debian/.debhelper/ros-humble-stage/dbgsym-root/usr/share/doc/ros-humble-stage-dbgsym
    dh_makeshlibs -O-v -O--buildsystem=cmake
@@ -2259,7 +2259,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-humble-stage.substvars
 	echo misc:Pre-Depends= >> debian/ros-humble-stage.substvars
 	install -d debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/.debhelper/ros-humble-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-stage-dbgsym "-DDepends=ros-humble-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-stage" "-DBuild-Ids=2c6b7da54259d4259d2355bcf95f9afbebe558b4 af621663a801bc60aaf4e95040c1b00925928230" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/.debhelper/ros-humble-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-humble-stage-dbgsym "-DDepends=ros-humble-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-humble-stage" "-DBuild-Ids=08b3a2722a925d62917e242a833a73640109ce56 9933186fe1180e0b7c887f276c974b17a41d4cb9" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-humble-stage -ldebian/changelog -Tdebian/ros-humble-stage.substvars -Pdebian/ros-humble-stage
@@ -2274,20 +2274,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-humble-stage/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-humble-stage ..
-dpkg-deb: building package 'ros-humble-stage' in '../ros-humble-stage_0-2023.08.02.02.07_amd64.deb'.
+dpkg-deb: building package 'ros-humble-stage' in '../ros-humble-stage_0-2023.08.03.02.09_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-humble-stage
 	dpkg-deb --build debian/.debhelper/ros-humble-stage/dbgsym-root debian/.debhelper/scratch-space/build-ros-humble-stage
-dpkg-deb: building package 'ros-humble-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.deb'.
-	Renaming ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.deb to ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.deb ../ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-humble-stage_0-2023.08.02.02.07_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-humble-stage_0-2023.08.02.02.07_amd64.changes
+dpkg-deb: building package 'ros-humble-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.deb'.
+	Renaming ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.deb to ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-humble-stage/ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.deb ../ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-humble-stage_0-2023.08.03.02.09_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-humble-stage_0-2023.08.03.02.09_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2023-08-02T02:10:11Z
+Build finished at 2023-08-03T02:12:12Z
 
 Finished
 --------
@@ -2299,16 +2299,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-humble-stage_0-2023.08.02.02.07_amd64.changes:
+ros-humble-stage_0-2023.08.03.02.09_amd64.changes:
 --------------------------------------------------
 
 Format: 1.8
-Date: Wed, 02 Aug 2023 02:07:55 -0000
+Date: Thu, 03 Aug 2023 02:09:57 -0000
 Source: ros-humble-stage
 Binary: ros-humble-stage
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2023.08.02.02.07
+Version: 0-2023.08.03.02.09
 Distribution: jammy
 Urgency: high
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
@@ -2316,21 +2316,21 @@ Changed-By: Valerio Magnago <valerio.magnago@gmail.com>
 Description:
  ros-humble-stage - Stage simulates a population of mobile robots, sensors and object
 Changes:
- ros-humble-stage (0-2023.08.02.02.07) jammy; urgency=high
+ ros-humble-stage (0-2023.08.03.02.09) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 070ae8ecdcc3fe7579f91ab790c97b0fd69e04e9 2832910 ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- 282ae3ae1840e7a8a6c4b525a2444c80374dec4c 16623 ros-humble-stage_0-2023.08.02.02.07_amd64.buildinfo
- 53eaba6c1f315b8f256a8b2d3e6f5281f8f2dc12 511084 ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ b6d8ac7abcf478808e3ea6852fe37839aa11f136 2832916 ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ 1dc7d44db929f5addd825d19ceea9af6c2b9ec47 16623 ros-humble-stage_0-2023.08.03.02.09_amd64.buildinfo
+ 521233961bdb8fa495e240bc5a9324ade5e69777 511076 ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 Checksums-Sha256:
- 0e460fb71d85790a821c5e81106b4378f2fd924fd935c688787c43eb0c96ce6c 2832910 ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- 2a49a6dbf3c7c2083597985ec8d3ed47243d6c60ba87b6daf107a07b72603a60 16623 ros-humble-stage_0-2023.08.02.02.07_amd64.buildinfo
- a76883244f06d4b68368abe38ea796248d2b83f36a6560af6e4bae5373ef164b 511084 ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ 20ba621f990841d0d9b69bbe467d4f5a92a7298d56a5d330372933c2ac3975b3 2832916 ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ 94e05a107a0ef5bb1d8fe90797600f2c473afde87d233d67c67cefc099cd152a 16623 ros-humble-stage_0-2023.08.03.02.09_amd64.buildinfo
+ 3025197408ce8eb150e0f28de30fcd13fc37227c882bc1871b7d52acb2f40eee 511076 ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 Files:
- f1024377cf6c3954c0d904a524425a8c 2832910 debug optional ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- bfcded6cec5560ec43f7aed5ee8258f4 16623 misc optional ros-humble-stage_0-2023.08.02.02.07_amd64.buildinfo
- 308e0428391524a35f56ee74ef5ac797 511084 misc optional ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ 345c955532cd83925d56c5da207d3144 2832916 debug optional ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ 19083f4d5705a03d3f47ffcf7a60608e 16623 misc optional ros-humble-stage_0-2023.08.03.02.09_amd64.buildinfo
+ e33733a69d1fb5c3a0589a79a966980f 511076 misc optional ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -2340,19 +2340,19 @@ Format: 1.0
 Source: ros-humble-stage
 Binary: ros-humble-stage ros-humble-stage-dbgsym
 Architecture: amd64
-Version: 0-2023.08.02.02.07
+Version: 0-2023.08.03.02.09
 Checksums-Md5:
- f1024377cf6c3954c0d904a524425a8c 2832910 ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- 308e0428391524a35f56ee74ef5ac797 511084 ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ 345c955532cd83925d56c5da207d3144 2832916 ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ e33733a69d1fb5c3a0589a79a966980f 511076 ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 Checksums-Sha1:
- 070ae8ecdcc3fe7579f91ab790c97b0fd69e04e9 2832910 ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- 53eaba6c1f315b8f256a8b2d3e6f5281f8f2dc12 511084 ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ b6d8ac7abcf478808e3ea6852fe37839aa11f136 2832916 ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ 521233961bdb8fa495e240bc5a9324ade5e69777 511076 ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 Checksums-Sha256:
- 0e460fb71d85790a821c5e81106b4378f2fd924fd935c688787c43eb0c96ce6c 2832910 ros-humble-stage-dbgsym_0-2023.08.02.02.07_amd64.ddeb
- a76883244f06d4b68368abe38ea796248d2b83f36a6560af6e4bae5373ef164b 511084 ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ 20ba621f990841d0d9b69bbe467d4f5a92a7298d56a5d330372933c2ac3975b3 2832916 ros-humble-stage-dbgsym_0-2023.08.03.02.09_amd64.ddeb
+ 3025197408ce8eb150e0f28de30fcd13fc37227c882bc1871b7d52acb2f40eee 511076 ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 02 Aug 2023 02:10:10 +0000
+Build-Date: Thu, 03 Aug 2023 02:12:12 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2795,7 +2795,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1690942075"
+ SOURCE_DATE_EPOCH="1691028597"
 
 
 +------------------------------------------------------------------------------+
@@ -2803,17 +2803,17 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-humble-stage_0-2023.08.02.02.07_amd64.deb
+ros-humble-stage_0-2023.08.03.02.09_amd64.deb
 ---------------------------------------------
 
  new Debian package, version 2.0.
- size 511084 bytes: control archive=1814 bytes.
+ size 511076 bytes: control archive=1813 bytes.
      870 bytes,    11 lines      control              
     3015 bytes,    36 lines      md5sums              
       32 bytes,     1 lines      shlibs               
       72 bytes,     2 lines      triggers             
  Package: ros-humble-stage
- Version: 0-2023.08.02.02.07
+ Version: 0-2023.08.03.02.09
  Architecture: amd64
  Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
  Installed-Size: 977
@@ -2824,65 +2824,65 @@ ros-humble-stage_0-2023.08.02.02.07_amd64.deb
  Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
   Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
 
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/bin/
--rwxr-xr-x root/root     14752 2023-08-02 02:07 ./opt/ros/humble/bin/stage
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/include/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/include/stage/
--rw-r--r-- root/root     92907 2023-08-02 02:06 ./opt/ros/humble/include/stage/stage.hh
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/lib/
-lrwxrwxrwx root/root         0 2023-08-02 02:07 ./opt/ros/humble/lib/libstage.so -> libstage.so.4.3.0
--rw-r--r-- root/root    474536 2023-08-02 02:07 ./opt/ros/humble/lib/libstage.so.4.3.0
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root        31 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/stage
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/packages/stage
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2023-08-02 02:07 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/stage
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/stage/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/stage/assets/
--rw-r--r-- root/root     13691 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/blue.png
--rw-r--r-- root/root     52466 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/death.png
--rw-r--r-- root/root     10885 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/green.png
--rw-r--r-- root/root      6559 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/logo.png
--rw-r--r-- root/root     87815 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/mains.png
--rw-r--r-- root/root     56004 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/mainspower.png
--rw-r--r-- root/root     19157 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/question_mark.png
--rw-r--r-- root/root     13180 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/red.png
--rw-r--r-- root/root     17371 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/rgb.txt
--rw-r--r-- root/root      6559 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/stagelogo.png
--rw-r--r-- root/root     21449 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/stall-old.png
--rw-r--r-- root/root     31043 2023-08-02 02:06 ./opt/ros/humble/share/stage/assets/stall.png
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/stage/cmake/
--rw-r--r-- root/root       749 2023-08-02 02:07 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
--rw-r--r-- root/root      4915 2023-08-02 02:07 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
--rw-r--r-- root/root       432 2023-08-02 02:07 ./opt/ros/humble/share/stage/cmake/stageConfig-version.cmake
--rw-r--r-- root/root      1283 2023-08-02 02:07 ./opt/ros/humble/share/stage/cmake/stageConfig.cmake
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./opt/ros/humble/share/stage/environment/
--rw-r--r-- root/root        41 2023-08-02 02:07 ./opt/ros/humble/share/stage/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/bin/
+-rwxr-xr-x root/root     14752 2023-08-03 02:09 ./opt/ros/humble/bin/stage
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/include/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/include/stage/
+-rw-r--r-- root/root     92907 2023-08-03 02:09 ./opt/ros/humble/include/stage/stage.hh
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/lib/
+lrwxrwxrwx root/root         0 2023-08-03 02:09 ./opt/ros/humble/lib/libstage.so -> libstage.so.4.3.0
+-rw-r--r-- root/root    474536 2023-08-03 02:09 ./opt/ros/humble/lib/libstage.so.4.3.0
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root        31 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/package_run_dependencies/stage
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/packages/stage
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2023-08-03 02:09 ./opt/ros/humble/share/ament_index/resource_index/parent_prefix_path/stage
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/stage/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/
+-rw-r--r-- root/root     13691 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/blue.png
+-rw-r--r-- root/root     52466 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/death.png
+-rw-r--r-- root/root     10885 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/green.png
+-rw-r--r-- root/root      6559 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/logo.png
+-rw-r--r-- root/root     87815 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/mains.png
+-rw-r--r-- root/root     56004 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/mainspower.png
+-rw-r--r-- root/root     19157 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/question_mark.png
+-rw-r--r-- root/root     13180 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/red.png
+-rw-r--r-- root/root     17371 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/rgb.txt
+-rw-r--r-- root/root      6559 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/stagelogo.png
+-rw-r--r-- root/root     21449 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/stall-old.png
+-rw-r--r-- root/root     31043 2023-08-03 02:09 ./opt/ros/humble/share/stage/assets/stall.png
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/stage/cmake/
+-rw-r--r-- root/root       749 2023-08-03 02:09 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
+-rw-r--r-- root/root      4915 2023-08-03 02:09 ./opt/ros/humble/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
+-rw-r--r-- root/root       432 2023-08-03 02:09 ./opt/ros/humble/share/stage/cmake/stageConfig-version.cmake
+-rw-r--r-- root/root      1283 2023-08-03 02:09 ./opt/ros/humble/share/stage/cmake/stageConfig.cmake
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./opt/ros/humble/share/stage/environment/
+-rw-r--r-- root/root        41 2023-08-03 02:09 ./opt/ros/humble/share/stage/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2023-06-22 18:45 ./opt/ros/humble/share/stage/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2023-08-02 02:07 ./opt/ros/humble/share/stage/environment/library_path.dsv
+-rw-r--r-- root/root        42 2023-08-03 02:09 ./opt/ros/humble/share/stage/environment/library_path.dsv
 -rw-r--r-- root/root       411 2022-04-19 23:53 ./opt/ros/humble/share/stage/environment/library_path.sh
--rw-r--r-- root/root        41 2023-08-02 02:07 ./opt/ros/humble/share/stage/environment/path.dsv
+-rw-r--r-- root/root        41 2023-08-03 02:09 ./opt/ros/humble/share/stage/environment/path.dsv
 -rw-r--r-- root/root       185 2023-06-22 18:45 ./opt/ros/humble/share/stage/environment/path.sh
--rw-r--r-- root/root      1594 2023-08-02 02:07 ./opt/ros/humble/share/stage/local_setup.bash
--rw-r--r-- root/root       138 2023-08-02 02:07 ./opt/ros/humble/share/stage/local_setup.dsv
--rw-r--r-- root/root      5082 2023-08-02 02:07 ./opt/ros/humble/share/stage/local_setup.sh
--rw-r--r-- root/root      1957 2023-08-02 02:07 ./opt/ros/humble/share/stage/local_setup.zsh
--rw-r--r-- root/root       140 2023-08-02 02:07 ./opt/ros/humble/share/stage/package.dsv
--rw-r--r-- root/root      1937 2023-08-02 02:06 ./opt/ros/humble/share/stage/package.xml
--rw-r--r-- root/root     17371 2023-08-02 02:06 ./opt/ros/humble/share/stage/rgb.txt
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./usr/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./usr/share/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./usr/share/doc/
-drwxr-xr-x root/root         0 2023-08-02 02:07 ./usr/share/doc/ros-humble-stage/
--rw-r--r-- root/root       194 2023-08-02 02:07 ./usr/share/doc/ros-humble-stage/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2023-08-03 02:09 ./opt/ros/humble/share/stage/local_setup.bash
+-rw-r--r-- root/root       138 2023-08-03 02:09 ./opt/ros/humble/share/stage/local_setup.dsv
+-rw-r--r-- root/root      5082 2023-08-03 02:09 ./opt/ros/humble/share/stage/local_setup.sh
+-rw-r--r-- root/root      1957 2023-08-03 02:09 ./opt/ros/humble/share/stage/local_setup.zsh
+-rw-r--r-- root/root       140 2023-08-03 02:09 ./opt/ros/humble/share/stage/package.dsv
+-rw-r--r-- root/root      1937 2023-08-03 02:09 ./opt/ros/humble/share/stage/package.xml
+-rw-r--r-- root/root     17371 2023-08-03 02:09 ./opt/ros/humble/share/stage/rgb.txt
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./usr/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./usr/share/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-08-03 02:09 ./usr/share/doc/ros-humble-stage/
+-rw-r--r-- root/root       197 2023-08-03 02:09 ./usr/share/doc/ros-humble-stage/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -2903,19 +2903,19 @@ Not cleaning session: cloned chroot in use
 
 Build Architecture: amd64
 Build Type: binary
-Build-Space: 71400
-Build-Time: 63
+Build-Space: 71404
+Build-Time: 53
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 56
-Job: /home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.08.02.02.07.dsc
+Install-Time: 68
+Job: /home/runner/work/maila_packages/maila_packages/src/ros-humble-stage_0-2023.08.03.02.09.dsc
 Machine Architecture: amd64
 Package: ros-humble-stage
-Package-Time: 135
-Source-Version: 0-2023.08.02.02.07
-Space: 71400
+Package-Time: 133
+Source-Version: 0-2023.08.03.02.09
+Space: 71404
 Status: successful
-Version: 0-2023.08.02.02.07
+Version: 0-2023.08.03.02.09
 --------------------------------------------------------------------------------
-Finished at 2023-08-02T02:10:11Z
-Build needed 00:02:15, 71400k disk space
+Finished at 2023-08-03T02:12:12Z
+Build needed 00:02:13, 71404k disk space
