@@ -1,45 +1,45 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az403-649.hygycmftfzhufhibl0gpb0mjph.bx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az402-425.zlisyc4n25qujmhlofgsklinne.cx.internal.cloudapp.net
 
 +==============================================================================+
-| ros-rolling-stage 0-2023.08.02.02.06 (amd64) Wed, 02 Aug 2023 02:06:41 +0000 |
+| ros-rolling-stage 0-2023.08.03.02.10 (amd64) Thu, 03 Aug 2023 02:10:06 +0000 |
 +==============================================================================+
 
 Package: ros-rolling-stage
-Version: 0-2023.08.02.02.06
-Source Version: 0-2023.08.02.02.06
+Version: 0-2023.08.03.02.10
+Source Version: 0-2023.08.03.02.10
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.7CBQb_mk1E...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.2IYiJwuu8R...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-z7VCtI' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-ueDQjA' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-py77Zw/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-py77Zw/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-py77Zw/apt_archive ./ Release [574 B]
-Get:2 file:/build/package//resolver-py77Zw/apt_archive ./ Release [574 B]
-Get:3 file:/build/package//resolver-py77Zw/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-py77Zw/apt_archive ./ Release.gpg
-Get:4 file:/build/package//resolver-py77Zw/apt_archive ./ Packages [525 B]
+Get:1 file:/build/package//resolver-WcmZ9n/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-WcmZ9n/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-WcmZ9n/apt_archive ./ Release [574 B]
+Get:2 file:/build/package//resolver-WcmZ9n/apt_archive ./ Release [574 B]
+Get:3 file:/build/package//resolver-WcmZ9n/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-WcmZ9n/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-WcmZ9n/apt_archive ./ Packages [525 B]
 Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
 Get:6 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
-Get:7 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
 Get:8 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:10 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1297 kB]
-Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:12 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [650 kB]
-Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [768 kB]
-Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [859 kB]
-Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [961 kB]
-Fetched 20.5 MB in 3s (8125 kB/s)
+Get:9 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [863 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [961 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [658 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [768 kB]
+Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1297 kB]
+Fetched 20.5 MB in 3s (8208 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -55,7 +55,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/maila_packages/maila_packages/src/ros-rolling-stage_0-2023.08.02.02.06.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
+/home/runner/work/maila_packages/maila_packages/src/ros-rolling-stage_0-2023.08.03.02.10.dsc exists in /home/runner/work/maila_packages/maila_packages/src; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -77,12 +77,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [765 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [797 B]
 Fetched 2142 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ Release [574 B]
-Get:2 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ Release [574 B]
-Get:3 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-py77Zw/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ Release [574 B]
+Get:2 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ Release [574 B]
+Get:3 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-WcmZ9n/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -255,8 +255,8 @@ The following NEW packages will be installed:
 Need to get 113 MB of archives.
 After this operation, 476 MB of additional disk space will be used.
 Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [740 B]
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.2 [811 kB]
-Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
+Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 python3-catkin-pkg-modules all 0.5.2-1 [43.2 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-minimal amd64 3.10.12-1~22.04.2 [811 kB]
 Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-package amd64 0.16.2-1jammy.20230512.142902 [21.8 kB]
 Get:5 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-core amd64 2.2.1-1jammy.20230621.175837 [29.8 kB]
 Get:6 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ros-workspace amd64 1.0.3-3jammy.20230621.180116 [16.8 kB]
@@ -270,20 +270,20 @@ Get:13 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cm
 Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-export-targets amd64 2.2.1-1jammy.20230621.180731 [7846 B]
 Get:15 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-gen-version-h amd64 2.2.1-1jammy.20230711.194358 [9368 B]
 Get:16 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-python amd64 2.2.1-1jammy.20230621.180629 [10.8 kB]
-Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
-Get:18 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-include-directories amd64 2.2.1-1jammy.20230621.180600 [7604 B]
-Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-target-dependencies amd64 2.2.1-1jammy.20230621.180858 [9808 B]
-Get:20 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-test amd64 2.2.1-1jammy.20230621.180741 [16.9 kB]
-Get:21 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-version amd64 2.2.1-1jammy.20230621.180322 [7358 B]
-Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.2 [2258 kB]
-Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
-Get:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
-Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
-Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
-Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
-Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
-Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.12-1~22.04.2 [1849 kB]
-Get:30 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake amd64 2.2.1-1jammy.20230711.194606 [7694 B]
+Get:17 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-include-directories amd64 2.2.1-1jammy.20230621.180600 [7604 B]
+Get:18 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-target-dependencies amd64 2.2.1-1jammy.20230621.180858 [9808 B]
+Get:19 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-test amd64 2.2.1-1jammy.20230621.180741 [16.9 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.2 [91.0 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10-minimal amd64 3.10.12-1~22.04.2 [2258 kB]
+Get:22 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake-version amd64 2.2.1-1jammy.20230621.180322 [7358 B]
+Get:23 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-rolling-ament-cmake amd64 2.2.1-1jammy.20230711.194606 [7694 B]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04 [24.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy/main amd64 media-types all 7.0.0 [25.5 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpdec3 amd64 2.5.1-2build2 [86.8 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 readline-common all 8.1.2-1 [53.5 kB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 libreadline8 amd64 8.1.2-1 [153 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.1 [641 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3.10-stdlib amd64 3.10.12-1~22.04.2 [1849 kB]
 Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3.10 amd64 3.10.12-1~22.04.2 [509 kB]
 Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04 [6910 B]
 Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04 [22.8 kB]
@@ -557,7 +557,7 @@ Get:300 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-core-dev amd6
 Get:301 http://archive.ubuntu.com/ubuntu jammy/main amd64 libglvnd-dev amd64 1.4.0-1 [3162 B]
 Get:302 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgl1-mesa-dev amd64 22.2.5-0ubuntu0.1~22.04.3 [6756 B]
 debconf: delaying package configuration, since apt-utils is not installed
-Fetched 113 MB in 37s (3025 kB/s)
+Fetched 113 MB in 13s (8620 kB/s)
 Selecting previously unselected package libpython3.10-minimal:amd64.
 (Reading database ... 10541 files and directories currently installed.)
 Preparing to unpack .../libpython3.10-minimal_3.10.12-1~22.04.2_amd64.deb ...
@@ -1517,8 +1517,8 @@ Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
 Setting up tzdata (2023c-0ubuntu0.22.04.2) ...
 
 Current default time zone: 'Etc/UTC'
-Local time is now:      Wed Aug  2 02:07:45 UTC 2023.
-Universal Time is now:  Wed Aug  2 02:07:45 UTC 2023.
+Local time is now:      Thu Aug  3 02:10:45 UTC 2023.
+Universal Time is now:  Thu Aug  3 02:10:45 UTC 2023.
 Run 'dpkg-reconfigure tzdata' if you wish to change it.
 
 Setting up fakeroot (1.28-1ubuntu1) ...
@@ -1815,7 +1815,7 @@ Format: 1.0
 Source: ros-rolling-stage
 Binary: ros-rolling-stage
 Architecture: any
-Version: 0-2023.08.02.02.06
+Version: 0-2023.08.03.02.10
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Homepage: http://rtv.github.com/Stage
 Standards-Version: 3.9.2
@@ -1823,15 +1823,15 @@ Build-Depends: debhelper (>= 9.0.0), libfltk1.3-dev, libgl1-mesa-dev, libglu1-me
 Package-List:
  ros-rolling-stage deb misc optional arch=any
 Checksums-Sha1:
- dfe6e14dbd318b61d73049bde4ec2b4e80370e3d 8948656 ros-rolling-stage_0-2023.08.02.02.06.tar.gz
+ 629ddcfa25c9d9836cfeb15d036a912a992a1ff9 8964960 ros-rolling-stage_0-2023.08.03.02.10.tar.gz
 Checksums-Sha256:
- c4a3e5c14fa68de70626cfa45446b400c0bba8b8b411fac5824e48b38177085d 8948656 ros-rolling-stage_0-2023.08.02.02.06.tar.gz
+ 4fdb8aa1fea62bab1b350c93b95bb4bb1f82c233b1157ce888d744ea5b5f19d6 8964960 ros-rolling-stage_0-2023.08.03.02.10.tar.gz
 Files:
- 689176fd29191bd9c4fc8474fa5d906c 8948656 ros-rolling-stage_0-2023.08.02.02.06.tar.gz
+ 2d98ff3ed8d6c899e8d971d03cf0542d 8964960 ros-rolling-stage_0-2023.08.03.02.10.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-rolling-stage_0-2023.08.02.02.06.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-rolling-stage_0-2023.08.03.02.10.dsc)
 dpkg-source: info: extracting ros-rolling-stage in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-rolling-stage_0-2023.08.02.02.06.tar.gz
+dpkg-source: info: unpacking ros-rolling-stage_0-2023.08.03.02.10.tar.gz
 
 Check disk space
 ----------------
@@ -1859,7 +1859,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-rolling-stage
-dpkg-buildpackage: info: source version 0-2023.08.02.02.06
+dpkg-buildpackage: info: source version 0-2023.08.03.02.10
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Valerio Magnago <valerio.magnago@gmail.com>
  dpkg-source --before-build .
@@ -1981,8 +1981,8 @@ cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends 
 make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
 make  -f libstage/CMakeFiles/stage.dir/build.make libstage/CMakeFiles/stage.dir/build
 make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[  2%] Building CXX object libstage/CMakeFiles/stage.dir/src/block.cc.o
 [  5%] Building CXX object libstage/CMakeFiles/stage.dir/src/blockgroup.cc.o
-[  5%] Building CXX object libstage/CMakeFiles/stage.dir/src/block.cc.o
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/libstage && /usr/lib/ccache/c++ -Dstage_EXPORTS -I/<<BUILDDIR>>package/. -I/<<BUILDDIR>>package/libstage/include -I/<<BUILDDIR>>package/replace -I/usr/lib/fltk -I/<<BUILDDIR>>package/obj-x86_64-linux-gnu -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT libstage/CMakeFiles/stage.dir/src/block.cc.o -MF CMakeFiles/stage.dir/src/block.cc.o.d -o CMakeFiles/stage.dir/src/block.cc.o -c /<<BUILDDIR>>package/libstage/src/block.cc
 cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/libstage && /usr/lib/ccache/c++ -Dstage_EXPORTS -I/<<BUILDDIR>>package/. -I/<<BUILDDIR>>package/libstage/include -I/<<BUILDDIR>>package/replace -I/usr/lib/fltk -I/<<BUILDDIR>>package/obj-x86_64-linux-gnu -g -O2 -ffile-prefix-map=/<<BUILDDIR>>package=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -MD -MT libstage/CMakeFiles/stage.dir/src/blockgroup.cc.o -MF CMakeFiles/stage.dir/src/blockgroup.cc.o.d -o CMakeFiles/stage.dir/src/blockgroup.cc.o -c /<<BUILDDIR>>package/libstage/src/blockgroup.cc
 [  8%] Building CXX object libstage/CMakeFiles/stage.dir/src/camera.cc.o
@@ -2181,7 +2181,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	rm -f debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so
 	ln -s libstage.so.4.3.0 debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so
    dh_strip_nondeterminism -O-v -O--buildsystem=cmake
-	Using 1690942000 as canonical time
+	Using 1691028604 as canonical time
 	Normalizing debian/ros-rolling-stage/opt/ros/rolling/share/stage/assets/mains.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-rolling-stage/opt/ros/rolling/share/stage/assets/stall-old.png using File::StripNondeterminism::handlers::png
 	Normalizing debian/ros-rolling-stage/opt/ros/rolling/share/stage/assets/blue.png using File::StripNondeterminism::handlers::png
@@ -2206,34 +2206,34 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	find debian/ros-rolling-stage -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
    dh_missing -O-v -O--buildsystem=cmake
    dh_strip -O-v -O--buildsystem=cmake
-	debugedit --build-id --build-id-seed=ros-rolling-stage/0-2023.08.02.02.06 debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
-396e5ec0a246442c85764ef4c8114c5b38772be7
-	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/39
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/39/6e5ec0a246442c85764ef4c8114c5b38772be7.debug
-	chmod 0644 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/39/6e5ec0a246442c85764ef4c8114c5b38772be7.debug
-	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/39/6e5ec0a246442c85764ef4c8114c5b38772be7.debug
-	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/AmoYXPuNOa/strip4vsxmG debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
-	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/AmoYXPuNOa/strip4vsxmG
-	cat '/tmp/AmoYXPuNOa/strip4vsxmG' > 'debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/AmoYXPuNOa/strip4vsxmG debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/39/6e5ec0a246442c85764ef4c8114c5b38772be7.debug debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/AmoYXPuNOa/objcopyDHxc8p
-	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/AmoYXPuNOa/objcopyDHxc8p
-	cat '/tmp/AmoYXPuNOa/objcopyDHxc8p' > 'debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0'
-	chmod --reference /tmp/AmoYXPuNOa/objcopyDHxc8p debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
-	debugedit --build-id --build-id-seed=ros-rolling-stage/0-2023.08.02.02.06 debian/ros-rolling-stage/opt/ros/rolling/bin/stage
-12c3d2c6bedd77bfca82277361f415a538e8638d
-	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/12
-	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-stage/opt/ros/rolling/bin/stage debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/12/c3d2c6bedd77bfca82277361f415a538e8638d.debug
-	chmod 0644 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/12/c3d2c6bedd77bfca82277361f415a538e8638d.debug
-	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/12/c3d2c6bedd77bfca82277361f415a538e8638d.debug
-	strip --remove-section=.comment --remove-section=.note -o /tmp/AmoYXPuNOa/stripgghfTw debian/ros-rolling-stage/opt/ros/rolling/bin/stage
-	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/AmoYXPuNOa/stripgghfTw
-	cat '/tmp/AmoYXPuNOa/stripgghfTw' > 'debian/ros-rolling-stage/opt/ros/rolling/bin/stage'
-	chmod --reference /tmp/AmoYXPuNOa/stripgghfTw debian/ros-rolling-stage/opt/ros/rolling/bin/stage
-	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/12/c3d2c6bedd77bfca82277361f415a538e8638d.debug debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/AmoYXPuNOa/objcopybXIy_a
-	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/AmoYXPuNOa/objcopybXIy_a
-	cat '/tmp/AmoYXPuNOa/objcopybXIy_a' > 'debian/ros-rolling-stage/opt/ros/rolling/bin/stage'
-	chmod --reference /tmp/AmoYXPuNOa/objcopybXIy_a debian/ros-rolling-stage/opt/ros/rolling/bin/stage
+	debugedit --build-id --build-id-seed=ros-rolling-stage/0-2023.08.03.02.10 debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
+64e589a94cc81cb05687929a87df54fb2b04e470
+	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/64
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/64/e589a94cc81cb05687929a87df54fb2b04e470.debug
+	chmod 0644 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/64/e589a94cc81cb05687929a87df54fb2b04e470.debug
+	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/64/e589a94cc81cb05687929a87df54fb2b04e470.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/tZMUUzV2ni/stripQCnp1B debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
+	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/tZMUUzV2ni/stripQCnp1B
+	cat '/tmp/tZMUUzV2ni/stripQCnp1B' > 'debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/tZMUUzV2ni/stripQCnp1B debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/64/e589a94cc81cb05687929a87df54fb2b04e470.debug debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/tZMUUzV2ni/objcopy1UhPb0
+	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0 /tmp/tZMUUzV2ni/objcopy1UhPb0
+	cat '/tmp/tZMUUzV2ni/objcopy1UhPb0' > 'debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0'
+	chmod --reference /tmp/tZMUUzV2ni/objcopy1UhPb0 debian/ros-rolling-stage/opt/ros/rolling/lib/libstage.so.4.3.0
+	debugedit --build-id --build-id-seed=ros-rolling-stage/0-2023.08.03.02.10 debian/ros-rolling-stage/opt/ros/rolling/bin/stage
+2c0c5826aada7ad4b862271829c5c36e2d4c8c33
+	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/2c
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-rolling-stage/opt/ros/rolling/bin/stage debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/2c/0c5826aada7ad4b862271829c5c36e2d4c8c33.debug
+	chmod 0644 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/2c/0c5826aada7ad4b862271829c5c36e2d4c8c33.debug
+	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/2c/0c5826aada7ad4b862271829c5c36e2d4c8c33.debug
+	strip --remove-section=.comment --remove-section=.note -o /tmp/tZMUUzV2ni/stripCtbL8g debian/ros-rolling-stage/opt/ros/rolling/bin/stage
+	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/tZMUUzV2ni/stripCtbL8g
+	cat '/tmp/tZMUUzV2ni/stripCtbL8g' > 'debian/ros-rolling-stage/opt/ros/rolling/bin/stage'
+	chmod --reference /tmp/tZMUUzV2ni/stripCtbL8g debian/ros-rolling-stage/opt/ros/rolling/bin/stage
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/lib/debug/.build-id/2c/0c5826aada7ad4b862271829c5c36e2d4c8c33.debug debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/tZMUUzV2ni/objcopyx7RRJG
+	chmod --reference debian/ros-rolling-stage/opt/ros/rolling/bin/stage /tmp/tZMUUzV2ni/objcopyx7RRJG
+	cat '/tmp/tZMUUzV2ni/objcopyx7RRJG' > 'debian/ros-rolling-stage/opt/ros/rolling/bin/stage'
+	chmod --reference /tmp/tZMUUzV2ni/objcopyx7RRJG debian/ros-rolling-stage/opt/ros/rolling/bin/stage
 	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/share/doc
 	ln -s ros-rolling-stage debian/.debhelper/ros-rolling-stage/dbgsym-root/usr/share/doc/ros-rolling-stage-dbgsym
    dh_makeshlibs -O-v -O--buildsystem=cmake
@@ -2260,7 +2260,7 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	echo misc:Depends= >> debian/ros-rolling-stage.substvars
 	echo misc:Pre-Depends= >> debian/ros-rolling-stage.substvars
 	install -d debian/.debhelper/ros-rolling-stage/dbgsym-root/DEBIAN
-	dpkg-gencontrol -pros-rolling-stage -ldebian/changelog -Tdebian/ros-rolling-stage.substvars -Pdebian/.debhelper/ros-rolling-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-rolling-stage-dbgsym "-DDepends=ros-rolling-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-rolling-stage" "-DBuild-Ids=12c3d2c6bedd77bfca82277361f415a538e8638d 396e5ec0a246442c85764ef4c8114c5b38772be7" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	dpkg-gencontrol -pros-rolling-stage -ldebian/changelog -Tdebian/ros-rolling-stage.substvars -Pdebian/.debhelper/ros-rolling-stage/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -UBuilt-Using -DAuto-Built-Package=debug-symbols -UProtected -DPackage=ros-rolling-stage-dbgsym "-DDepends=ros-rolling-stage (= \${binary:Version})" "-DDescription=debug symbols for ros-rolling-stage" "-DBuild-Ids=2c0c5826aada7ad4b862271829c5c36e2d4c8c33 64e589a94cc81cb05687929a87df54fb2b04e470" -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
 	chmod 0644 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/DEBIAN/control
 	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/DEBIAN/control
 	dpkg-gencontrol -pros-rolling-stage -ldebian/changelog -Tdebian/ros-rolling-stage.substvars -Pdebian/ros-rolling-stage
@@ -2275,20 +2275,20 @@ make[1]: Leaving directory '/<<BUILDDIR>>package'
 	chown 0:0 -- debian/.debhelper/ros-rolling-stage/dbgsym-root/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=cmake
 	dpkg-deb --build debian/ros-rolling-stage ..
-dpkg-deb: building package 'ros-rolling-stage' in '../ros-rolling-stage_0-2023.08.02.02.06_amd64.deb'.
+dpkg-deb: building package 'ros-rolling-stage' in '../ros-rolling-stage_0-2023.08.03.02.10_amd64.deb'.
 	install -d debian/.debhelper/scratch-space/build-ros-rolling-stage
 	dpkg-deb --build debian/.debhelper/ros-rolling-stage/dbgsym-root debian/.debhelper/scratch-space/build-ros-rolling-stage
-dpkg-deb: building package 'ros-rolling-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-rolling-stage/ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.deb'.
-	Renaming ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.deb to ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
-	mv debian/.debhelper/scratch-space/build-ros-rolling-stage/ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.deb ../ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- dpkg-genbuildinfo --build=binary -O../ros-rolling-stage_0-2023.08.02.02.06_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-rolling-stage_0-2023.08.02.02.06_amd64.changes
+dpkg-deb: building package 'ros-rolling-stage-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-rolling-stage/ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.deb'.
+	Renaming ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.deb to ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-rolling-stage/ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.deb ../ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-rolling-stage_0-2023.08.03.02.10_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-rolling-stage_0-2023.08.03.02.10_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2023-08-02T02:08:40Z
+Build finished at 2023-08-03T02:11:37Z
 
 Finished
 --------
@@ -2300,16 +2300,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-rolling-stage_0-2023.08.02.02.06_amd64.changes:
+ros-rolling-stage_0-2023.08.03.02.10_amd64.changes:
 ---------------------------------------------------
 
 Format: 1.8
-Date: Wed, 02 Aug 2023 02:06:40 -0000
+Date: Thu, 03 Aug 2023 02:10:04 -0000
 Source: ros-rolling-stage
 Binary: ros-rolling-stage
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2023.08.02.02.06
+Version: 0-2023.08.03.02.10
 Distribution: jammy
 Urgency: high
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
@@ -2317,21 +2317,21 @@ Changed-By: Valerio Magnago <valerio.magnago@gmail.com>
 Description:
  ros-rolling-stage - Stage simulates a population of mobile robots, sensors and object
 Changes:
- ros-rolling-stage (0-2023.08.02.02.06) jammy; urgency=high
+ ros-rolling-stage (0-2023.08.03.02.10) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- fbee8e7d550abf1d705ed4d3ca1bd86fb10f3193 2833278 ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- b1e310eb87a37860a68d575d663bebc61907e0a4 16650 ros-rolling-stage_0-2023.08.02.02.06_amd64.buildinfo
- f7ed7236e3b62ed2e43d4db69b48d05dc0580f2f 511064 ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ f2b35d28c03e4dcafdea543bf2b0d8ace386b9bb 2833286 ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ 8b1c42701ffc2122fc8a920b1d6fa66e59cfb85a 16650 ros-rolling-stage_0-2023.08.03.02.10_amd64.buildinfo
+ 164a6ea924961ee83d8780fd3e72613666b873e4 511106 ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 Checksums-Sha256:
- 0b1b13276c356dcd901ad38025635fd9033756eb5fafbb5d5d45b809a16e356e 2833278 ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- 3bf7f85625232d48ae2261f407a10bd0205478c105261b13409469461a953f46 16650 ros-rolling-stage_0-2023.08.02.02.06_amd64.buildinfo
- c426d0c95dc6f944f5e27f5a50914770bc79223378cb9f06208a6fb65f6a895f 511064 ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ 52d6800bcb01ae28f3819b7e7ca1c2609c5270f2be059c2b0fe400e627d46781 2833286 ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ 409c4b11c7acfaf4186635eaa377f541a533b51e45df84084ece8799ac6e6dde 16650 ros-rolling-stage_0-2023.08.03.02.10_amd64.buildinfo
+ b7e3b97051f2c7c7d9ef41e7b8562b7a52da25a8ac4c63b3821c4fbc8972aa9a 511106 ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 Files:
- b34a20345b85c892badb9d41a1fc8947 2833278 debug optional ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- 82fd17adc188c36653868d95083fdd02 16650 misc optional ros-rolling-stage_0-2023.08.02.02.06_amd64.buildinfo
- f015946c88b82bfa04d4dae80c8937ca 511064 misc optional ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ 0085ff503b4666447c50899a74b233a3 2833286 debug optional ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ 2db216f59c22298379a1dc9af0bd4adc 16650 misc optional ros-rolling-stage_0-2023.08.03.02.10_amd64.buildinfo
+ 897498564cace843cdab220edcd70fa4 511106 misc optional ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -2341,19 +2341,19 @@ Format: 1.0
 Source: ros-rolling-stage
 Binary: ros-rolling-stage ros-rolling-stage-dbgsym
 Architecture: amd64
-Version: 0-2023.08.02.02.06
+Version: 0-2023.08.03.02.10
 Checksums-Md5:
- b34a20345b85c892badb9d41a1fc8947 2833278 ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- f015946c88b82bfa04d4dae80c8937ca 511064 ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ 0085ff503b4666447c50899a74b233a3 2833286 ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ 897498564cace843cdab220edcd70fa4 511106 ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 Checksums-Sha1:
- fbee8e7d550abf1d705ed4d3ca1bd86fb10f3193 2833278 ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- f7ed7236e3b62ed2e43d4db69b48d05dc0580f2f 511064 ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ f2b35d28c03e4dcafdea543bf2b0d8ace386b9bb 2833286 ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ 164a6ea924961ee83d8780fd3e72613666b873e4 511106 ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 Checksums-Sha256:
- 0b1b13276c356dcd901ad38025635fd9033756eb5fafbb5d5d45b809a16e356e 2833278 ros-rolling-stage-dbgsym_0-2023.08.02.02.06_amd64.ddeb
- c426d0c95dc6f944f5e27f5a50914770bc79223378cb9f06208a6fb65f6a895f 511064 ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ 52d6800bcb01ae28f3819b7e7ca1c2609c5270f2be059c2b0fe400e627d46781 2833286 ros-rolling-stage-dbgsym_0-2023.08.03.02.10_amd64.ddeb
+ b7e3b97051f2c7c7d9ef41e7b8562b7a52da25a8ac4c63b3821c4fbc8972aa9a 511106 ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 02 Aug 2023 02:08:39 +0000
+Build-Date: Thu, 03 Aug 2023 02:11:37 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -2796,7 +2796,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1690942000"
+ SOURCE_DATE_EPOCH="1691028604"
 
 
 +------------------------------------------------------------------------------+
@@ -2804,17 +2804,17 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
+ros-rolling-stage_0-2023.08.03.02.10_amd64.deb
 ----------------------------------------------
 
  new Debian package, version 2.0.
- size 511064 bytes: control archive=1818 bytes.
+ size 511106 bytes: control archive=1823 bytes.
      871 bytes,    11 lines      control              
     3051 bytes,    36 lines      md5sums              
       33 bytes,     1 lines      shlibs               
       72 bytes,     2 lines      triggers             
  Package: ros-rolling-stage
- Version: 0-2023.08.02.02.06
+ Version: 0-2023.08.03.02.10
  Architecture: amd64
  Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
  Installed-Size: 977
@@ -2825,65 +2825,65 @@ ros-rolling-stage_0-2023.08.02.02.06_amd64.deb
  Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
   Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
 
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/bin/
--rwxr-xr-x root/root     14752 2023-08-02 02:06 ./opt/ros/rolling/bin/stage
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/include/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/include/stage/
--rw-r--r-- root/root     92907 2023-08-02 02:05 ./opt/ros/rolling/include/stage/stage.hh
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/lib/
-lrwxrwxrwx root/root         0 2023-08-02 02:06 ./opt/ros/rolling/lib/libstage.so -> libstage.so.4.3.0
--rw-r--r-- root/root    474536 2023-08-02 02:06 ./opt/ros/rolling/lib/libstage.so.4.3.0
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/package_run_dependencies/
--rw-r--r-- root/root        31 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/package_run_dependencies/stage
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/packages/stage
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/parent_prefix_path/
--rw-r--r-- root/root         8 2023-08-02 02:06 ./opt/ros/rolling/share/ament_index/resource_index/parent_prefix_path/stage
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/stage/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/stage/assets/
--rw-r--r-- root/root     13691 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/blue.png
--rw-r--r-- root/root     52466 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/death.png
--rw-r--r-- root/root     10885 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/green.png
--rw-r--r-- root/root      6559 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/logo.png
--rw-r--r-- root/root     87815 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/mains.png
--rw-r--r-- root/root     56004 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/mainspower.png
--rw-r--r-- root/root     19157 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/question_mark.png
--rw-r--r-- root/root     13180 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/red.png
--rw-r--r-- root/root     17371 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/rgb.txt
--rw-r--r-- root/root      6559 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/stagelogo.png
--rw-r--r-- root/root     21449 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/stall-old.png
--rw-r--r-- root/root     31043 2023-08-02 02:05 ./opt/ros/rolling/share/stage/assets/stall.png
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/stage/cmake/
--rw-r--r-- root/root       749 2023-08-02 02:06 ./opt/ros/rolling/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
--rw-r--r-- root/root      4915 2023-08-02 02:06 ./opt/ros/rolling/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
--rw-r--r-- root/root       432 2023-08-02 02:06 ./opt/ros/rolling/share/stage/cmake/stageConfig-version.cmake
--rw-r--r-- root/root      1280 2023-08-02 02:06 ./opt/ros/rolling/share/stage/cmake/stageConfig.cmake
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./opt/ros/rolling/share/stage/environment/
--rw-r--r-- root/root        41 2023-08-02 02:06 ./opt/ros/rolling/share/stage/environment/ament_prefix_path.dsv
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/bin/
+-rwxr-xr-x root/root     14752 2023-08-03 02:10 ./opt/ros/rolling/bin/stage
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/include/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/include/stage/
+-rw-r--r-- root/root     92907 2023-08-03 02:09 ./opt/ros/rolling/include/stage/stage.hh
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/lib/
+lrwxrwxrwx root/root         0 2023-08-03 02:10 ./opt/ros/rolling/lib/libstage.so -> libstage.so.4.3.0
+-rw-r--r-- root/root    474536 2023-08-03 02:10 ./opt/ros/rolling/lib/libstage.so.4.3.0
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root        31 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/package_run_dependencies/stage
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/packages/stage
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2023-08-03 02:10 ./opt/ros/rolling/share/ament_index/resource_index/parent_prefix_path/stage
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/stage/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/stage/assets/
+-rw-r--r-- root/root     13691 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/blue.png
+-rw-r--r-- root/root     52466 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/death.png
+-rw-r--r-- root/root     10885 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/green.png
+-rw-r--r-- root/root      6559 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/logo.png
+-rw-r--r-- root/root     87815 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/mains.png
+-rw-r--r-- root/root     56004 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/mainspower.png
+-rw-r--r-- root/root     19157 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/question_mark.png
+-rw-r--r-- root/root     13180 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/red.png
+-rw-r--r-- root/root     17371 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/rgb.txt
+-rw-r--r-- root/root      6559 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/stagelogo.png
+-rw-r--r-- root/root     21449 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/stall-old.png
+-rw-r--r-- root/root     31043 2023-08-03 02:09 ./opt/ros/rolling/share/stage/assets/stall.png
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/stage/cmake/
+-rw-r--r-- root/root       749 2023-08-03 02:10 ./opt/ros/rolling/share/stage/cmake/ament_cmake_export_include_directories-extras.cmake
+-rw-r--r-- root/root      4915 2023-08-03 02:10 ./opt/ros/rolling/share/stage/cmake/ament_cmake_export_libraries-extras.cmake
+-rw-r--r-- root/root       432 2023-08-03 02:10 ./opt/ros/rolling/share/stage/cmake/stageConfig-version.cmake
+-rw-r--r-- root/root      1280 2023-08-03 02:10 ./opt/ros/rolling/share/stage/cmake/stageConfig.cmake
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./opt/ros/rolling/share/stage/environment/
+-rw-r--r-- root/root        41 2023-08-03 02:10 ./opt/ros/rolling/share/stage/environment/ament_prefix_path.dsv
 -rw-r--r-- root/root       160 2023-06-21 16:45 ./opt/ros/rolling/share/stage/environment/ament_prefix_path.sh
--rw-r--r-- root/root        42 2023-08-02 02:06 ./opt/ros/rolling/share/stage/environment/library_path.dsv
+-rw-r--r-- root/root        42 2023-08-03 02:10 ./opt/ros/rolling/share/stage/environment/library_path.dsv
 -rw-r--r-- root/root       411 2023-05-12 14:01 ./opt/ros/rolling/share/stage/environment/library_path.sh
--rw-r--r-- root/root        41 2023-08-02 02:06 ./opt/ros/rolling/share/stage/environment/path.dsv
+-rw-r--r-- root/root        41 2023-08-03 02:10 ./opt/ros/rolling/share/stage/environment/path.dsv
 -rw-r--r-- root/root       185 2023-06-21 16:45 ./opt/ros/rolling/share/stage/environment/path.sh
--rw-r--r-- root/root      1594 2023-08-02 02:06 ./opt/ros/rolling/share/stage/local_setup.bash
--rw-r--r-- root/root       138 2023-08-02 02:06 ./opt/ros/rolling/share/stage/local_setup.dsv
--rw-r--r-- root/root      5083 2023-08-02 02:06 ./opt/ros/rolling/share/stage/local_setup.sh
--rw-r--r-- root/root      1957 2023-08-02 02:06 ./opt/ros/rolling/share/stage/local_setup.zsh
--rw-r--r-- root/root       140 2023-08-02 02:06 ./opt/ros/rolling/share/stage/package.dsv
--rw-r--r-- root/root      1937 2023-08-02 02:05 ./opt/ros/rolling/share/stage/package.xml
--rw-r--r-- root/root     17371 2023-08-02 02:05 ./opt/ros/rolling/share/stage/rgb.txt
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./usr/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./usr/share/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./usr/share/doc/
-drwxr-xr-x root/root         0 2023-08-02 02:06 ./usr/share/doc/ros-rolling-stage/
--rw-r--r-- root/root       194 2023-08-02 02:06 ./usr/share/doc/ros-rolling-stage/changelog.Debian.gz
+-rw-r--r-- root/root      1594 2023-08-03 02:10 ./opt/ros/rolling/share/stage/local_setup.bash
+-rw-r--r-- root/root       138 2023-08-03 02:10 ./opt/ros/rolling/share/stage/local_setup.dsv
+-rw-r--r-- root/root      5083 2023-08-03 02:10 ./opt/ros/rolling/share/stage/local_setup.sh
+-rw-r--r-- root/root      1957 2023-08-03 02:10 ./opt/ros/rolling/share/stage/local_setup.zsh
+-rw-r--r-- root/root       140 2023-08-03 02:10 ./opt/ros/rolling/share/stage/package.dsv
+-rw-r--r-- root/root      1937 2023-08-03 02:09 ./opt/ros/rolling/share/stage/package.xml
+-rw-r--r-- root/root     17371 2023-08-03 02:09 ./opt/ros/rolling/share/stage/rgb.txt
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./usr/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./usr/share/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./usr/share/doc/
+drwxr-xr-x root/root         0 2023-08-03 02:10 ./usr/share/doc/ros-rolling-stage/
+-rw-r--r-- root/root       196 2023-08-03 02:10 ./usr/share/doc/ros-rolling-stage/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -2904,19 +2904,19 @@ Not cleaning session: cloned chroot in use
 
 Build Architecture: amd64
 Build Type: binary
-Build-Space: 71388
-Build-Time: 45
+Build-Space: 71404
+Build-Time: 43
 Distribution: jammy
 Host Architecture: amd64
-Install-Time: 62
-Job: /home/runner/work/maila_packages/maila_packages/src/ros-rolling-stage_0-2023.08.02.02.06.dsc
+Install-Time: 37
+Job: /home/runner/work/maila_packages/maila_packages/src/ros-rolling-stage_0-2023.08.03.02.10.dsc
 Machine Architecture: amd64
 Package: ros-rolling-stage
-Package-Time: 119
-Source-Version: 0-2023.08.02.02.06
-Space: 71388
+Package-Time: 91
+Source-Version: 0-2023.08.03.02.10
+Space: 71404
 Status: successful
-Version: 0-2023.08.02.02.06
+Version: 0-2023.08.03.02.10
 --------------------------------------------------------------------------------
-Finished at 2023-08-02T02:08:40Z
-Build needed 00:01:59, 71388k disk space
+Finished at 2023-08-03T02:11:37Z
+Build needed 00:01:31, 71404k disk space
