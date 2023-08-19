@@ -2,19 +2,19 @@ Format: 1.0
 Source: ros-humble-stage-ros2
 Binary: ros-humble-stage-ros2 ros-humble-stage-ros2-dbgsym
 Architecture: amd64
-Version: 0-2023.08.18.01.59
+Version: 0-2023.08.19.01.56
 Checksums-Md5:
- 4e6a089d58b98f22400208b24bdcb4ce 2837394 ros-humble-stage-ros2-dbgsym_0-2023.08.18.01.59_amd64.ddeb
- 94a76f085e57817151f2d530bd60edab 176342 ros-humble-stage-ros2_0-2023.08.18.01.59_amd64.deb
+ e851b427584eb5b056aae66ce51ef1bb 2837400 ros-humble-stage-ros2-dbgsym_0-2023.08.19.01.56_amd64.ddeb
+ b648e025c3180e3ed5dfe159694a1bd6 176282 ros-humble-stage-ros2_0-2023.08.19.01.56_amd64.deb
 Checksums-Sha1:
- 061bfbbd0163de3b289bb8d9ebdf0094c99ce764 2837394 ros-humble-stage-ros2-dbgsym_0-2023.08.18.01.59_amd64.ddeb
- b5a6604f8dbe55272d2e8d9528811d3424261739 176342 ros-humble-stage-ros2_0-2023.08.18.01.59_amd64.deb
+ 34bee88985091eb8da1525331de5266a236166d8 2837400 ros-humble-stage-ros2-dbgsym_0-2023.08.19.01.56_amd64.ddeb
+ d4e9ea001ed457d6d6360816522a15f230c8c226 176282 ros-humble-stage-ros2_0-2023.08.19.01.56_amd64.deb
 Checksums-Sha256:
- aaa0a7c2007ddd196a35cc2614fab8667542122d175c80508eee6d8072ec762b 2837394 ros-humble-stage-ros2-dbgsym_0-2023.08.18.01.59_amd64.ddeb
- 3ecbc28fbab2beb344d885aa5df8f9e84b6650662cd56cbe2bde59e9003cd0d1 176342 ros-humble-stage-ros2_0-2023.08.18.01.59_amd64.deb
+ 7c36501a319c6653da34dcd6afd51195cbab25a73725d5401de6a6c89a0c0ed8 2837400 ros-humble-stage-ros2-dbgsym_0-2023.08.19.01.56_amd64.ddeb
+ 0df32ad60290e3b20c58a85ef574a963c23f9230d1aeabcef35a8605d6c469b0 176282 ros-humble-stage-ros2_0-2023.08.19.01.56_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Fri, 18 Aug 2023 02:03:21 +0000
+Build-Date: Sat, 19 Aug 2023 01:59:15 +0000
 Build-Path: /build/package/package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -732,39 +732,39 @@ Installed-Build-Depends:
  ros-humble-domain-coordinator (= 0.10.0-3jammy.20230718.194025),
  ros-humble-eigen3-cmake-module (= 0.1.1-4jammy.20230718.201058),
  ros-humble-fastcdr (= 1.0.24-2jammy.20230623.020010),
- ros-humble-fastrtps (= 2.6.5-1jammy.20230718.201431),
+ ros-humble-fastrtps (= 2.6.6-1jammy.20230807.150657),
  ros-humble-fastrtps-cmake-module (= 2.2.1-1jammy.20230718.201624),
  ros-humble-foonathan-memory-vendor (= 1.2.0-3jammy.20230718.201241),
  ros-humble-geometry-msgs (= 4.2.3-1jammy.20230721.202527),
  ros-humble-gmock-vendor (= 1.10.9004-4jammy.20230623.021528),
  ros-humble-gtest-vendor (= 1.10.9004-4jammy.20230623.020022),
- ros-humble-image-transport (= 3.1.5-1jammy.20230721.215638),
- ros-humble-libstatistics-collector (= 1.3.1-1jammy.20230721.204515),
+ ros-humble-image-transport (= 3.1.7-1jammy.20230814.152216),
+ ros-humble-libstatistics-collector (= 1.3.1-1jammy.20230807.154337),
  ros-humble-libyaml-vendor (= 1.2.2-2jammy.20230721.194118),
  ros-humble-lifecycle-msgs (= 1.2.1-1jammy.20230721.200142),
- ros-humble-message-filters (= 4.3.3-2jammy.20230721.214923),
+ ros-humble-message-filters (= 4.3.3-2jammy.20230807.170810),
  ros-humble-nav-msgs (= 4.2.3-1jammy.20230721.203141),
  ros-humble-orocos-kdl-vendor (= 0.2.5-1jammy.20230718.201716),
  ros-humble-pluginlib (= 5.1.0-3jammy.20230721.194533),
  ros-humble-python-cmake-module (= 0.10.0-2jammy.20230718.201759),
- ros-humble-rcl (= 5.3.4-3jammy.20230721.203419),
- ros-humble-rcl-action (= 5.3.4-3jammy.20230721.204515),
+ ros-humble-rcl (= 5.3.4-3jammy.20230807.153434),
+ ros-humble-rcl-action (= 5.3.4-3jammy.20230807.154336),
  ros-humble-rcl-interfaces (= 1.2.1-1jammy.20230721.200900),
- ros-humble-rcl-lifecycle (= 5.3.4-3jammy.20230721.204527),
+ ros-humble-rcl-lifecycle (= 5.3.4-3jammy.20230807.154336),
  ros-humble-rcl-logging-interface (= 2.3.1-1jammy.20230721.194346),
  ros-humble-rcl-logging-spdlog (= 2.3.1-1jammy.20230721.194510),
  ros-humble-rcl-yaml-param-parser (= 5.3.4-3jammy.20230721.194818),
- ros-humble-rclcpp (= 16.0.5-2jammy.20230721.204813),
- ros-humble-rclcpp-action (= 16.0.5-2jammy.20230721.214104),
- ros-humble-rclcpp-components (= 16.0.5-2jammy.20230721.214354),
- ros-humble-rclpy (= 3.3.9-1jammy.20230721.204932),
+ ros-humble-rclcpp (= 16.0.5-2jammy.20230807.154626),
+ ros-humble-rclcpp-action (= 16.0.5-2jammy.20230807.163228),
+ ros-humble-rclcpp-components (= 16.0.5-2jammy.20230807.164948),
+ ros-humble-rclpy (= 3.3.9-1jammy.20230807.155309),
  ros-humble-rcpputils (= 2.4.1-1jammy.20230721.193826),
  ros-humble-rcutils (= 5.1.3-1jammy.20230721.193257),
  ros-humble-rmw (= 6.1.1-1jammy.20230721.194203),
  ros-humble-rmw-dds-common (= 1.6.0-2jammy.20230721.195900),
- ros-humble-rmw-fastrtps-cpp (= 6.2.3-1jammy.20230721.202752),
- ros-humble-rmw-fastrtps-shared-cpp (= 6.2.3-1jammy.20230721.200205),
- ros-humble-rmw-implementation (= 2.8.2-1jammy.20230721.203136),
+ ros-humble-rmw-fastrtps-cpp (= 6.2.3-1jammy.20230807.152615),
+ ros-humble-rmw-fastrtps-shared-cpp (= 6.2.3-1jammy.20230807.152142),
+ ros-humble-rmw-implementation (= 2.8.2-1jammy.20230807.153049),
  ros-humble-rmw-implementation-cmake (= 6.1.1-1jammy.20230718.201829),
  ros-humble-ros-workspace (= 1.0.2-2jammy.20230623.002807),
  ros-humble-rosgraph-msgs (= 1.2.1-1jammy.20230721.201013),
@@ -788,16 +788,16 @@ Installed-Build-Depends:
  ros-humble-rpyutils (= 0.2.1-2jammy.20230718.195747),
  ros-humble-sensor-msgs (= 4.2.3-1jammy.20230721.203630),
  ros-humble-spdlog-vendor (= 1.3.1-1jammy.20230718.201914),
- ros-humble-stage (= 0-2023.08.18.01.57),
+ ros-humble-stage (= 0-2023.08.19.01.54),
  ros-humble-statistics-msgs (= 1.2.1-1jammy.20230721.200405),
  ros-humble-std-msgs (= 4.2.3-1jammy.20230721.200843),
  ros-humble-std-srvs (= 4.2.3-1jammy.20230721.200020),
  ros-humble-tf2 (= 0.25.3-1jammy.20230721.203549),
- ros-humble-tf2-geometry-msgs (= 0.25.3-1jammy.20230721.222829),
+ ros-humble-tf2-geometry-msgs (= 0.25.3-1jammy.20230807.173239),
  ros-humble-tf2-msgs (= 0.25.3-1jammy.20230721.203401),
- ros-humble-tf2-py (= 0.25.3-1jammy.20230721.205756),
- ros-humble-tf2-ros (= 0.25.3-1jammy.20230721.215654),
- ros-humble-tf2-ros-py (= 0.25.3-1jammy.20230721.205913),
+ ros-humble-tf2-py (= 0.25.3-1jammy.20230807.155755),
+ ros-humble-tf2-ros (= 0.25.3-1jammy.20230807.172136),
+ ros-humble-tf2-ros-py (= 0.25.3-1jammy.20230807.160124),
  ros-humble-tinyxml2-vendor (= 0.7.5-2jammy.20230623.023741),
  ros-humble-tracetools (= 4.1.1-1jammy.20230718.201716),
  ros-humble-unique-identifier-msgs (= 2.2.1-3jammy.20230721.200018),
@@ -831,4 +831,4 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1692323995"
+ SOURCE_DATE_EPOCH="1692410173"
