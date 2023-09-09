@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sat, 12 Dec 2020 00:00:00 -0000
+Source: ros-rolling-vesc-ackermann
+Binary: ros-rolling-vesc-ackermann
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-92-ge98abbb-2023.09.09.02.02
+Distribution: jammy
+Urgency: high
+Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
+Changed-By: Johannes Betz <joebetz@seas.upenn.edu>
+Description:
+ ros-rolling-vesc-ackermann - Translate between VESC messages and ROS ackermann and odometry me
+Changes:
+ ros-rolling-vesc-ackermann (1.1.0-92-ge98abbb-2023.09.09.02.02) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/f1tenth/vesc/issues/1> from f1tenth/melodic-devel
+     Updating for Melodic
+   * Remove unused Boost dependency.
+   * Replacing boost::shared_ptr with Standard Library equivalent.
+   * Fixing roslint error.
+   * Updating package.xml to format 3 and setting C++ standard to 11.
+   * Contributors: Joshua Whitley
+Checksums-Sha1:
+ d7a0028e3419d7fcf890854fdde244b42ebcf56b 4066178 ros-rolling-vesc-ackermann-dbgsym_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.ddeb
+ e818342ab9d1db5f342af679b4eb8f44d5019263 18347 ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.buildinfo
+ 64ccd27054153a26247701def8191baf0660f177 166504 ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.deb
+Checksums-Sha256:
+ cc4ebe1c1f185a50118b274110115cab99430d5f1ba6af5b4641f13aa07e630b 4066178 ros-rolling-vesc-ackermann-dbgsym_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.ddeb
+ a7c060ed955f7dc305468f7a8c16a182e885e45bcbca42bf21aa1a64902ded56 18347 ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.buildinfo
+ 61e50f110416336128072faf0af1cd2ccb517bc92bcc5fbf0e2c7fb390251b03 166504 ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.deb
+Files:
+ 250be5ac0fadd23eae9c4a2bae6b577d 4066178 debug optional ros-rolling-vesc-ackermann-dbgsym_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.ddeb
+ 5eae84c8a740dec358a52afcc5339d64 18347 misc optional ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.buildinfo
+ e5ecd628f1cc6a29cbbdb1dd90cce576 166504 misc optional ros-rolling-vesc-ackermann_1.1.0-92-ge98abbb-2023.09.09.02.02_amd64.deb
