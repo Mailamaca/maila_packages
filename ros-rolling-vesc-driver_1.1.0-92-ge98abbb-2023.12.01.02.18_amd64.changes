@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sat, 12 Dec 2020 00:00:00 -0000
+Source: ros-rolling-vesc-driver
+Binary: ros-rolling-vesc-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-92-ge98abbb-2023.12.01.02.18
+Distribution: jammy
+Urgency: high
+Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
+Changed-By: Johannes Betz <joebetz@seas.upenn.edu>
+Description:
+ ros-rolling-vesc-driver - ROS device driver for the Vedder VESC open source motor driver.
+Changes:
+ ros-rolling-vesc-driver (1.1.0-92-ge98abbb-2023.12.01.02.18) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/f1tenth/vesc/issues/1> from f1tenth/melodic-devel
+     Updating for Melodic
+   * Exclude crc.h from roslint.
+   * Replacing boost::crc with CRCPP.
+   * Replacing boost::begin, boost::end, and boost::distance with Standard Library equivalents.
+   * Replacing boost::bind with Standard Library equivalent.
+   * Replaing boost::noncopyable with C++ equivalent.
+   * Replacing boost::function with Standard Library version.
+   * Replacing Boost smart pointers with Standard Library equivalents.
+   * Removing unnecessary v8stdint.h.
+   * Updating package.xml to format 3 and setting C++ standard to 11.
+   * Contributors: Joshua Whitley
+Checksums-Sha1:
+ 617a8b5e7c5b5d7ab44f1b4ee763a6dca5c3337a 2812842 ros-rolling-vesc-driver-dbgsym_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.ddeb
+ 23d848f2120713b13e18f2691068d9ae1a700781 18425 ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.buildinfo
+ b8f20fa6b787d79d16915204faa46d4957e367ad 177872 ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.deb
+Checksums-Sha256:
+ 0eca7bfdc73bcb147ebe600d0b51f41457582eecebd1c8f507bb611d7725803f 2812842 ros-rolling-vesc-driver-dbgsym_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.ddeb
+ e689b4f30ca6b0da59cdf7c9377a3563b80babd24a6b9239d090bd6ad9d1a1da 18425 ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.buildinfo
+ 08c0897d999aeacd86a40f4a4ead971da3d7f1c842c0d70178deae4b063e993f 177872 ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.deb
+Files:
+ b3a5774edf904b56980c72b38094a160 2812842 debug optional ros-rolling-vesc-driver-dbgsym_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.ddeb
+ 61c5e60cc5a9d4a918696599b1205603 18425 misc optional ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.buildinfo
+ b711f12732eb025792160239e6c1c704 177872 misc optional ros-rolling-vesc-driver_1.1.0-92-ge98abbb-2023.12.01.02.18_amd64.deb
