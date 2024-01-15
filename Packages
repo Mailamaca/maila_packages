@@ -1,104 +1,104 @@
 Package: ros-iron-maila-2d-sim
 Architecture: amd64
-Version: 0-2024.01.14.02.10
+Version: 0-2024.01.15.02.10
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@hotmail.it>
 Installed-Size: 368
-Filename: ./ros-iron-maila-2d-sim_0-2024.01.14.02.10_amd64.deb
-Size: 45474
-MD5sum: 55212a2e0673b6ee8ef076d61fac9ddc
-SHA1: 9e18ecc867408c1e63358e4f9e7ef378a9e6fee2
-SHA256: 8eb9e9714b01d4fe138855ea7e4f54e7a52e7a7cc2f928dba0b78dd152b2eda7
-SHA512: 6f9f770875e0ab63ab2c47e1fe27567c157d44def98faad3565fface0474de8967fd997f7e21cada21bb973805d6419f1936f35ba704cfd1ec590181a20e84bc
+Filename: ./ros-iron-maila-2d-sim_0-2024.01.15.02.10_amd64.deb
+Size: 45470
+MD5sum: 438d1f8c25d6d04d3c519dbfa72db3a6
+SHA1: 1a5b8198dd408c08f14f568415cd502ea22beaae
+SHA256: 6a4cbff0b2ff457c1da583935b33ffd58afdf866ac20ef0c0275c7fea1e25d66
+SHA512: a96991b1289689244c16bf704711fbfcfb58895083af44b3f14776005eb99860e7b79f099ed362bc0bdb81afc547d2702f8e31153a92b7d0219f4126359885b1
 Description: Package containing the configuration of the 2D simulation of the Maila project.
 
 Package: ros-iron-maila-bringup
 Architecture: amd64
-Version: 0-2024.01.14.02.11
+Version: 0-2024.01.15.02.10
 Priority: optional
 Section: misc
 Maintainer: Alessandro Celeste <todo@gmail.com>
 Installed-Size: 48
 Depends: ros-iron-vesc-driver
-Filename: ./ros-iron-maila-bringup_0-2024.01.14.02.11_amd64.deb
-Size: 5860
-MD5sum: 14e39ed40f3cd95d0d2e84c98916e4b5
-SHA1: d1c221a3e51ec54ddde33c0799aca1746a003fc5
-SHA256: aeaab3e80100c3feba4e769c4281a88e8a9bbc2ca17ae9267d4b5ec321a6981b
-SHA512: 2e08eb788508002cd24235be280ff56dec1ea654729ca137b7983969f77db63632fcc34b0d9911a7a4f385a8b5b5a344113d05724697726badb368fd0cdcde07
+Filename: ./ros-iron-maila-bringup_0-2024.01.15.02.10_amd64.deb
+Size: 5836
+MD5sum: f956be347869126e34fcace0012815d3
+SHA1: 81fb2ea3c314657453c11d62757751b9b21d1b49
+SHA256: 73c57fb883ab32f9018a2ab3bf194508954edb243c980bab9071e46b89917fc2
+SHA512: 63944692eb4f86ed11697e0fa48cedb9c725212c2cc5a955f7f8aebe192ffded239b3e8eeb64b0e30e9aa4eb5acfb96eb14a5681f39d7689d471e805911f280f
 Description: Bringup for the Maila car.
 
 Package: ros-iron-stage-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.14.02.12
+Version: 0-2024.01.15.02.11
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-stage
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 2930
-Depends: ros-iron-stage (= 0-2024.01.14.02.12)
-Filename: ./ros-iron-stage-dbgsym_0-2024.01.14.02.12_amd64.ddeb
-Size: 2832450
-MD5sum: 328a734efeaff340e541119c94f70777
-SHA1: b29cd73d09e6f13c0bfbf415a22330c48e133cc2
-SHA256: 38e23aeb688e06c83fde1db4bc1098a7ee531876e44a590eb492e30132e1b83f
-SHA512: 53ef9ca927e14d3fe9dc0304a36c098f11c4112df2cce38da60b4e8cd00c7d8f2a2dba4bb151c6f0305404328e25d8b084ab5a6ecfec7314e24118716d979ab0
+Depends: ros-iron-stage (= 0-2024.01.15.02.11)
+Filename: ./ros-iron-stage-dbgsym_0-2024.01.15.02.11_amd64.ddeb
+Size: 2832462
+MD5sum: 885ae89cc4a07cb8b16d9fcf975a7147
+SHA1: ada1b1a0062495c20e2fa1655c365921f2aaf717
+SHA256: c168a878220791dc29a131a7a73ae898a674dddce266a273f2f4dba7d765362d
+SHA512: 40ee2e80229787c544d4d3af3673a8243f7f41f1e4a11c7d60e050f6bcde21c465e88b437735f82718f218c07736a95f5e701364cd8fe1b673adefa04ef9e4fb
 Description: debug symbols for ros-iron-stage
-Build-Ids: 7d7e8920b983acb363775133e265661e75e34c37 e2b6979059e43cdd42e5044c61eda141621e3e2e
+Build-Ids: 687ba93aa22d3d51ad83c0b25449d29efce6b4d0 ad8d99f769e763ec0d4215fa361cf5f9f683ed20
 
 Package: ros-iron-stage-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.14.02.13
+Version: 0-2024.01.15.02.12
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-stage-ros2
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 3210
-Depends: ros-iron-stage-ros2 (= 0-2024.01.14.02.13)
-Filename: ./ros-iron-stage-ros2-dbgsym_0-2024.01.14.02.13_amd64.ddeb
-Size: 2840186
-MD5sum: ba5505eea0fd87219437a71e90be6bb9
-SHA1: 17aa770e94b33fa35ca268e21bde793794081616
-SHA256: cec32c3134df7c6ea71155b5adfce59ec3aa44a64e4a834c1464d07a9a7f42c2
-SHA512: 9b1b683b6d8cf0aab83c8acc654bb71e3a18eb8f38cc54f230a6181ee6ea485a37f38832f3f58047b9e53ce17a418a0d312c8ba1052a44056a4755f83428250a
+Depends: ros-iron-stage-ros2 (= 0-2024.01.15.02.12)
+Filename: ./ros-iron-stage-ros2-dbgsym_0-2024.01.15.02.12_amd64.ddeb
+Size: 2840190
+MD5sum: 572f4b0b2dacfd818508e9ba65d98e5e
+SHA1: 893c3d4695e42559ba83b87ed07e71489ec85c32
+SHA256: 7469f44c852e178f15c2671d8a55405158ff9af4127eb1729f412a71d1e748c3
+SHA512: 52e02960156ed186f5d0202075fce959b646fd09d5eb2a54a8a1a2ad4efcd0b284bde875c04d0385cf3fc1c9368df7a94b5d27c0868b1d952231adda40488d79
 Description: debug symbols for ros-iron-stage-ros2
-Build-Ids: 704bd30e2af52798bfcf18f657f36a4c18986881
+Build-Ids: 59a4ea88b6acc6cd20011bcd0ac5593f93550497
 
 Package: ros-iron-stage-ros2
 Architecture: amd64
-Version: 0-2024.01.14.02.13
+Version: 0-2024.01.15.02.12
 Priority: optional
 Section: misc
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 985
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-stage, ros-iron-cv-bridge, ros-iron-geometry-msgs, ros-iron-image-transport, ros-iron-nav-msgs, ros-iron-rclcpp, ros-iron-rcutils, ros-iron-ros2launch, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-std-srvs, ros-iron-tf2, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
-Filename: ./ros-iron-stage-ros2_0-2024.01.14.02.13_amd64.deb
-Size: 204252
-MD5sum: 4f79091da052c068dfb90e9c8d27c1ca
-SHA1: e04709529e68ef45c876a0d18fafabba77154e9c
-SHA256: 2982ef407bdf33016a1785b8efe3f540fca64848f73be61cc5941f9b614009ff
-SHA512: e8fd7dc0ebf94dd8e7ad452e686f505f62594dd8c751ef463a2ce9493043cb0152c5b37f5807201fb3c2bf05253b89f7e069744849b2e17656f6c07a089ca952
+Filename: ./ros-iron-stage-ros2_0-2024.01.15.02.12_amd64.deb
+Size: 204258
+MD5sum: 22f953edf9333a8f0695587a934eb1e2
+SHA1: 03bf5a98c6b94d1bc74dcd4d9d476d20e511bd50
+SHA256: 1b260e97d6d4e01179d25f2af582f35088bfe736c8a3520c010a74d5055cce61
+SHA512: c827d460974b96ed584e22d1a27fb104485f972ae354a64049d8df4dc1fde3adfe23ed6232a5709aadcea28e3770390bbf380b8a1b0a53c8d21c85072013d48a
 Description: The ROS2 package for Stage
 
 Package: ros-iron-stage
 Architecture: amd64
-Version: 0-2024.01.14.02.12
+Version: 0-2024.01.15.02.11
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 977
 Depends: libc6 (>= 2.35), libfltk-gl1.3 (>= 1.3.0), libfltk-images1.3, libfltk1.3 (>= 1.3.1), libgcc-s1 (>= 3.3.1), libglu1-mesa | libglu1, libglx0, libltdl7 (>= 2.4.6), libopengl0, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libfltk1.3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgtk2.0-dev, libjpeg-dev
-Filename: ./ros-iron-stage_0-2024.01.14.02.12_amd64.deb
-Size: 511070
-MD5sum: e4735b78be39654e56bdf870465510c4
-SHA1: c4477c9d72e3ba50a9bc09cf1f8eb6502895396b
-SHA256: 173d804c7db8c43cb609bdb6e46b7904f6d5c7b73611780b41813431a726884e
-SHA512: 45f7af77d0ad35b280bf561a3b02725dbe978d2870893fe2f58af92ae4dab06d122078e208d714cac078c0d4fea97c56060484b67d57695ec5f47a8b30935463
+Filename: ./ros-iron-stage_0-2024.01.15.02.11_amd64.deb
+Size: 511066
+MD5sum: bc92b754c0351fc03eaf9d474d734c96
+SHA1: 68a22fa1cc431aa7fb0c4790b38f8651676d13a7
+SHA256: 4e4d4dde4023e36491cc683b65daccfd115fb8149400f3d9346e0a65aa44b369
+SHA512: 0e47090d4f5d007b5b3c965884f570815bd151dc2815348354caa9fbfa31daf17f1ad2697e3cea356bb7aefdc69b7d54cb8cc9d173ae63290ec4fecbd23ff807
 Homepage: http://rtv.github.com/Stage
 Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
  Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
@@ -106,128 +106,128 @@ Description: Stage simulates a population of mobile robots, sensors and objects 
 Package: ros-iron-vesc-ackermann-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.16
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-vesc-ackermann
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 4979
-Depends: ros-iron-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.14.02.16)
-Filename: ./ros-iron-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.14.02.16_amd64.ddeb
+Depends: ros-iron-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.15.02.15)
+Filename: ./ros-iron-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.15.02.15_amd64.ddeb
 Size: 4052800
-MD5sum: 4f72a3af1d48fd3e33ce91338afec7e5
-SHA1: 26c7bf2015006993937574b116f0b34f8c510904
-SHA256: 3d84ed09b6b6d242da1400f9c13854584c8a3a4c7036cc18c5612123d0fa11b8
-SHA512: bc25e776f16f037da881717d15d8ecac9a7ce4d94ff5b785ce6edf6f943e51cfda450d0786d038932a97b1598b65477f14d819739eb2ab3cbec82f771667b0cf
+MD5sum: 891642f61ab231a785ba730aad8db9c7
+SHA1: 26d1be1f28f2d1719f9aae77601865a863899d36
+SHA256: 6cd66d7992e151578b3412bc84d59a037826f579cdce5a02e3f13e6cac98d551
+SHA512: 4aea72058b8a5a1fdb5d497a7886ddb832c659f518d67a9717e5fd56e594f84c1e5f9671720f888c27552903292778945c02b967b5d646046c7d0e5085c88e2d
 Description: debug symbols for ros-iron-vesc-ackermann
-Build-Ids: 1fb7dfbad19b45fc76e28c32fac713171c9bb591 34c9304dd6bafdc2359f458768396738517b7ac6 b7e1a94a72fa33e8352b4e7d969fbb8c66df4b7e
+Build-Ids: 03f0f278fa2aefbea5d3ab0115140ea735490ee5 60cd0aa2ebffdc6472df12266eb135021ddc4bed c302254890f5f5492f48e18ed3a4a2223a3e0374
 
 Package: ros-iron-vesc-ackermann
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.16
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.15
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 1046
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-ackermann-msgs, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-std-msgs, ros-iron-tf2-ros, ros-iron-vesc-msgs
-Filename: ./ros-iron-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.14.02.16_amd64.deb
-Size: 165416
-MD5sum: 56d27f86a470b65b2d874b01f710d2ac
-SHA1: 3104b9aeb2a5239a4dc8959d92e54da9a9c255f7
-SHA256: 84a1372e2859c2e1c2a0b28852fe3160c24bdceb1467f73e403a9ce938636e45
-SHA512: ffd8ad168f2ae21dbe624f222d26ec84ece3f4fa867c22914bfcbf1de9fb92d9e60fa1bb6c3649c178a1878e6d5290a8bc5306b294f2f2e0ac78c5506e3ec30a
+Filename: ./ros-iron-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.15.02.15_amd64.deb
+Size: 165410
+MD5sum: 6d2b2e0cad76abccecbbf182a03b318c
+SHA1: 3594ec8684fa6e8562b3d7626296fa5c0bd53e1a
+SHA256: 6bc0cf9313408cc715b162686e501bd099081eedae774e072082a6b60001aa1b
+SHA512: 718756a8bee8c3313fd1b6fd69209dcc43e66037a3ca42bca191f95494d2ec7f9412d4dabefb4c7526523680f3480787c000c1074898c8521e563414e44d8f8e
 Homepage: http://www.ros.org/wiki/vesc_ackermann
 Description: Translate between VESC messages and ROS ackermann and odometry messages.
 
 Package: ros-iron-vesc-driver-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.17
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.16
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-vesc-driver
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 3188
-Depends: ros-iron-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.14.02.17)
-Filename: ./ros-iron-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.14.02.17_amd64.ddeb
-Size: 2803220
-MD5sum: 0bd3fda41af53f00ce280d53939a7361
-SHA1: a29ce6ffa3f3bf6f45d30e8b859fcee9e0e104b3
-SHA256: 5a754030c5e9fa4888cdeac1ffcad55faa89aa5a3a9347f3f054ba4946ab1071
-SHA512: 113d93cc2c15c445d80ebb77f9da8744d08f34f68f73fcde59097ed9e355047fd0992879a9bf93cd016c092c5469503c333efb80742aa1025fbd925692016037
+Depends: ros-iron-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.15.02.16)
+Filename: ./ros-iron-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.15.02.16_amd64.ddeb
+Size: 2802970
+MD5sum: b72653b0fb85a8c507d783f1cbef382b
+SHA1: 1ae05ee5d2efb1854ce211f40cf01645bfe528c2
+SHA256: 5cb3e3df740dc526e6a6d8d8d2280641c584b27c861704c2c7cf1cda70e6c8ac
+SHA512: 67890fc9536c59a59a0ab7300b8fcff80ae1f4af3f80fe14cb541ce995308eb8249f06be4f2792eaa4634e50e252d93f7bcd9e7a461e8492357ff206dab66192
 Description: debug symbols for ros-iron-vesc-driver
-Build-Ids: 54482746eb3f77844f8db1e40d1e072bb86c0de3 56d83339cdb045e360ca13731f48d6c325b2eee6 e38e682766e6674c104a56de7107f107ad0b8585
+Build-Ids: 48b3f5cf5e333939c591780609a2f5f239c442fc 9748d420ad59532ecf211bb721382eb128a79eb7 ca908f128fd7c7e3718bf8d18c189aa45d8ad03c
 
 Package: ros-iron-vesc-driver
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.17
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.16
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 817
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-serial-driver, ros-iron-std-msgs, ros-iron-vesc-msgs
-Filename: ./ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.01.14.02.17_amd64.deb
-Size: 177744
-MD5sum: c8aab7fa14c4cc4540187243f2551a56
-SHA1: 4d6016b623b1a5782681c86d69c6e2efa8fa9c84
-SHA256: 9d09c279c1e9b77afef624ba6f02e22ad13a1e1d482c66861b6cdb6294237255
-SHA512: 0ca2d540a9187dabe089ce5da22d146e6af73a6dfa63772953d1622d4c3e715cbbdeb3452ca3e6fefbeae4b4b8b151df631b868752c45f5d26b4d5a25944a466
+Filename: ./ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.01.15.02.16_amd64.deb
+Size: 177750
+MD5sum: dc850faa9117449174d78f61d5f00587
+SHA1: 309c0bc5d471d575caea74754eed6f556f013753
+SHA256: df014494b44df5cef915de0f60d4955450e9940ed9c0cd909cac2acfca580a85
+SHA512: b24743bd49207f00936348419803f1a937b929310b1b65f9de12711a5a5ed528bbe57ce1fcc9cf6ae8cec0465c905613c93b4405116b1b64828db8826165aa0b
 Homepage: http://www.ros.org/wiki/vesc_driver
 Description: ROS device driver for the Vedder VESC open source motor driver.
 
 Package: ros-iron-vesc-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.15
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.14
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-iron-vesc-msgs
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 555
-Depends: ros-iron-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.14.02.15)
-Filename: ./ros-iron-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.14.02.15_amd64.ddeb
-Size: 378606
-MD5sum: 729ce9a8653222991022d804428c7501
-SHA1: 0d90c50c9810a844738dc5017742db33cfce4dcd
-SHA256: db5c0862e33e758c5c1cb128f2f61d1b7ac2c42a8367fefa022c16d289edbfdb
-SHA512: a6b4c2e4a013da75ac133f8357076324597128893250e8bcbb68db292aadfb7d49ccdd743c3a02473abdf75428386a55149af3ea27b9780e738e91b0895c1913
+Depends: ros-iron-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.15.02.14)
+Filename: ./ros-iron-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.15.02.14_amd64.ddeb
+Size: 378372
+MD5sum: 7a468b7e9125ebeef25ab053b15984f6
+SHA1: d63da635878479b3a674247aa761c7eec46331d2
+SHA256: 5186430435d86bcca659c2c47e2d0a9d6c003a946a0cf3285f149c7936db5fd2
+SHA512: 3b8afee3d37b6a8bcd5434f9f7e6d8b69c53b8f82f3957b3002d511ae0e753db742e79b66ed5d9a5d8dd0593e2a28966289f2d5a946e5204d1a420a7cde3573e
 Description: debug symbols for ros-iron-vesc-msgs
-Build-Ids: 0bd11e78f51f9bd214933cb1882ddd82fc05791d 174fade28f8f0ef073d79fdc2a63675dca10c211 1bf3371893c07e1f3c567b5d2fa864205e3b83a4 1e0f615f00fe0351a74611009fb049b70288e09a 25c7a3eac88a07f6732858291c2e6d84cf07d875 2f8824f4b001e543096f4011021fda30daca07bc 3c4d6731913032001e83ecd0cdc1aeceb5a73fc9 741c62814022ebb2c0242bbfef8eba0f51bed1ed 7f58c983f35b92f08b4d3065d6e505ee9fc599b8 9ddcf7baca142117c9965c66774153a3990b12e1 f39a129eea66506c9a69a2402fa9c3676e8eceec fa1b4c7cba2fb5c10ecfc31b7639b33a9a3c8879
+Build-Ids: 037a07fe92c699a65cf9661e02b0ed466f9b96f9 0c1175e01dd62e44f32756fc4b51c18e5936e7a6 10849a9e3f0099eaefb2efdd1b5e825e42468b6e 124af71761283ec1e17ca62099ee4376cd839f36 1ea453de2e3b08b5eecc0e5a50552de10d9bc52a 38fbca2f05ff367ff346e4eba70104a2c91fe43b 3e7febda91999f216e54f6108d01cf71632e8c08 7303abebecc21b911d90bb5944dfc996c2c7c585 7aef509326a72a18a64550bbe2ffb137547c6d96 a1cdcb4ebe7ed072024a90f52ac5b193679e66a9 b4eabfe3e30bccc42b8d6d80372b4033c3f205bc f11dffb69ace2fa3f1ab898201b1c253502e5e67
 
 Package: ros-iron-vesc-msgs
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.15
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.14
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 906
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
-Filename: ./ros-iron-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.14.02.15_amd64.deb
-Size: 73628
-MD5sum: 6bd6e602e62fe898144fe7cd18f8441e
-SHA1: 875b99324ff9e7e6611d18a97e07767b8e429721
-SHA256: ade8d8babd7cece3d5741e5b0e58050b9e47d71db3a5a6e77732318dbebb058b
-SHA512: f43c388eb0e933b3bd48a980fe97095a08f43e04d8fc871a969a2b8fa90a746cf55859eff24890c3baddf02f956ff35929ddccdd99d6d9291d6a41785b96bb06
+Filename: ./ros-iron-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.15.02.14_amd64.deb
+Size: 73634
+MD5sum: 33883b1c479c5a95ea30f4119de1b5c4
+SHA1: 447d5530fd597c5c2b3ba0248682efe76b9429ed
+SHA256: 76948389d2803f4bd921eebc2550690e0520ecdb74f22e348050f947b4d91bbb
+SHA512: ca3ed618dde7b2173b92f8c01e89b8b5f9596d9467a05be2d3a29238cc4beb1aea1aa9c5468ff81dc8b6a67974672a1221962bc6346686bfc3e8e0ff2780c425
 Homepage: http://ros.org/wiki/vesc_msgs
 Description: ROS message definitions for the Vedder VESC open source motor controller.
 
 Package: ros-iron-vesc
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.14.02.14
+Version: 1.1.0-93-g4fdfef4-2024.01.15.02.14
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 41
 Depends: ros-iron-vesc-ackermann, ros-iron-vesc-driver, ros-iron-vesc-msgs
-Filename: ./ros-iron-vesc_1.1.0-93-g4fdfef4-2024.01.14.02.14_amd64.deb
+Filename: ./ros-iron-vesc_1.1.0-93-g4fdfef4-2024.01.15.02.14_amd64.deb
 Size: 5116
-MD5sum: 9878b9f07ca78c87b8c50cf24de15812
-SHA1: 8f1a915c5dd705cb02d9d74a8259d838737f2c51
-SHA256: ed3675bb23c2b657ef41b6397b623b2b7e78a690e4562e614b8e83b3e8d90ffc
-SHA512: 3fbc03268919d3724461420b7a8680dbf3745e71f65c7c2534aa504d1b2454b4e7ce12a001ef6ecd5993e8487357c1a19dd4da96c990eb5c34e2dd3dccdcf7d4
+MD5sum: ed683ff29412e114acf6c4da42c18890
+SHA1: 218bd1f56315548479ad8565dfefd7b719130a75
+SHA256: e24ca87eb46380ea9d851c5eb049b95e23080b1681462788d07c63761000c998
+SHA512: 30eaa139387c0de2d82f27c4115e48c051ed6b5ce2332da46d24a85a2aeb9eb41d6e297e8fd59f5671b8480b2b2374b64a385965068ec3db81dead872e373cd7
 Homepage: http://www.ros.org/wiki/vesc
 Description: Metapackage for ROS interface to the Vedder VESC open source motor controller.
 
