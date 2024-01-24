@@ -1,104 +1,104 @@
 Package: ros-rolling-maila-2d-sim
 Architecture: amd64
-Version: 0-2024.01.23.02.08
+Version: 0-2024.01.24.02.08
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@hotmail.it>
 Installed-Size: 368
-Filename: ./ros-rolling-maila-2d-sim_0-2024.01.23.02.08_amd64.deb
-Size: 45440
-MD5sum: af776549a06f37d7942c76f3f70ea5a8
-SHA1: 0bec3935e3e04f63f8f63c80df72db8a0b00555f
-SHA256: 1dcfb6681e476ab0012fb54c7233e94977c935732f52c429f4e053d65b888deb
-SHA512: 8a2bfae8bebee977d1858762dc82b37463cdd1a83802ceb670af5ce28ea281bbe8f9debf6859ca84d8af119c4c30f5a9ba39ec75e62c5025eb9b215ff5b1dc3c
+Filename: ./ros-rolling-maila-2d-sim_0-2024.01.24.02.08_amd64.deb
+Size: 45458
+MD5sum: e2345e0b56ba8a86c1cdbf5879c0e6da
+SHA1: 26ba78d6eae643e376accf28472bc863339552d0
+SHA256: f741c6ca719c3acd0a7618990177c2ecec3c0e5be15fc25b54abd11b493428a4
+SHA512: 03809b2afd167fadaa162aecf94b7d157039fadf38c06f7bc1f30404e7a35fa4215e008ea59c402ce15d76a4f7ed3039f5cbc97cd77dd4f1f078d5897b1adc8f
 Description: Package containing the configuration of the 2D simulation of the Maila project.
 
 Package: ros-rolling-maila-bringup
 Architecture: amd64
-Version: 0-2024.01.23.02.09
+Version: 0-2024.01.24.02.09
 Priority: optional
 Section: misc
 Maintainer: Alessandro Celeste <todo@gmail.com>
 Installed-Size: 48
 Depends: ros-rolling-vesc-driver
-Filename: ./ros-rolling-maila-bringup_0-2024.01.23.02.09_amd64.deb
-Size: 5850
-MD5sum: 4c6feee45fc85e503dc671f6e1917470
-SHA1: f1b9a5f49821abb2884e8112c051c8a86ca1fc7a
-SHA256: e95eb57b55b9154a8ba4872c73e4ec4047ee969afe35671ce805c76e5a945126
-SHA512: e2ae151dc5ae89d630e116c8712b012036031c5a06e8fe0d3b330b3362eec6479f1d20212327a1951d34b7d67469134f452d05f35806cc7a4d28c4bceca175a7
+Filename: ./ros-rolling-maila-bringup_0-2024.01.24.02.09_amd64.deb
+Size: 5844
+MD5sum: 044f7067153d3bc070443b80a7026e15
+SHA1: f4cfee9fefe2ba0fde3e7b35841e6774aaa71990
+SHA256: 79fcdc2f06c7b72829798d66a780f8a33744d7490eae76951c726c9087dcd714
+SHA512: 8be1452da381c6ad49e636504c3d3fbd314d7ca9921550dd58e904df03af8e77718da0f01a0232f2fb46d20d5d8b0c1579f137c590c55f3162d731b77000eb7f
 Description: Bringup for the Maila car.
 
 Package: ros-rolling-stage-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.23.02.09
+Version: 0-2024.01.24.02.09
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-stage
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 2930
-Depends: ros-rolling-stage (= 0-2024.01.23.02.09)
-Filename: ./ros-rolling-stage-dbgsym_0-2024.01.23.02.09_amd64.ddeb
-Size: 2832262
-MD5sum: fc35071d05afe28bd93ca6688f0c24ed
-SHA1: cc9ec2813f10f4b6080d60434b482cfe35c1142d
-SHA256: 574c2f234768eed67870a592a08b08980b93477d213fed0d2c06493e5ad2915d
-SHA512: d0eedc18e88d95563c632fad0efa6ecc236a8ffb5628a9f63e51dca5a8cc801c602a61513715ee82cd1c557db750adbd4adcf34d3d4930324837f69acaca8ade
+Depends: ros-rolling-stage (= 0-2024.01.24.02.09)
+Filename: ./ros-rolling-stage-dbgsym_0-2024.01.24.02.09_amd64.ddeb
+Size: 2832270
+MD5sum: e8bf2d5ae594e0d635e196caa3152a9d
+SHA1: 7053650c8455b65f1ede2ba41d988e9437d8bf60
+SHA256: a2593fefc3239ff19baf1fa69165e7b9aac3ed7ab33e7ff8ac35c28049257eb6
+SHA512: 1bf48a3dbbba7eb5a8c4479132d0b2bcb822eabe34a9e3edc60658eb6e9142f5dbb66e12d699843d68ebaba5bd2b19ae62af7f11afdf5a4ce1c6381496b3de7c
 Description: debug symbols for ros-rolling-stage
-Build-Ids: 079282ba60394a865d78b8c4d0fb860f93daaadf 255c63cf90e53265d698efd60ef34c7f9788cee3
+Build-Ids: 41a18d393d18571cf9c1abe678f6963e3e2a45ee 80934a7cb5bc05df2e5b7f88023cccde294abc0f
 
 Package: ros-rolling-stage-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.23.02.10
+Version: 0-2024.01.24.02.11
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-stage-ros2
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 3214
-Depends: ros-rolling-stage-ros2 (= 0-2024.01.23.02.10)
-Filename: ./ros-rolling-stage-ros2-dbgsym_0-2024.01.23.02.10_amd64.ddeb
-Size: 2842310
-MD5sum: c2a0b02fb369cbb5f35774343c8c253e
-SHA1: 0b0b83f54bf57f40deb400efa82ee1c1e6d79d73
-SHA256: 916ba94bbbeb5e3c32d06d78d89028deb2b4dbd234b54f287370881baf8fb675
-SHA512: 12c101f6cc80efc9b15119f82b25fcb359e62d7d3e4f765457914bb90a164577625710b5b35c34eea8c1cdb2c68f04d51d568431c0c5453fce992f3ae60220e2
+Depends: ros-rolling-stage-ros2 (= 0-2024.01.24.02.11)
+Filename: ./ros-rolling-stage-ros2-dbgsym_0-2024.01.24.02.11_amd64.ddeb
+Size: 2842308
+MD5sum: 24ee0d4d7e8142adc9d244e1838b982e
+SHA1: 75253008cdb4277319a91448c12348f0b481e5a6
+SHA256: 5107bcb89a764031d2749683cc93630c06257bdbe5d05b6091a57d512f806375
+SHA512: 023369d6bd732d17ccdc3f96c2cec04a59efddb6d8afd8201d4ca8ac5286eae6824a314806930ec565adabbe6b66135f4011af1e1d09ec330f684ed8334f9142
 Description: debug symbols for ros-rolling-stage-ros2
-Build-Ids: f82bff720ad268be48881109010b761b5eebe564
+Build-Ids: 256c0dbbceb645349b62541478875195eae14786
 
 Package: ros-rolling-stage-ros2
 Architecture: amd64
-Version: 0-2024.01.23.02.10
+Version: 0-2024.01.24.02.11
 Priority: optional
 Section: misc
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 985
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-stage, ros-rolling-cv-bridge, ros-rolling-geometry-msgs, ros-rolling-image-transport, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rcutils, ros-rolling-ros2launch, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-std-srvs, ros-rolling-tf2, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
-Filename: ./ros-rolling-stage-ros2_0-2024.01.23.02.10_amd64.deb
-Size: 204660
-MD5sum: a66b8996914e8f34460dfe8229a1a531
-SHA1: ff67e954c281090c486b1a3d097d32a24df9364f
-SHA256: d00215b6f92759fda44410c0d357d3c264e64c407b0f279586f6c9c3a7e6075c
-SHA512: 4bde1137c22c0226f2fb4e1ef770b2df7a0153c756a88da9a282c41c43ccc7cd8b030123842f21ca6f91c31b17600dddd83cd24bdedf33fad10a9c3156eb8c8d
+Filename: ./ros-rolling-stage-ros2_0-2024.01.24.02.11_amd64.deb
+Size: 204662
+MD5sum: 5fe10064d6263fe24d825cf01c2818d6
+SHA1: ba3a5ee60c2ba0eb13b4813660d0286e011da2dd
+SHA256: cd4691c4473bcd725d4c638e28df2402a1fb309d4e2f3a8493dcd74285d8d515
+SHA512: 6631a5dd8d1e0dfe8323214e5b7fdee5107e0a6f13ee7ab09290206a51e616ec945d9c84f69dd0eefb02095649e0a2727e7fa64a503f0f5c9345146803be4960
 Description: The ROS2 package for Stage
 
 Package: ros-rolling-stage
 Architecture: amd64
-Version: 0-2024.01.23.02.09
+Version: 0-2024.01.24.02.09
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 977
 Depends: libc6 (>= 2.35), libfltk-gl1.3 (>= 1.3.0), libfltk-images1.3, libfltk1.3 (>= 1.3.1), libgcc-s1 (>= 3.3.1), libglu1-mesa | libglu1, libglx0, libltdl7 (>= 2.4.6), libopengl0, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libfltk1.3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgtk2.0-dev, libjpeg-dev
-Filename: ./ros-rolling-stage_0-2024.01.23.02.09_amd64.deb
-Size: 511050
-MD5sum: 87768fd4f01fb6436a4bd338abbbaadc
-SHA1: 190b980487226f9050a2195c891002d8ccf29f7f
-SHA256: 4d2b14c9c0b1830118724c5d77f9f02f87c8d1a00b9739570a50e37bdb28df73
-SHA512: 154cc08f8a60776c2a8614ce0b04079f0dc3e2e0d0d388038729b3d0047395e19879bca08e8a7b668cf12fef96bfffa4e6e8e43783d3b423196731090bb6deff
+Filename: ./ros-rolling-stage_0-2024.01.24.02.09_amd64.deb
+Size: 511064
+MD5sum: 62cdfbb513fbec51bbc51fcb2d59a83d
+SHA1: a6470a428b04c04530288d3942a39c3b78a74fc1
+SHA256: 7fe25cb49fb9d13e9356a754a41fbde7088949275817b0e1bb995ca8b3021112
+SHA512: 0feeafb9bcbfcb37229b668e3fc73e50e9214c754574c7154f012c2171fffc00a66fa2313c86e4b72f195f56cc1423c056846ad415df48f322e26e43fda6498b
 Homepage: http://rtv.github.com/Stage
 Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
  Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
@@ -106,128 +106,128 @@ Description: Stage simulates a population of mobile robots, sensors and objects 
 Package: ros-rolling-vesc-ackermann-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.13
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.14
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-vesc-ackermann
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 5002
-Depends: ros-rolling-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.23.02.13)
-Filename: ./ros-rolling-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.23.02.13_amd64.ddeb
-Size: 4085142
-MD5sum: 6a5c604edaf1f464ee37be43f8f0fd48
-SHA1: 0ef8c1791e80e5f98ec681c7e9476986a90e3a3c
-SHA256: eecf01351fe191d49d68ca6e6aa28dbb40db1e3e900d7c1de71a12182f594366
-SHA512: 280d791266056cbc239a5d2e850b3723970783a5f69274178ad48fe178db4e1ed8094da865bc4b4c25009f2ef2da51590bfcdb174f7f1d168af4f2e0f1813e5b
+Depends: ros-rolling-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.24.02.14)
+Filename: ./ros-rolling-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.24.02.14_amd64.ddeb
+Size: 4085338
+MD5sum: 3a4680f1593774b7339eefecd389e2cd
+SHA1: 850837ba4263f9186dce77cfb322742ab8f32805
+SHA256: 15bd71763d9a988ba52b3b9e3306c8db7c334703731c7f6def630fd74d024a3e
+SHA512: 400ea863fc94f7a7057fd94a4b7eff3aa547b864edcac87b4472773930676ec9b2b98877e236581abd4819cca0695e31e32a286cd54ce0340df82ad937070fb0
 Description: debug symbols for ros-rolling-vesc-ackermann
-Build-Ids: 2853c89eafd82d2dc88e70ee4b38e51837cfdabc 29119d1c92f21c9702121be21283a3daa3e1706e e52173922b77e3c23a28425014431aee632bb84a
+Build-Ids: 3fba6cde4ae854dec1f57dd1288c416a3ed68f28 5697688546be6e3d6f7ec91ef630d8c31165634a bb64605362006fdee8b9766fa7514a2e141dc38f
 
 Package: ros-rolling-vesc-ackermann
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.13
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.14
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 1050
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-ackermann-msgs, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-std-msgs, ros-rolling-tf2-ros, ros-rolling-vesc-msgs
-Filename: ./ros-rolling-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.23.02.13_amd64.deb
-Size: 166406
-MD5sum: 2578fed20d0f9c9730d9976201aedd89
-SHA1: 2d02f49dc4f55f2bad4484429dbd82e525230539
-SHA256: 293ab529aa7736ba4b93ab27db4b9188e415fa732b208edefa07b0213d66ba08
-SHA512: a36b86fa700e4fd0bb456ccfffa221b090b8391f28dd2cd953b3a684f26799648618e1e2d60624ff50a129cddd10b37a2be5aa0d4ef3bd8ca435dce9a8231654
+Filename: ./ros-rolling-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.24.02.14_amd64.deb
+Size: 166404
+MD5sum: fdd71cc1a62f4337e8636dee4ff9e936
+SHA1: e639ff2cb18cbf23573e785b60ccb8eb655b458a
+SHA256: 6aa9e1fc885b316349995b924bdc6429542bcd13b0c252449025f64e188cb42a
+SHA512: 8983e837f37e7b2f299bc2ac0836f115237a2a0e19d38e35f6cbc59bbd605cfa67f3dac4eb5228296b5cdc1105c1693a227be461a9da1088ee92d7ff38bd4c14
 Homepage: http://www.ros.org/wiki/vesc_ackermann
 Description: Translate between VESC messages and ROS ackermann and odometry messages.
 
 Package: ros-rolling-vesc-driver-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.15
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-vesc-driver
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 3199
-Depends: ros-rolling-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.23.02.15)
-Filename: ./ros-rolling-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.23.02.15_amd64.ddeb
-Size: 2812834
-MD5sum: ed51f558f7030b8b928795ced9ccc4b0
-SHA1: 6918eb4a28c70964c1c32784fb0c7dc474d99e53
-SHA256: 85d9df46c6373e7631334c004e3c8d867e6818a1bcb996047e0d41031e3b012e
-SHA512: 4bdc1628bc49e53f9781d6d90aeefdf004dd551be0402cbfbbe6754b24d26b5082e9f2544f0cf012419f74f2ddff9981e2df8e1fc4da3fb392cef1601f6f7cdb
+Depends: ros-rolling-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.24.02.15)
+Filename: ./ros-rolling-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.24.02.15_amd64.ddeb
+Size: 2812956
+MD5sum: fa9531b3e8e787fd913c93952af7837e
+SHA1: 0a0e497aee4dcbfcc44be045407febc6fbc6c680
+SHA256: 02b1908bc6d1527d0b5ce8aca33301380bc675cb2ee57eeb730f38636e93cf70
+SHA512: 17e1ecd2750155a9521ab016551b203c2bf8353956588905e656a8efd24241769d1863333ebf555cf012337ada94fa566d41c84a0c948f0df4238ae9c911f9e1
 Description: debug symbols for ros-rolling-vesc-driver
-Build-Ids: 09aa8e152a8b0b30e4508003f589ffae3384fe5b 6985c332d2c6d1d25049b532d9ea2c5aaaf8840b e313b4ca6765b91550696911a291d5bd222ec74c
+Build-Ids: 0014780c66076e9dbbd35663decec8ec5cebcd5e 23b68c2a1897f9378e5ccb7cb877c91859ba09c2 3152f30685261c8218554dcebd16c788e64740c1
 
 Package: ros-rolling-vesc-driver
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.15
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.15
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 821
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-sensor-msgs, ros-rolling-serial-driver, ros-rolling-std-msgs, ros-rolling-vesc-msgs
-Filename: ./ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.01.23.02.15_amd64.deb
-Size: 177938
-MD5sum: 1e500231a40ad4fa165f0656ea5717bc
-SHA1: 5c0e3e6b634709c2f903c6ca535569c7f354b1ef
-SHA256: dcfb9d8eadce5353fd05611f91fcea79063b9537a23856f95be602ad31e5250c
-SHA512: ed8bd3b4610fb846066575f98850812bc45489ec73a553217e68a277788b3f6f1b5d366de3212a0b8456531f0f3edb0ecba9909dbedb18f043af2081c38b73d6
+Filename: ./ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.01.24.02.15_amd64.deb
+Size: 177926
+MD5sum: 6e189df283c9dffc3b1ca6b1636ba417
+SHA1: b41af5686ee2f3707d71168b898ec1220536002b
+SHA256: 79e776674d1569d5f40baaf5fe48f69883bf4df66b340c6a1505f59925ea7a42
+SHA512: 82afd618c7f1730790a3a2140690fbc5512ce51ec12f13b55f9b892e410ad587a24b1f7b4935c16cb1efcea141a39e2993ba8a301bf380f64758eabd0cd6fbf5
 Homepage: http://www.ros.org/wiki/vesc_driver
 Description: ROS device driver for the Vedder VESC open source motor driver.
 
 Package: ros-rolling-vesc-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.13
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.13
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-vesc-msgs
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 556
-Depends: ros-rolling-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.23.02.13)
-Filename: ./ros-rolling-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.23.02.13_amd64.ddeb
-Size: 377654
-MD5sum: a292903fe71f3f7b95b91ef70345b442
-SHA1: ef5ee58c4d57a6a4bd59cc44ff9ebb52bfacac2c
-SHA256: 889ef3e97f47a5b8b5a346f31feee28ce917d3ec96b2eb8b21840d4308ea80eb
-SHA512: 0f46731a6275c598701e20150eb38d5b497aad45304edcff21d9f4ec7a188536173634cc4e2903e3b73bf8b8f2b4d60f8526c485b7d75f87f93edbfbb122c1a5
+Depends: ros-rolling-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.24.02.13)
+Filename: ./ros-rolling-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.24.02.13_amd64.ddeb
+Size: 377850
+MD5sum: e972e7492d37e9957ae2b99239132396
+SHA1: 81e11d8d27f9836e5f98d91be166a6c661a3147d
+SHA256: d14cca30ceec56c6cb2536971507334f424168058d307ea4010269b0df1e8d49
+SHA512: fbd31eef49439147a810b89a08021570da757e7bd021744c8140bd84e7216a012edf646eaffa071dedca00ab4f04c820568ed4e732011c34fa744c8962f3ea7a
 Description: debug symbols for ros-rolling-vesc-msgs
-Build-Ids: 0573ca0c5c9e4b60e90d20d658dd91cf1770416a 35f24b30b3fe7f0950e9ebbae0d6b095a9f75216 43bf1d4803c2f99e3fcec461160fda3e9ac1d4d1 51b5b001be95be3f07327c5aa3d218b22fb23003 55f23622e4d87e537a63ddb402b0e56b5cb8c48b 57a427f28c1925ff874981ad192093c5539bead1 90075ee9fe7064c64c0f874110a28a84e4a1174c a8728492b9ff5ad2d8dd8db77ca8f38d7c5aadd0 aa969c4730492da0034d0d38abbca723d4270d0f ace25ab5df5663c8dd3d18200125fa0553cf865e afdf952ff0c2779c1e1f67fda50fb60cf1af7057 e5abfdeb7dcd2ce7f39576152577bac998e3e8db
+Build-Ids: 16dbd721e77cdc686cbe548be7f9a75e17505783 48e2bb33e7081ad49b8b96a23a4bb270e40c1224 4964df43bbcc3d6c863b5d48a4336a70b4bf3c1e 73fd0b9e55f907792fafe35e28fef6fdaf49ae8a 7d39436bf952f77805f0953b8f4289562af70b26 915c45fd930421ab04591581019fa483c9591288 9bba6960ee1113c5f98cf6841ce48af6889e5c4e a4073b54a801c868e2692ccda4717417d7d85202 bd78725c0adca2bd8c7623cb80022db2b5f766ee c4cfa077cec7e6976cef88bda482476acc83215b ed8f600d1abe571af2d611f34e9361dc7fad44d0 ee698b126e591aa91f484263529495cd0b97067e
 
 Package: ros-rolling-vesc-msgs
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.13
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.13
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 912
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs
-Filename: ./ros-rolling-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.23.02.13_amd64.deb
-Size: 74170
-MD5sum: 4729c4637576fe4ae7bc19a97c7cd035
-SHA1: 7905e93d08cfe4a60eedc3d0c154c8d88020822b
-SHA256: d0dc1960d1db84a3214978d2d02080d14e3eea9ab2c5849ccf254424a726e971
-SHA512: 93ebaec96fb5c0fbcaed835da4c0fc0eba75d035d65800e7556115c8b20c1c7ca010d7eaaee9fc3bd6e8f2a94bec871b4232abbaac012b05094d2d05fcbee2af
+Filename: ./ros-rolling-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.24.02.13_amd64.deb
+Size: 74126
+MD5sum: c51834eb0f23b7e66bd273c29ed9f2d8
+SHA1: ffcc02b31facad39cd9a288b34a3a223fe26a564
+SHA256: 70bee9f9a80c5a925c0bfd30e399ded867e02d029f1a3679eb8e4f7652ac0524
+SHA512: 741ef48ea877a5da83033e56e4ddf45bd3ff9dbca7db4aef5c8c5a12250cfd9537dd0097fc1a9ef2c3800c2f671494e3cead3071a43ccf96f8d739f2ee753e7f
 Homepage: http://ros.org/wiki/vesc_msgs
 Description: ROS message definitions for the Vedder VESC open source motor controller.
 
 Package: ros-rolling-vesc
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.23.02.12
+Version: 1.1.0-93-g4fdfef4-2024.01.24.02.12
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 41
 Depends: ros-rolling-vesc-ackermann, ros-rolling-vesc-driver, ros-rolling-vesc-msgs
-Filename: ./ros-rolling-vesc_1.1.0-93-g4fdfef4-2024.01.23.02.12_amd64.deb
+Filename: ./ros-rolling-vesc_1.1.0-93-g4fdfef4-2024.01.24.02.12_amd64.deb
 Size: 5132
-MD5sum: a5fdc1310f4aad59ea27af7f1167de33
-SHA1: 8d9ead15835ae56636245b6998411c574311762c
-SHA256: 1c4458733db5aae6df6b44253765899c351e6f384736adea95f253308a3d6462
-SHA512: 9d8eb865eaa0124380c69b461d0fd0cbff3d794bd3ba0b710f34e5db0b95a5ae6a7093f9d5dff76b2c1b688cb3bc2c33a493719bd09a67c8987e96a9eb70adc7
+MD5sum: caba156ca3b74ae82f0db1c151381a9c
+SHA1: b897e38d3cf1098e28b7c975c6608f786e559cb3
+SHA256: 87520f504c3535160ea40382b5b043bef749c8c80a7b19adc3e6fbacce7dead8
+SHA512: f9df8f9957e2639e730e459a220f61b4e38baf99bbc28e7a57f0c2b35828b57d62755b4157179cd3330fb3de0f39166e2ddb39a9f1ea5880315992c033d79e50
 Homepage: http://www.ros.org/wiki/vesc
 Description: Metapackage for ROS interface to the Vedder VESC open source motor controller.
 
