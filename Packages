@@ -1,104 +1,104 @@
 Package: ros-humble-maila-2d-sim
 Architecture: amd64
-Version: 0-2024.01.29.01.59
+Version: 0-2024.01.30.01.58
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@hotmail.it>
 Installed-Size: 368
-Filename: ./ros-humble-maila-2d-sim_0-2024.01.29.01.59_amd64.deb
-Size: 45480
-MD5sum: a643b85b75ead780a7d321f8fc62ada0
-SHA1: 770c8d0354de7f5d00e033c102a81d858fca7cba
-SHA256: 380e26cdd87e008b1c7ec1c009072ab326cad79c28f9f99527fcf47ed8a000eb
-SHA512: 60c2a79ba2233b322e241c764431875c2ed085c2315f2856328b3897d80633d53b9a1123ccd3a0d4c5f7b20efc6c1f8973c0cebce3d55cb73ab9180b883c1e9d
+Filename: ./ros-humble-maila-2d-sim_0-2024.01.30.01.58_amd64.deb
+Size: 45448
+MD5sum: d07d529bb428286409831e21982c159a
+SHA1: ecab5b8c1f678d3d7078a9b8e49d7e2ad8ffd96d
+SHA256: 2d4e7d831e2443103896478e48c4561367aa349f020ac3c023a0b2e304e6fd41
+SHA512: 1b2804e52b5bc874f9127c756630eec6952ad1a6bc0d7845c1f6006e774c58d1ebd287982a5de5e7e9f68dc49395ef858e0151da4e628d304c117b95f31dbe5d
 Description: Package containing the configuration of the 2D simulation of the Maila project.
 
 Package: ros-humble-maila-bringup
 Architecture: amd64
-Version: 0-2024.01.29.01.59
+Version: 0-2024.01.30.01.59
 Priority: optional
 Section: misc
 Maintainer: Alessandro Celeste <todo@gmail.com>
 Installed-Size: 48
 Depends: ros-humble-vesc-driver
-Filename: ./ros-humble-maila-bringup_0-2024.01.29.01.59_amd64.deb
-Size: 5846
-MD5sum: eea7b612c30440093e8303aaa1d4b283
-SHA1: a58e0707e1aa9fe13ca218ba433d06b7b7488144
-SHA256: 6dd68f61957ee408af855f03ac13036b4d2b7fd732ee08f0ef8b599312a911da
-SHA512: d40695b8d2281d43bf3090e97a67fdea78122dc8854157dbf13e76d1dc5e84b57a3ffc2e82e706792b5eb6f93cbac295ed2761405125e215e636858d20a4a199
+Filename: ./ros-humble-maila-bringup_0-2024.01.30.01.59_amd64.deb
+Size: 5850
+MD5sum: 976c9d9e6d6203ec55a58e151fe5e1b1
+SHA1: 2f096b2e9bfd7f1b4188860298f29dc579990132
+SHA256: 4d37b8bbb9635005d1e9b14e95a43473727fd64abc9a83abaad832160e741d8d
+SHA512: 81c570f97017b4e9afdab535b3fd25b4314bcbd688bf5b811d1e60b9ce5b5bee658fcbf1949029c129ef5695638b86a72934785787ad3187f03afc9a355b168c
 Description: Bringup for the Maila car.
 
 Package: ros-humble-stage-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.29.02.00
+Version: 0-2024.01.30.01.59
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-stage
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 2930
-Depends: ros-humble-stage (= 0-2024.01.29.02.00)
-Filename: ./ros-humble-stage-dbgsym_0-2024.01.29.02.00_amd64.ddeb
-Size: 2833784
-MD5sum: bccc45154181d51ba0e92d4be679407b
-SHA1: 2c72679af31f9dcf28ba1285805c5cea0e3927ba
-SHA256: b27bfc7e5e7f6f56d0e382aaa773cc2773bc1a620e999484f5ede172a00e8bd6
-SHA512: 764dc9e0319b66eb7607ee56900f7a2722db2538c08a43c79004c67d080eb51d1efbb4428f9479041479bd623e075aaa0b0155a0c377171b06669e4d83c31aab
+Depends: ros-humble-stage (= 0-2024.01.30.01.59)
+Filename: ./ros-humble-stage-dbgsym_0-2024.01.30.01.59_amd64.ddeb
+Size: 2832912
+MD5sum: 8fd04c02b3f3681a3761668ffe2975b3
+SHA1: 8d62d6a8bda8d40a8a0d856fd78714d003b1f882
+SHA256: 4fb9f080615e493808dd8ce9a2921973bda2dca195049b80501e4e27ea3aca2c
+SHA512: 2d30f3e12f263ce897d98293ce02ccd67f00429d1e58f0456a5b11b0e076619b36b35776d94ae86946255e1fa88c82f413ff440ea8d591c152bb857eb5c026cd
 Description: debug symbols for ros-humble-stage
-Build-Ids: 2f5d5420c6e17f72e8b68a99fa6a2d9b7d6b785d 34b6ff54968215faa9c6bc963b2c86d51ffec462
+Build-Ids: 0e99293cd605849bf9da54f05e76d47c50967f10 1ce7c1b3c8e3aa43d07cd96fbab9066230340f86
 
 Package: ros-humble-stage-ros2-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0-2024.01.29.02.01
+Version: 0-2024.01.30.02.00
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-stage-ros2
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 3285
-Depends: ros-humble-stage-ros2 (= 0-2024.01.29.02.01)
-Filename: ./ros-humble-stage-ros2-dbgsym_0-2024.01.29.02.01_amd64.ddeb
-Size: 2837440
-MD5sum: 2fb9b48f1d4735002462d1391d0b9df8
-SHA1: 7ea50dec545bafe974fb9964c73a84b36ed0c01f
-SHA256: 26f449546b72a348bf9c8d0bd1641ef5f121da86296e1eae84ca8e551b06dd37
-SHA512: 345b5e3c826f40c94746143969975fd23073da3f3df215641204b99329f177d3d8f096061b89378e501992985dfcb22b1423046bf06b6e9828912a4333fa4585
+Depends: ros-humble-stage-ros2 (= 0-2024.01.30.02.00)
+Filename: ./ros-humble-stage-ros2-dbgsym_0-2024.01.30.02.00_amd64.ddeb
+Size: 2837378
+MD5sum: 357caf6c9813e2e4a5d512237ce689f7
+SHA1: 008a21a25ac643fdd2c42b42cd1c37c65e01489c
+SHA256: 594193342a693d5f4eafa593ef03831b8da7a9111d48884659652a05a48bf59b
+SHA512: 1a09c06139f8c4f80f12248e345804c27d81667413a5dc495d3dfd55437a4f5ef40650e54bc85c498a205cfcd3adf18eddc2ca5ccd10b869f7efaf458cccf574
 Description: debug symbols for ros-humble-stage-ros2
-Build-Ids: bd4855d50c38e84ff20e33034634f7b2cae1039c
+Build-Ids: 773de538189e2a517198ff84bfc0802b70ee775d
 
 Package: ros-humble-stage-ros2
 Architecture: amd64
-Version: 0-2024.01.29.02.01
+Version: 0-2024.01.30.02.00
 Priority: optional
 Section: misc
 Maintainer: ymd-stella <world.applepie@gmail.com>
 Installed-Size: 837
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-stage, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-image-transport, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-ros2launch, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
-Filename: ./ros-humble-stage-ros2_0-2024.01.29.02.01_amd64.deb
-Size: 176288
-MD5sum: 2ab34b57e4bae32a2c4502816f321506
-SHA1: 53c85b50e74c952dcc3c0e6e4db1c77b83b77ccd
-SHA256: 6f27b29bcd5ff35820a8646771ff3fc42b0a7399731df2d7c4663320cece6584
-SHA512: ee7cece3efdca81232f99e456a9338450c8bb5c2d04aa26881cf68a114bc89e2e3f14f3606514aa4035b810dbc20bf21765ba76fa71917c388d2a854cd4ba17f
+Filename: ./ros-humble-stage-ros2_0-2024.01.30.02.00_amd64.deb
+Size: 176280
+MD5sum: 6e631d022391f60326458f52a4d196d8
+SHA1: ea6978c22fc7eb7667d1273ee603975c1cc72a58
+SHA256: 53bc0fc7c8fd59cd816933e54c8a8a9d294aa048b8c3c57f687a70060f5857f8
+SHA512: 7317b2a5f7fb20d1bb6f7601555b00c4884b3aea16e7971c72f035420071d032f5d964dcba0070e3d1443762cfbbc23e0fdf02b77e837bebe0a6c0f2c750d464
 Description: The ROS2 package for Stage
 
 Package: ros-humble-stage
 Architecture: amd64
-Version: 0-2024.01.29.02.00
+Version: 0-2024.01.30.01.59
 Priority: optional
 Section: misc
 Maintainer: Valerio Magnago <valerio.magnago@gmail.com>
 Installed-Size: 977
 Depends: libc6 (>= 2.35), libfltk-gl1.3 (>= 1.3.0), libfltk-images1.3, libfltk1.3 (>= 1.3.1), libgcc-s1 (>= 3.3.1), libglu1-mesa | libglu1, libglx0, libltdl7 (>= 2.4.6), libopengl0, libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 11), libfltk1.3-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgtk2.0-dev, libjpeg-dev
-Filename: ./ros-humble-stage_0-2024.01.29.02.00_amd64.deb
-Size: 511102
-MD5sum: c78aa13874e282039535eb31d919f74e
-SHA1: 7d62ea74044c920bb8f92929e08008327a99f8e2
-SHA256: 8f3e88add1fbcdcea2c78d1f4aefc720705ceccb3eaf6bed1802bf756f0221c7
-SHA512: 36e661242b432bf725c8504ec36d390256b0778ac137fbd99a69c2ecaefe7a8c23d76b07aa5c75464292b6237035977ae6afb85aca1eaae0af69c69370a2a7ea
+Filename: ./ros-humble-stage_0-2024.01.30.01.59_amd64.deb
+Size: 511086
+MD5sum: 61a7898e1d74d42a71a87b9eafe7769d
+SHA1: f45f4a9e91975fecafb672db3e50ae85379b2fd3
+SHA256: 6d500bf518b627a8de4590590e588908fe806c82fe7a334d34b096b5c0d23156
+SHA512: 1783c85d9340d55324a789cc6fca4b7845956aa1a169b7bfc4a790e6e31a7b361c5ad409e2ff60244f05191991105964994cf8bf263229aa86a6f9564a205de1
 Homepage: http://rtv.github.com/Stage
 Description: Stage simulates a population of mobile robots, sensors and objects in a two-dimensional bitmapped environment.
  Stage is designed to support research into multi-agent autonomous systems, so it provides fairly simple, computationally cheap models of lots of devices rather than attempting to emulate any device with great fidelity
@@ -106,128 +106,128 @@ Description: Stage simulates a population of mobile robots, sensors and objects 
 Package: ros-humble-vesc-ackermann-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.04
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-vesc-ackermann
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 5576
-Depends: ros-humble-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.29.02.04)
-Filename: ./ros-humble-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.29.02.04_amd64.ddeb
-Size: 4570602
-MD5sum: 7b6a72195349da07efda5b36f692030f
-SHA1: 926c27a9173e607d0496efb6a1f44f5e6a06d077
-SHA256: 2fc79219e13546c25e376fcfcadf903c200246582a443f1b665e402348055c82
-SHA512: 5144e6a6567ca55922ad8620c85121111dbbb26a19d97d1684a491e5067f4873bbba623ddbe63bc39f4cc19097856cb8ffb0d3a89d05bdb247821f9f2c58ef05
+Depends: ros-humble-vesc-ackermann (= 1.1.0-93-g4fdfef4-2024.01.30.02.04)
+Filename: ./ros-humble-vesc-ackermann-dbgsym_1.1.0-93-g4fdfef4-2024.01.30.02.04_amd64.ddeb
+Size: 4571272
+MD5sum: 9523917dde9156174ed57fb6cc00bab4
+SHA1: 3f3729fac9f3568c78fb739c5a921b4d436384b7
+SHA256: 7d82bde8e15a70fb95d52817102b3406fead2c5ed06b18c96d8c6fa2fbd04393
+SHA512: f2b30810f9b7e3a30dbd56771990a80a7d3c04e5e95b2778b4199cab4ef0eecd09da01baa3d55fe13398fd4eba19b517f39366af6a9234c3cd98666ee96c0616
 Description: debug symbols for ros-humble-vesc-ackermann
-Build-Ids: 05245b8d24263515b014f7e1ca6ca64e255784ec 21554563e8fd61d674202916f61eacda1e7e1c9f 65a4a93799404c2b3deed3dae6a425bbcf2aa76e
+Build-Ids: 74b0767daea3120f2168c79d461f59932e7a8587 8512d6e3394b16284d81494d85dc170cc9325ebc e9519b463c9f2a596305a5eeeb64077c1bc30154
 
 Package: ros-humble-vesc-ackermann
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.04
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.04
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 1130
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-ackermann-msgs, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-vesc-msgs
-Filename: ./ros-humble-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.29.02.04_amd64.deb
-Size: 177732
-MD5sum: a54f628e3823439e420c2f32e773d64b
-SHA1: 892b14fbedd7dc61c6f6f05828d60acdc2d57839
-SHA256: 7626c7b4fd968b6670994485cd28d36d44ca880d6901a33138fd452a2bf51b06
-SHA512: e9f1bf677b26b048d06cd87fd040728ed98224a079aab9fce6b9a11697d60f31f6a85c0624161d2619c5670fd4fc5c4cce305bae39603a7913f36577606505d7
+Filename: ./ros-humble-vesc-ackermann_1.1.0-93-g4fdfef4-2024.01.30.02.04_amd64.deb
+Size: 177734
+MD5sum: 69617571dce0662bc0001c7c8a7cfab8
+SHA1: 746bdedf6b43e04f7e2f07c1f1f3e172dc80d4b4
+SHA256: 6424ffd5730793f1114179a6d1ebac43d0d5fa14dc3a7376179b0c7c55717801
+SHA512: 958f73daa1d226baa8aa6ae08f1bfe067032fa406f54336eaea98dc0d17310400c9d2dc0aa68b8faff160977d54c57f6b7fb30904f06ed23712bd9cafd633ca9
 Homepage: http://www.ros.org/wiki/vesc_ackermann
 Description: Translate between VESC messages and ROS ackermann and odometry messages.
 
 Package: ros-humble-vesc-driver-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.05
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.05
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-vesc-driver
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 3653
-Depends: ros-humble-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.29.02.05)
-Filename: ./ros-humble-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.29.02.05_amd64.ddeb
-Size: 3188984
-MD5sum: 0084ed474c9c42cb73de0f1e683c8d1e
-SHA1: 5fc5b9a6fdc3ef544c5e4c9b70e9d97c3ffc316e
-SHA256: 01f17854bf5fbc68fc5e2a53ccfdcd98c1c44176a4656bf9b30456ea50f4d91a
-SHA512: 01b4bb29d3b9dc59bfe5c729113682c877c3bd08be44deb0d9210c1ea09b65686057da1a2861588e2dc868b5a29e1fc538eccef1ec42486b8d18c67332c27b15
+Depends: ros-humble-vesc-driver (= 1.1.0-93-g4fdfef4-2024.01.30.02.05)
+Filename: ./ros-humble-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.01.30.02.05_amd64.ddeb
+Size: 3188652
+MD5sum: 85278b9e5dcc1986ce536d30debf31eb
+SHA1: a55b316e4b189674039a4b30945516b4b7363776
+SHA256: 2e7a8914983852349f67f9f418cdec5527def29c71c114b2ddb5f15d9333202b
+SHA512: 6485932db1e54700a49dd6aeee79a6071a96c457bd78585f446cd1817a430cb88d6a8845cb43f014cced369197763d7c11ebfd2049571c204656e2706d2d0ff2
 Description: debug symbols for ros-humble-vesc-driver
-Build-Ids: 1bc6397ed856edb0bade27a4bb25fbfc403462d1 48f9d082c515a57f2f91463f9b9dac4104c63a16 50ea40247fc6e963ac9c537b56538e1285cbdc90
+Build-Ids: 85c1ce58713110b5579326a9cef680db624f2171 e2c87d779b770b634b15ba6cdeec3bb61b0376b8 e3406abf106c490253be2437f1d9c2a4dab4b098
 
 Package: ros-humble-vesc-driver
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.05
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.05
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 894
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-serial-driver, ros-humble-std-msgs, ros-humble-vesc-msgs
-Filename: ./ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.01.29.02.05_amd64.deb
-Size: 188838
-MD5sum: 7bfc1ad8d1eeb1abce8bf01c1433822b
-SHA1: 5be542afb688492ea261bca379bb1fa2548d6381
-SHA256: f3c2d873cbbf29d75e994e1c56b76a3eb5050e876a400547e42b85d29d4e0ac8
-SHA512: 0a496d934de7d25fe7df144c558565b3e48cc35716845b72a3ecea14c76077d986a00ece228f5aa8d7fe60391db0ce0f739793abdbcd1c2c1b508e28bc6fda9c
+Filename: ./ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.01.30.02.05_amd64.deb
+Size: 188842
+MD5sum: 49d09300bf83305f6dda089c0d3a4040
+SHA1: 95f7a7d1976157ff12197e89476911fa58c8e8b2
+SHA256: 45b1e39c413ab1eb7524c0cfe456c9479593e0cb00d1936bca3a8b534b99c5ed
+SHA512: 4aaa93f9b2699d32a64f21d5b6d83ebc6282679da24e02051b649a19dd9c28065062654681612186726b1f0e9f90689bf60dc6ed36c59c851acf2ed69a200d32
 Homepage: http://www.ros.org/wiki/vesc_driver
 Description: ROS device driver for the Vedder VESC open source motor driver.
 
 Package: ros-humble-vesc-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.03
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-humble-vesc-msgs
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
-Installed-Size: 504
-Depends: ros-humble-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.29.02.03)
-Filename: ./ros-humble-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.29.02.03_amd64.ddeb
-Size: 342992
-MD5sum: f3d3d0958aec298aed813854d89c40f5
-SHA1: f51a3a601606259e598abc0968ef51c2ab69269b
-SHA256: 52659169c1f97073197cd93f01169bbd6d6cc1cf85cf690d1f9d0c8a7eac430b
-SHA512: dbaaadb9356fb0e83c1df099ffca187b9bc87d187a7ec07701bc18980d88a2d2d16bb7259b74279bf45c7f8963e36d642c3333f610b8cf32662317b011e057e8
+Installed-Size: 503
+Depends: ros-humble-vesc-msgs (= 1.1.0-93-g4fdfef4-2024.01.30.02.03)
+Filename: ./ros-humble-vesc-msgs-dbgsym_1.1.0-93-g4fdfef4-2024.01.30.02.03_amd64.ddeb
+Size: 343024
+MD5sum: cec4fb3a36d78ad9d14c073d89b808c4
+SHA1: e36eddf9b5ece52ca51af4446d0c8a010bf63a9e
+SHA256: 4d4fe213f3df2c614f4c97760d7ffa23bafecec62a0e0bc0e26359ce2e7abd8e
+SHA512: 11b5428ea76a010b5d442ab26334aacc5cc918322b0d077023582b619458bfbc6863c93ac3c20c795862c51d48fc5152cafca8ea48127bbb4c55cad54e8dca4e
 Description: debug symbols for ros-humble-vesc-msgs
-Build-Ids: 0776a2a2bd450080cd3a9c2a3f4f3a684afe824e 3d0e8959cf132db7eb4974a0a0a65c91cd5062e4 40fc92d8fb54b327799e8fd676cca26fc69063f7 44386b72a628c0668c35f61b09e1555da46f444f 558ac4708790f926ef421f4e123c179c00b58ea6 654eeb6561b66695860c4167444a5f37440543af 7059cf19cb8a6c5f860f02bdfcb3a58b68e39899 8a511ca899d95208a2bea5066ba1e3c093487537 b3c9b6b8affcb830405afb29091fb545e1e3483f b7d82a2af895b35e38de4d4fce5d1720fca2699c b8efce6180c289b58178032af107ca926502ee45 ecd7d5c6691f82351d74de6ab5666dd4c5d0f9d5
+Build-Ids: 01175bdf0c2cca8f458f532f875a47980e7fe9de 16bbf06a106f7f4c480667e331d6ecac091c75d3 3ede04516a78c0146ba663ee73fa99a232238f18 7a009b5e4df80bbec3d337afe150cabad458deb8 80c880bd8399212b109934e3f9bfce3d20cecdd6 8c90514ce0540bfa5e03cc47944418d28bf0cfac 9937c8cf7033f0f79251deedc4116bf31f890c1f ac2eee460c3fce2722c045e8473bdfe29b845873 ce3173f49cd67dea02b6fcd326e725a87bfb3a79 dcfc1cc21ea42d08f10cf4f75d4fc95d36228109 f952b9b9f0eaa6b2714d41a9560a36c55d69bef1 f9626e93a6a0c883a7ae8b054e85044958139499
 
 Package: ros-humble-vesc-msgs
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.03
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.03
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 813
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
-Filename: ./ros-humble-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.29.02.03_amd64.deb
-Size: 65282
-MD5sum: 5e13f0bd6e4174c2ab774bec7abb249f
-SHA1: 7a546eb09eed026eca6f03ffc6e00757e82f4e45
-SHA256: 9090f39d96e05c10199fc97eb7270a93fbd0aad9ad373ecac2917df84ad1a33f
-SHA512: 8d6cef87db5e1703943d2920df16febe4c442c35409f39636bdd22ebc9bbfe9d93a990bac560a1e6fd49ceff5a8e19de080f125d0ee795181a3e58d753165687
+Filename: ./ros-humble-vesc-msgs_1.1.0-93-g4fdfef4-2024.01.30.02.03_amd64.deb
+Size: 65254
+MD5sum: c7bec46e68b45ca81048bd7913219fb9
+SHA1: c986da3cb9b71483712d48295ab5157f38d9fba7
+SHA256: 2fe2a5b65aa731a4bb41ce390fc8c20915b47128f1c20b4a0c97ab310f960b9a
+SHA512: 11f1fab130646dc202579ba2a6292436c615124b8c4ad09919cec6eb969798daad40d831deb1f143a1c94f2b3ad399c6f0984500a53d1d2bac4e656288d3ef52
 Homepage: http://ros.org/wiki/vesc_msgs
 Description: ROS message definitions for the Vedder VESC open source motor controller.
 
 Package: ros-humble-vesc
 Architecture: amd64
-Version: 1.1.0-93-g4fdfef4-2024.01.29.02.03
+Version: 1.1.0-93-g4fdfef4-2024.01.30.02.02
 Priority: optional
 Section: misc
 Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
 Installed-Size: 41
 Depends: ros-humble-vesc-ackermann, ros-humble-vesc-driver, ros-humble-vesc-msgs
-Filename: ./ros-humble-vesc_1.1.0-93-g4fdfef4-2024.01.29.02.03_amd64.deb
+Filename: ./ros-humble-vesc_1.1.0-93-g4fdfef4-2024.01.30.02.02_amd64.deb
 Size: 5124
-MD5sum: 9cf90e2b637e13ea590b1f4b25293225
-SHA1: 0a744a34fdc818b1c7683aaaa8e604f8556886db
-SHA256: 1862b25a057e28d6626917872c00993262338a98e3f93fe7c3b32fda476976b2
-SHA512: dbbbc091d21d1319a9152df308ba484d25ba8f37148ef13d124175e55d8ce54bab3f97a824d1b97891ae97ab41cd9cfc76f160f004fb01c6e3dbd1c86b01698c
+MD5sum: 84d3e269c66184aee6cdae462b8fc8dc
+SHA1: b00574bcbdcf0a57aa850a660af3f9abb0a57f9a
+SHA256: 6279b6769895921408141ef2ff106d6095703b4cf5b09d0ff31d5278c4dbf279
+SHA512: 6ecd228931d75cbd94ad3599932bd387e5652446f93c36931a99589c386cb687dcb8278cefaf1ea42759d18de217ddcc2e1d15d08456aaac7fb456d6a2841a84
 Homepage: http://www.ros.org/wiki/vesc
 Description: Metapackage for ROS interface to the Vedder VESC open source motor controller.
 
