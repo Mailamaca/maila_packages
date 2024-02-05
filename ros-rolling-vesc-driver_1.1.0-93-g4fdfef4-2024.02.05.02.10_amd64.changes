@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sat, 12 Dec 2020 00:00:00 -0000
+Source: ros-rolling-vesc-driver
+Binary: ros-rolling-vesc-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-93-g4fdfef4-2024.02.05.02.10
+Distribution: jammy
+Urgency: high
+Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
+Changed-By: Johannes Betz <joebetz@seas.upenn.edu>
+Description:
+ ros-rolling-vesc-driver - ROS device driver for the Vedder VESC open source motor driver.
+Changes:
+ ros-rolling-vesc-driver (1.1.0-93-g4fdfef4-2024.02.05.02.10) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/f1tenth/vesc/issues/1> from f1tenth/melodic-devel
+     Updating for Melodic
+   * Exclude crc.h from roslint.
+   * Replacing boost::crc with CRCPP.
+   * Replacing boost::begin, boost::end, and boost::distance with Standard Library equivalents.
+   * Replacing boost::bind with Standard Library equivalent.
+   * Replaing boost::noncopyable with C++ equivalent.
+   * Replacing boost::function with Standard Library version.
+   * Replacing Boost smart pointers with Standard Library equivalents.
+   * Removing unnecessary v8stdint.h.
+   * Updating package.xml to format 3 and setting C++ standard to 11.
+   * Contributors: Joshua Whitley
+Checksums-Sha1:
+ 864f7fd321d7efaa236e03e79b202f05aa8f7b10 2812588 ros-rolling-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.ddeb
+ c846cd585e838b71e5a10a971dcfbb67c7d05456 18424 ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.buildinfo
+ d022940f6d52f881d47d4cbdf4913790099fd620 177922 ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.deb
+Checksums-Sha256:
+ 0f89139e3e5fed7443e4baae3c36b99f5f37bb96cef7b4fab21cd18deca82e89 2812588 ros-rolling-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.ddeb
+ 2810746d14571a2fb9e4334182a44ce2ad2d285cfd4939fe4d7f71277635d1b8 18424 ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.buildinfo
+ 93679b9e0f58e200a34f52da0a524ac1864b69008460ec7b5b34e17f830ac6e8 177922 ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.deb
+Files:
+ 0441f3bb9109d4f4dc70095cb21ee2fd 2812588 debug optional ros-rolling-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.ddeb
+ a2c73bd9c9113db8cedec4c60bb23cc2 18424 misc optional ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.buildinfo
+ bf3a7894d43379a0d5faa03e46d32056 177922 misc optional ros-rolling-vesc-driver_1.1.0-93-g4fdfef4-2024.02.05.02.10_amd64.deb
