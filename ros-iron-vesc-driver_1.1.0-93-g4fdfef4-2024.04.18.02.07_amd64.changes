@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sat, 12 Dec 2020 00:00:00 -0000
+Source: ros-iron-vesc-driver
+Binary: ros-iron-vesc-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-93-g4fdfef4-2024.04.18.02.07
+Distribution: jammy
+Urgency: high
+Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
+Changed-By: Johannes Betz <joebetz@seas.upenn.edu>
+Description:
+ ros-iron-vesc-driver - ROS device driver for the Vedder VESC open source motor driver.
+Changes:
+ ros-iron-vesc-driver (1.1.0-93-g4fdfef4-2024.04.18.02.07) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/f1tenth/vesc/issues/1> from f1tenth/melodic-devel
+     Updating for Melodic
+   * Exclude crc.h from roslint.
+   * Replacing boost::crc with CRCPP.
+   * Replacing boost::begin, boost::end, and boost::distance with Standard Library equivalents.
+   * Replacing boost::bind with Standard Library equivalent.
+   * Replaing boost::noncopyable with C++ equivalent.
+   * Replacing boost::function with Standard Library version.
+   * Replacing Boost smart pointers with Standard Library equivalents.
+   * Removing unnecessary v8stdint.h.
+   * Updating package.xml to format 3 and setting C++ standard to 11.
+   * Contributors: Joshua Whitley
+Checksums-Sha1:
+ 240df97472b2fab995f6411595a37d5e700d324f 2802974 ros-iron-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.ddeb
+ 20ce91f27aac0e4e04b302bee6a455ea34e03ef6 17825 ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.buildinfo
+ 1b1e16fefabddc5ee17590634973eef3005ccc40 177742 ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.deb
+Checksums-Sha256:
+ 88ebf5899754027ba29a6340f741a2b010ff6ac6128b8689c4e8f2429237eaf0 2802974 ros-iron-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.ddeb
+ 32b79f7b4ef22e27aef9516382971c9335b2e89376adc007a45d0b6f1b3dceb4 17825 ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.buildinfo
+ 8a3ad031b0d64b78bd26af9249009857e9b41eeb775851084b9499edb7b80484 177742 ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.deb
+Files:
+ fc5980b43f0676ba0802995b22112bed 2802974 debug optional ros-iron-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.ddeb
+ 76d6167aad9c8e489b2bfb72093b33b7 17825 misc optional ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.buildinfo
+ 710a36ca6876724f88c0fd72a72699b1 177742 misc optional ros-iron-vesc-driver_1.1.0-93-g4fdfef4-2024.04.18.02.07_amd64.deb
