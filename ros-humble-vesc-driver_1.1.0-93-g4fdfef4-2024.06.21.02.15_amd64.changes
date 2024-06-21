@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Sat, 12 Dec 2020 00:00:00 -0000
+Source: ros-humble-vesc-driver
+Binary: ros-humble-vesc-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-93-g4fdfef4-2024.06.21.02.15
+Distribution: jammy
+Urgency: high
+Maintainer: Johannes Betz <joebetz@seas.upenn.edu>
+Changed-By: Johannes Betz <joebetz@seas.upenn.edu>
+Description:
+ ros-humble-vesc-driver - ROS device driver for the Vedder VESC open source motor driver.
+Changes:
+ ros-humble-vesc-driver (1.1.0-93-g4fdfef4-2024.06.21.02.15) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/f1tenth/vesc/issues/1> from f1tenth/melodic-devel
+     Updating for Melodic
+   * Exclude crc.h from roslint.
+   * Replacing boost::crc with CRCPP.
+   * Replacing boost::begin, boost::end, and boost::distance with Standard Library equivalents.
+   * Replacing boost::bind with Standard Library equivalent.
+   * Replaing boost::noncopyable with C++ equivalent.
+   * Replacing boost::function with Standard Library version.
+   * Replacing Boost smart pointers with Standard Library equivalents.
+   * Removing unnecessary v8stdint.h.
+   * Updating package.xml to format 3 and setting C++ standard to 11.
+   * Contributors: Joshua Whitley
+Checksums-Sha1:
+ e700a1a4881ed13d387b9d5726da7f0964c8da41 3191854 ros-humble-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.ddeb
+ 941cf47e58ae687e8e6097dcbb78a9270d6c760d 17011 ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.buildinfo
+ 2398bba9fd51bf7fb5f3a14636007426fb8e9172 188868 ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.deb
+Checksums-Sha256:
+ 7b42254e9938616428ef73a3d7a44b2078538c7e47831ec6c1a5f8ba6ce311de 3191854 ros-humble-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.ddeb
+ 2fa3283650fa6f84b3a7deaa31604e36c7c158b152e39505d17e43fb2327f4de 17011 ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.buildinfo
+ 8dc075e63733eebe31fb8b4ed6e77a9a93578b1c332c099a1ed52cdf13613592 188868 ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.deb
+Files:
+ c01d6ce8d8990d293cf403c84de82a75 3191854 debug optional ros-humble-vesc-driver-dbgsym_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.ddeb
+ ad940e3df04b9f0dbc9106b4568080e4 17011 misc optional ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.buildinfo
+ af733b0351cc6ebd3440fc85ae2a67d0 188868 misc optional ros-humble-vesc-driver_1.1.0-93-g4fdfef4-2024.06.21.02.15_amd64.deb
